@@ -75,7 +75,7 @@ try{
  await page.locator('#hide-passkey').uncheck();
  assert.equal(await page.locator('#passkey').getAttribute('type'),'text');
  await page.locator('#hide-passkey').check();
- for (const key of ['test', '🎉 Mixed CASE !']) {
+ for (const key of ['', 'x', 'ab', '  ', 'test', '🎉 Mixed CASE !']) {
   await page.locator('#note').fill('this is cool.');
   await page.waitForFunction(()=>document.querySelector('#note-feedback').textContent==='Note is ready to link.');
   await page.locator('#passkey').fill(key);
@@ -93,14 +93,6 @@ try{
   await page.waitForFunction(()=>document.querySelector('#note').value==='this is cool.' && !document.querySelector('#note').readOnly);
  }
  const validLink=await page.locator('#link').getAttribute('href');
- for (const key of ['', 'x', '  ']) {
-  await page.locator('#note').fill('this is cool.');
-  await page.waitForFunction(()=>document.querySelector('#note-feedback').textContent==='Note is ready to link.');
-  await page.locator('#passkey').fill(key);
-  assert.equal(await page.locator('#passkey').inputValue(),key);
-  await page.locator('#encode').click();
-  await page.waitForFunction(()=>document.querySelector('#writer-status').textContent.includes('at least three characters'));
- }
  for(const hash of ['#v=99.0.0&a=invalid','#a=invalid']){
   await page.evaluate(hash=>{location.hash=hash;},hash);
   await page.waitForFunction(()=>document.querySelector('#writer-status').textContent.startsWith('Wrong version:'));

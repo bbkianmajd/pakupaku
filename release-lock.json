@@ -18,7 +18,7 @@
     "src/prototypes/codec.js": "757c05a2fe6ea1119fccc2b58b381eec0a47637aec1c1bcfa1c55b585811d264",
     "src/prototypes/language.js": "bf5ff4d152b0ea8c407019f18a504213f3b5d963c230fc6afcf3ba6d169820ff",
     "src/release.js": "7a92a79f5d1aa1549eb45d708b107202cfde3878ff64f79c6cda37eb52bd9b10",
-    "src/structure-codec.js": "4e923305c6e138efe4c6d872bf1fab5cbce75afbc18cb6469149d132f17bd35b",
+    "src/structure-codec.js": "631362d531114c5c3ba43c7f641c1d8c40cc78e516528c741452c4df6963ebe2",
     "src/text.js": "19f7b805517c64fefe6f7337ed91a9963e07b40d2bb3577d74d3ef622e5b52a7",
     "src/vocabulary.js": "81227b37038b7cd5b7260079294eee22a1de5d5017976c91ee3e9dc7c01295eb"
   }

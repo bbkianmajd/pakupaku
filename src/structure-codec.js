@@ -109,7 +109,7 @@ async function transform(language,packet,key,trace,signal,simpleSource=null,simp
  return {body,text,layout,decisions:position,clauses:[{text,pattern:'Key-selected grammar tree',previous:null}],mode:'clauses'};
 }
 export async function encodeStructure(language,text,key,{signal}={}){
- if(typeof key!=='string'||Array.from(key).length<3)throw Error('Use at least three characters for the author key.');
+ if(typeof key!=='string')throw Error('Key must be text.');
  let simpleSource=null;try{const p=parseSimple(language.simple,text);if(p.canonical===text.trim().toLowerCase())simpleSource=p;}catch{}
  let source;try{source=sourceTrace(language,text);}catch(error){if(!simpleSource)throw error;source={trace:[],maxCategory:2,canonical:simpleSource.canonical};}
  const budget=ceil(Math.max(32,source.trace.length+1,simpleSource?2+simpleSource.clauses.length*5:0)),numbers=Math.max(2,ceil(source.maxCategory));

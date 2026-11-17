@@ -13,3 +13,9 @@ Keep this release branch as the baseline. Changes to parser behavior, vocabulary
 A local Git branch is only a local snapshot until pushed to a GitHub repository. GitHub branch protection is a separate repository setting; the file lock and CI do not make a branch administratively immutable.
 
 UI work continues on `ux/unified-editor`; `release/1.0.0` preserves the original snapshot. Removing presentation files from the UI branch's manifest preserves every engine hash.
+
+## Explicitly approved author-key exception
+
+The user approved removing only the minimum author-passkey length check. The active encoder now accepts every string, including empty, one-character, whitespace-only, and Unicode keys, matching the decoder's input policy. The non-string type check remains. The stream algorithm, SHA-256/HMAC mapping, packet version, language fingerprint, parser, and dictionary are unchanged, so version 1.0.0 link compatibility is preserved.
+
+Only the `src/structure-codec.js` hash was updated in the engine lock for this exception. The other 19 engine-file hashes remain unchanged. `release/1.0.0` still preserves the original snapshot; the exception is recorded on the active `ux/unified-editor` branch. A packet captured before the edit is saved in `tests/fixtures/pre-short-key-link.json`; regression tests verify identical fingerprints and original/alternate readings after the edit.
