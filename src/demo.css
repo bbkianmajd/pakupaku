@@ -99,3 +99,9 @@ footer a { color: #718365; text-decoration: none; }
 .about-story p { color: #61735e; font-size: 15px; line-height: 1.9; margin: 0 0 22px; }
 .about-story .story-signoff { font-family: Georgia, 'Times New Roman', serif; font-size: 20px; color: #344f43; font-style: italic; padding-top: 8px; }
 .story-cta { display: inline-block; color: var(--green); text-underline-offset: 5px; margin-top: 5px; }
+
+.brand-title { margin: 0; font: inherit; letter-spacing: normal; }
+.header-links { display: flex; align-items: center; gap: 20px; }
+.project-summary a, .about-story a { color: var(--green); text-underline-offset: 3px; }
+#writer-status.error { color: #b73f35; }
+.retry-button { background: #eef2e6; color: var(--green); padding: 9px 14px; border: 1px solid var(--line); border-radius: 8px; font-size: 12px; margin: 6px 0; }

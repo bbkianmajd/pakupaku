@@ -1,10 +1,12 @@
 # PakuPaku
 
+**[Try PakuPaku in your browser](https://bbkianmajd.github.io/pakupaku/)** · [Source code on GitHub](https://github.com/bbkianmajd/pakupaku)
+
 **Locked release: 1.0.0** — parser, dictionary, and codec are versioned together. Links include `#v=1.0.0&a=…`. See [release rules and compatibility](documentation/release-1.0.0.md).
 
 PakuPaku is a static, client-side note project for sharing a note through a URL. Every entered pass-key renders a complete note that the composer could produce with the link's vocabulary version. The writer's key reproduces their selected note; the page never identifies a key as correct or exposes failed grammar, unknown words, or internal markers. The page is designed for GitHub Pages and does not need an application server.
 
-**Status:** [codec-demo.html](codec-demo.html) now combines the existing broad authoring grammar with key-dependent structure changes. Production choices and words feed a rolling keyed state, so later output depends on earlier choices. The author key recovers the canonical note. The active grammar uses [option 3: broad word categories with grammatical forms preserved](documentation/grammar-flexibility.md), deliberately accepting unusual verb usage for more coverage. Unsupported vocabulary and grammar remain explicit errors. The previous nine-pattern-only migration was incomplete and has been replaced; [migration details and evidence](documentation/structure-migration.md) describe the correction. Create fresh links for the new format.
+**Status:** [The live editor](https://bbkianmajd.github.io/pakupaku/) now combines the existing broad authoring grammar with key-dependent structure changes. Production choices and words feed a rolling keyed state, so later output depends on earlier choices. The author key recovers the canonical note. The active grammar uses [option 3: broad word categories with grammatical forms preserved](documentation/grammar-flexibility.md), deliberately accepting unusual verb usage for more coverage. Unsupported vocabulary and grammar remain explicit errors. The previous nine-pattern-only migration was incomplete and has been replaced; [migration details and evidence](documentation/structure-migration.md) describe the correction. Create fresh links for the new format.
 
 **Coverage caution:** the historical 98.3% score was measured on development data used to build the grammar. It is not an estimate of acceptance on new everyday notes. User-reported false rejections remain the current priority.
 

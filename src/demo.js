@@ -2,7 +2,7 @@ import {randomPasskey} from './ui/passkey.js';
 import {payloadFromFragment, fragmentForPayload} from './release.js';
 
 const element = id => document.getElementById(id);
-import {call} from './ui/engine-client.js';
+import {call, restartEngine} from './ui/engine-client.js';
 let payload, generation = 0;
 const note = element('note'), highlights = element('note-highlights');
 let draftRevision = 0, draftTimer, composing = false;
@@ -154,6 +154,24 @@ element('encode').addEventListener('click', async () => {
   finally { element('encode').disabled = false; }
 });
 paintNote(null);
-try { await call('init'); element('encode').disabled = false; await analyzeCurrent(draftRevision); }
-catch (error) { element('writer-status').textContent = error.message; }
-if (!element('encode').disabled && location.hash) readFragment();
+async function initialize(retry = false) {
+  element('encode').disabled = true;
+  element('retry-engine').hidden = true;
+  element('retry-engine').disabled = true;
+  element('writer-status').classList.remove('error');
+  element('writer-status').textContent = 'Loading…';
+  try {
+    if (retry) await restartEngine(); else await call('init');
+    element('encode').disabled = false;
+    element('writer-status').textContent = '';
+    await analyzeCurrent(draftRevision);
+    if (location.hash) readFragment();
+  } catch (error) {
+    setFeedback('');
+    element('writer-status').textContent = error.message;
+    element('writer-status').classList.add('error');
+    element('retry-engine').hidden = false;
+  } finally { element('retry-engine').disabled = false; }
+}
+element('retry-engine').addEventListener('click', () => initialize(true));
+await initialize();

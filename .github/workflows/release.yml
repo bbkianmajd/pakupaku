@@ -42,3 +42,6 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Notify participating search engines
+        continue-on-error: true
+        run: node tools/release/submit-indexnow.js

@@ -5,14 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
   <meta name="theme-color" content="#f4f5ef">
-  <title>PakuPaku — a little message, folded</title>
+  <title>PakuPaku | Passkey message sharing on GitHub</title>
+  <meta name="description" content="PakuPaku is a free browser app for sharing messages through a link. Your passkey recovers your words; other passkeys reveal different readings. Explore the code on GitHub.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://bbkianmajd.github.io/pakupaku/">
+  <link rel="sitemap" type="application/xml" href="sitemap.xml">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PakuPaku">
+  <meta property="og:title" content="PakuPaku — a message with a different reading for every passkey">
+  <meta property="og:description" content="Share a message in a link. Your passkey brings back your words. Explore PakuPaku's source code on GitHub.">
+  <meta property="og:url" content="https://bbkianmajd.github.io/pakupaku/">
+  <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="src/demo.css">
   <script type="module" src="src/demo.js"></script>
 </head>
 <body>
 <main>
   <header class="masthead">
-    <a class="wordmark" href="./" aria-label="PakuPaku home"><div class="paper-mark" id="paper-mark" aria-hidden="true">
+    <h1 class="brand-title"><a class="wordmark" href="./" aria-label="PakuPaku home"><div class="paper-mark" id="paper-mark" aria-hidden="true">
       <svg class="paper-open" viewBox="0 0 160 160" fill="none">
         <path d="M80 12 148 80 80 148 12 80Z" fill="#dce9cd" stroke="#344f43" stroke-width="1.5"/>
         <path d="m80 12 0 68-68 0Z" fill="#fcfff5"/><path d="m80 12 68 68H80Z" fill="#a5bd8c"/>
@@ -29,8 +40,8 @@
         <path d="m28 80 52 0v52Z" fill="#b8cf9f"/><path d="m80 80 52 0-52 52Z" fill="#edf4df"/>
         <path d="M80 28v104M28 80h104M80 28 132 80 80 132 28 80Z" stroke="#344f43" stroke-width="1.5"/>
       </svg>
-    </div> pakupaku<span class="wordmark-period">.</span></a>
-    <a class="about-link" href="about.html">About</a>
+    </div> pakupaku<span class="wordmark-period">.</span></a></h1>
+    <nav class="header-links" aria-label="Main navigation"><a class="about-link" href="about.html">About</a><a class="about-link" href="https://github.com/bbkianmajd/pakupaku">GitHub ↗</a></nav>
   </header>
   <section class="composer" aria-label="Write or read a message">
     <div class="key-section">
@@ -64,7 +75,7 @@
 <p id="note-feedback" role="status"></p></div>
     </div>
     <div class="action-row"><button id="encode" disabled>Generate link <span aria-hidden="true">↗</span></button></div>
-    <p id="writer-status" role="status"></p>
+    <p id="writer-status" role="status"></p><button id="retry-engine" class="retry-button" hidden>Retry loading</button>
   </section>
   <section class="share-section" aria-labelledby="share-heading">
     <div class="share-heading"><h2 id="share-heading">Your shareable link</h2><button id="copy-link" class="copy-button" disabled>Copy link <svg class="copy-icon" width="15" height="15" viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M12 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h2" stroke="currentColor" stroke-width="1.5"/></svg></button></div>
@@ -73,7 +84,7 @@
     <p id="copy-status" role="status"></p>
   </section>
   <section class="instructions" aria-labelledby="instructions-heading">
-    <h2 id="instructions-heading">A little guidance</h2>
+    <h2 id="instructions-heading">A little guidance</h2><p class="project-summary">PakuPaku is a free, browser-based message-sharing app. <a href="https://github.com/bbkianmajd/pakupaku">Explore the source on GitHub ↗</a></p>
     <div class="instruction-grid">
       <div><span class="instruction-index">01 / THE KEY</span><p id="passkey-help">Keep the generated name or choose your own passkey. Open a shared link and enter a passkey to unfold its message.</p></div>
       <div><span class="instruction-index">02 / THE WORDS</span><p>Write in the message box. Uppercase becomes lowercase; unsupported words or grammar appear in red. Try “hello. i love you.”</p></div>
@@ -81,7 +92,7 @@
     </div>
     <p class="instruction-footnote">Edit a received message to start a new note. Spaces and line breaks are normalized when you generate a link.</p>
   </section>
-  <footer><a href="about.html">About PakuPaku</a><a href="README.md">Documentation ↗</a></footer>
+  <footer><a href="about.html">About PakuPaku</a><a href="https://github.com/bbkianmajd/pakupaku">Source on GitHub ↗</a><a href="README.md">Documentation ↗</a></footer>
 </main>
 </body>
 </html>
