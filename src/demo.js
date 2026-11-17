@@ -10,6 +10,26 @@ const passkey = element('passkey');
 passkey.value = randomPasskey();
 element('hide-passkey').addEventListener('change', () => { passkey.type = element('hide-passkey').checked ? 'password' : 'text'; });
 
+function setLink(value) {
+  const link = element('link');
+  if (value) link.href = value; else link.removeAttribute('href');
+  link.textContent = value; link.hidden = !value;
+  element('empty-link').hidden = Boolean(value);
+  element('copy-link').disabled = !value;
+  element('copy-status').textContent = '';
+  element('paper-mark').classList.toggle('folded', Boolean(value));
+}
+element('copy-link').addEventListener('click', async () => {
+  const link = element('link').getAttribute('href');
+  if (!link) return;
+  try {
+    await navigator.clipboard.writeText(link);
+    element('copy-status').textContent = 'Copied. Ready to share.';
+  } catch {
+    element('copy-status').textContent = 'Copy unavailable in this browser. Select the link to copy it manually.';
+  }
+});
+
 function paintNote(issue) {
   const value = note.value, fragment = document.createDocumentFragment();
   if (issue) {
@@ -31,7 +51,7 @@ function lowercaseNote() {
 }
 function invalidateLink() {
   draftRevision++;
-  element('link').value = '';
+  setLink('');
   element('writer-status').textContent = '';
 }
 async function analyzeCurrent(revision) {
@@ -80,7 +100,7 @@ async function render() {
     const text = await call('decode', { payload, key: passkey.value });
     if (current !== generation) return;
     note.value = text; paintNote(null);
-    element('note-feedback').textContent = 'Edit this message to create a new link, or change the passkey for another reading.';
+    element('note-feedback').textContent = 'Message unfolded.';
     element('writer-status').textContent = '';
   } catch (error) {
     if (current === generation && error.name !== 'AbortError') { note.value = ''; paintNote(null); element('writer-status').textContent = error.message; }
@@ -89,17 +109,17 @@ async function render() {
 function readFragment() {
   clearTimeout(draftTimer); draftRevision++;
   generation++; payload = undefined; note.readOnly = false; note.value = ''; paintNote(null);
-  element('link').value = ''; element('note-feedback').textContent = '';
+  setLink(''); element('note-feedback').textContent = '';
   element('writer-status').textContent = '';
   if (!location.hash) { note.readOnly = false; return; }
-  try { payload = payloadFromFragment(location.hash); element('link').value = location.href; render(); }
+  try { payload = payloadFromFragment(location.hash); setLink(location.href); render(); }
   catch (error) { element('writer-status').textContent = error.message; }
 }
 
 window.addEventListener('hashchange', readFragment);
 element('encode').addEventListener('click', async () => {
   clearTimeout(draftTimer);
-  element('encode').disabled = true; element('link').value = '';
+  element('encode').disabled = true; setLink('');
   const revision = draftRevision;
   try {
     const analysis = await analyzeCurrent(revision);
@@ -114,7 +134,7 @@ element('encode').addEventListener('click', async () => {
     if (revision !== draftRevision) return;
     const url = new URL(location.href); url.hash = fragmentForPayload(encoded);
     // Preserve the completed link even if this browser cannot put it in history.
-    element('link').value = url.href;
+    setLink(url.href);
     payload = encoded;
     try { history.replaceState(null, '', url); element('writer-status').textContent = 'Link ready to copy.'; }
     catch { element('writer-status').textContent = 'Link created, but this browser could not place it in the address bar. You can copy it below.'; }

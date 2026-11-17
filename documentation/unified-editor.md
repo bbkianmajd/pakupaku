@@ -7,3 +7,11 @@ One message textarea handles composition and readings. Opening a versioned link 
 `src/demo.js` owns presentation and editor state; `src/demo.css` owns styling; `src/ui/passkey.js` generates default names; `src/ui/engine-client.js` wraps worker communication. UI modules use the worker's existing init/analyze/encode/decode operations. No parser, dictionary, encoder, decoder, worker, or release protocol source was changed.
 
 The engine manifest excludes presentation files; the remaining 20 hashes are unchanged from the locked release. The UI branch is `ux/unified-editor`, retaining the earlier `release/1.0.0` branch. Engine version 1.0.0 remains in links.
+
+## Paper-inspired interface
+
+The editor now uses a responsive paper-and-sage design. The origami PakuPaku mark is drawn as two native SVG states, with a short fold transition when a link becomes available and an unfold transition when editing clears it. Reduced-motion preferences disable the transition.
+
+All instructional copy sits beneath the share section. The share link is a regular clickable anchor, visually shortened with an ellipsis while preserving the complete URL. Copy link writes the entire URL to the clipboard and announces success. If clipboard access is unavailable or denied, it explains how to copy the link manually. Editing clears the link and disables copying so an old message is not shared accidentally. No clipboard operation runs without a user click.
+
+Verified: desktop and 390px mobile layout, copying the exact versioned URL, clipboard rejection feedback, fold/unfold state, draft invalidation, lowercase conversion, red highlights, and existing worker round trips. The locked engine hashes are unchanged.

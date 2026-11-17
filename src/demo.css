@@ -1,29 +1,84 @@
-:root { color-scheme: light dark; font: 1rem/1.6 system-ui, sans-serif; }
-body { margin: 2rem auto; max-width: 45rem; padding: 0 1.25rem; }
-section { margin: 2rem 0; padding: 1rem; border: 1px solid #888; border-radius: .5rem; }
-label { display: block; margin-top: .75rem; }
-input, textarea { box-sizing: border-box; width: 100%; padding: .6rem; font: inherit; }
+:root { color-scheme: light; font: 15px/1.6 ui-sans-serif, system-ui, -apple-system, sans-serif; color: #263e34; background: #f4f5ef; --muted: #748074; --line: #dce2d5; --green: #254e3a; }
+* { box-sizing: border-box; }
+body { margin: 0; background: radial-gradient(ellipse at 50% 20%, #e8eddc80, transparent 50%); }
+main { width: min(100% - 48px, 860px); margin: auto; }
+.masthead { height: 104px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
+.wordmark { display: flex; align-items: center; gap: 9px; font-size: 23px; font-weight: 750; letter-spacing: -1px; color: inherit; text-decoration: none; }
+.brand-dot { width: 12px; height: 12px; background: #a7bb7f; transform: rotate(45deg); border-radius: 2px; }
+.wordmark-period { color: #8ca267; margin-left: -8px; }
+.edition, .eyebrow, .instruction-index { font-size: 10px; font-weight: 650; letter-spacing: 1.8px; }
+.edition { color: var(--muted); }
+.intro { text-align: center; padding: 35px 0 38px; }
+.paper-mark { width: 112px; height: 112px; margin: 0 auto 10px; position: relative; filter: drop-shadow(0 12px 12px #405b3320); }
+.paper-mark svg { position: absolute; inset: 0; width: 100%; height: 100%; transition: transform .7s cubic-bezier(.22,.75,.25,1), opacity .5s; }
+.paper-open { transform: rotate(-8deg); }
+.paper-closed { opacity: 0; transform: scale(.7) rotate(16deg); }
+.paper-mark.folded .paper-open { opacity: 0; transform: scale(.65) rotate(30deg); }
+.paper-mark.folded .paper-closed { opacity: 1; transform: scale(1) rotate(-8deg); }
+.eyebrow { color: #778955; margin: 0 0 12px; }
+h1 { font-family: Georgia, 'Times New Roman', serif; font-size: clamp(37px, 5.5vw, 56px); font-weight: 400; line-height: 1.06; letter-spacing: -2px; margin: 0 0 20px; }
+.intro-copy { color: #71806e; font-size: 14px; line-height: 1.8; margin: 0; }
+.composer { background: #fffefa; border: 1px solid #dce2d2; border-radius: 20px; box-shadow: 0 12px 32px #314c2810; padding: 30px 32px 16px; }
+.field-heading { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.field-heading label { font-weight: 650; font-size: 13px; }
+.field-number { font-size: 11px; color: #a1aa96; font-variant-numeric: tabular-nums; }
+.key-section { border-bottom: 1px solid #e8ebdf; padding-bottom: 25px; }
+.key-control { display: flex; align-items: center; gap: 20px; }
+input, textarea, button { font: inherit; }
+#passkey { flex: 1; min-width: 0; padding: 12px 14px; color: #314b39; background: #f3f5ec; border: 1px solid #e2e8d8; border-radius: 9px; font-size: 14px; }
+.checkbox-label { display: flex; align-items: center; gap: 7px; white-space: nowrap; font-size: 11px; color: #71806e; cursor: pointer; }
+.checkbox-label input { accent-color: var(--green); width: 14px; height: 14px; }
+.message-section { padding-top: 24px; }
 .note-editor { position: relative; }
-#note-highlights {
-  position: absolute; inset: 0; box-sizing: border-box; margin: 0;
-  overflow: auto; pointer-events: none; padding: .6rem;
-  border: 1px solid transparent; border-radius: 2px;
-  font: inherit; line-height: inherit; white-space: pre-wrap; overflow-wrap: anywhere;
-  color: light-dark(#111, #eee); scrollbar-width: none;
-}
+#note-highlights, #note { width: 100%; padding: 5px 0; margin: 0; border: 0; font-family: Georgia, 'Times New Roman', serif; font-size: 23px; line-height: 1.55; letter-spacing: -.3px; white-space: pre-wrap; overflow-wrap: anywhere; }
+#note-highlights { position: absolute; inset: 0; overflow: auto; pointer-events: none; color: #294332; scrollbar-width: none; }
 #note-highlights::-webkit-scrollbar { display: none; }
-#note-highlights .bad {
-  color: light-dark(#b42318, #ff9b92);
-  background: light-dark(#ffe1df, #5b2020);
-  text-decoration: underline wavy currentColor;
+#note-highlights .bad { color: #b73f35; background: #ffebe5; text-decoration: underline wavy #b73f35; }
+#note { position: relative; display: block; resize: vertical; min-height: 190px; background: transparent; color: transparent; caret-color: var(--green); }
+#note::placeholder { color: #b5bba9; opacity: 1; }
+#note::selection { background: #b5d7b66b; }
+#note:focus { outline: none; }
+.note-editor:focus-within { box-shadow: -3px 0 0 -1px #a4b988; padding-left: 10px; margin-left: -10px; }
+#note-feedback { min-height: 18px; font-size: 11px; color: var(--muted); margin: 6px 0 20px; }
+.action-row { border-top: 1px solid #e8ebdf; padding-top: 21px; display: flex; justify-content: space-between; align-items: center; gap: 15px; }
+.action-caption { font-size: 11px; color: #909985; }
+button { cursor: pointer; border: 0; }
+#encode { display: flex; align-items: center; justify-content: center; gap: 24px; padding: 13px 20px; border-radius: 10px; color: #fbfff2; background: var(--green); font-size: 13px; font-weight: 600; transition: background .2s, transform .2s; }
+#encode:hover:not(:disabled) { background: #37664c; transform: translateY(-1px); }
+button:disabled { opacity: .45; cursor: default; }
+:focus-visible { outline: 2px solid #759b55; outline-offset: 4px; }
+#writer-status { font-size: 12px; margin: 10px 0 0; min-height: 18px; color: #647b51; overflow-wrap: anywhere; }
+.share-section { padding: 25px 4px 20px; border-bottom: 1px solid var(--line); }
+.share-heading { display: flex; align-items: center; justify-content: space-between; }
+h2 { font-size: 12px; font-weight: 650; margin: 0; }
+.copy-button { min-height: 40px; display: flex; align-items: center; gap: 9px; background: transparent; color: var(--green); padding: 7px 0 7px 14px; font-size: 12px; }
+#link { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 12px; color: #6e8552; text-underline-offset: 3px; padding-top: 6px; }
+[hidden] { display: none !important; }
+#empty-link { color: #919c86; font-size: 12px; margin: 6px 0 0; }
+#copy-status { font-size: 11px; min-height: 17px; margin: 5px 0 0; color: var(--muted); }
+.instructions { padding: 28px 4px 25px; }
+.instructions h2 { margin-bottom: 21px; color: #66755f; }
+.instruction-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.instruction-index { font-size: 9px; letter-spacing: 1.2px; color: #8b997d; }
+.instructions p { color: #7e8a74; font-size: 11px; line-height: 1.85; margin: 8px 0 0; }
+.instructions .instruction-footnote { margin-top: 18px; font-size: 10px; }
+footer { border-top: 1px solid var(--line); padding: 21px 0 35px; display: flex; justify-content: space-between; gap: 12px; color: #9aa48d; font-size: 10px; }
+footer a { color: #718365; text-decoration: none; }
+@media(max-width: 560px) {
+ main { width: calc(100% - 32px); }
+ .masthead { height: 77px; }
+ .edition { font-size: 8px; letter-spacing: 1px; }
+ .intro { padding: 27px 0 30px; }
+ .paper-mark { width: 94px; height: 94px; }
+ h1 { letter-spacing: -1.5px; }
+ .composer { padding: 23px 20px 14px; border-radius: 16px; }
+ .key-control { flex-wrap: wrap; gap: 10px; }
+ #passkey { flex-basis: 100%; }
+ .checkbox-label { margin-left: auto; }
+ #note, #note-highlights { font-size: 21px; }
+ .action-caption { max-width: 95px; line-height: 1.5; }
+ #encode { gap: 18px; padding: 12px 15px; }
+ .instruction-grid { grid-template-columns: 1fr; gap: 16px; }
+ .instructions p { font-size: 12px; }
 }
-#note { position: relative; background: transparent; color: transparent; caret-color: light-dark(#111, #eee); }
-#note::selection { background: light-dark(#a9c7ff, #385c9d); }
-#note-feedback { min-height: 1.5em; margin: .3rem 0; }
-button { padding: .6rem 1rem; font: inherit; cursor: pointer; }
-output { display: block; font-size: 1.3rem; overflow-wrap: anywhere; min-height: 3rem; }
-a { color: light-dark(#064ca1, #95c9ff); }
-
-.checkbox-label { display: flex; align-items: center; gap: .5rem; }
-.checkbox-label input { width: auto; margin: 0; }
-#passkey-help { font-size: .9rem; }
+@media(prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }

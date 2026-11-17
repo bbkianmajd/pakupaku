@@ -45,10 +45,10 @@ try{
   await page.locator('#note').fill(source);
   await page.waitForFunction(()=>document.querySelector('#note-feedback').textContent==='Note is ready to link.');
   await page.locator('#passkey').fill('author');await page.locator('#encode').click();
-  await page.waitForFunction(()=>document.querySelector('#link').value.includes('#v=1.0.0&a='));
+  await page.waitForFunction(()=>(document.querySelector('#link').getAttribute('href') || '').includes('#v=1.0.0&a='));
   await page.locator('#passkey').fill('author');
   await page.waitForFunction(text=>document.querySelector('#note').value===text,text);
-  const payload=new URLSearchParams(new URL(await page.locator('#link').inputValue()).hash.slice(1)).get('a');
+  const payload=new URLSearchParams(new URL(await page.locator('#link').getAttribute('href')).hash.slice(1)).get('a');
   // Exercise the actual worker's alternate decode and composer analyze API.
   const decoy=await page.evaluate(async payload=>{
    const worker=new Worker('/src/codec-worker.js',{type:'module'});
@@ -71,8 +71,8 @@ try{
   await page.waitForFunction(()=>document.querySelector('#note-feedback').textContent==='Note is ready to link.');
   await page.locator('#passkey').fill(key);
   await page.locator('#encode').click();
-  await page.waitForFunction(()=>document.querySelector('#link').value.includes('#v=1.0.0&a='));
-  const shared=await page.locator('#link').inputValue();
+  await page.waitForFunction(()=>(document.querySelector('#link').getAttribute('href') || '').includes('#v=1.0.0&a='));
+  const shared=await page.locator('#link').getAttribute('href');
   await page.goto(shared);
   await page.waitForFunction(()=>!document.querySelector('#encode').disabled);
   await page.locator('#passkey').fill(key);
@@ -83,7 +83,7 @@ try{
   await page.locator('#passkey').fill(key);
   await page.waitForFunction(()=>document.querySelector('#note').value==='this is cool.' && !document.querySelector('#note').readOnly);
  }
- const validLink=await page.locator('#link').inputValue();
+ const validLink=await page.locator('#link').getAttribute('href');
  for (const key of ['', 'x', '  ']) {
   await page.locator('#note').fill('this is cool.');
   await page.waitForFunction(()=>document.querySelector('#note-feedback').textContent==='Note is ready to link.');
