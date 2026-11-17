@@ -1,0 +1,523 @@
+[
+  {
+    "dimension": "Communicative use",
+    "cells": [
+      "statements",
+      "yes/no questions",
+      "wh questions",
+      "requests",
+      "commands",
+      "greetings",
+      "replies",
+      "thanks",
+      "apologies",
+      "wishes",
+      "exclamations",
+      "fragments"
+    ],
+    "status": "partial: generated family tests do not establish ordinary-language coverage",
+    "evidence": "See per-cell cellStatus in inventory.json, feature-grammar.test.js and stage2-progress.json. Independent breadth/decoy review remains pending.",
+    "cellStatus": {
+      "statements": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "yes/no questions": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "wh questions": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "requests": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "commands": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "greetings": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "replies": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "thanks": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "apologies": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "wishes": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "exclamations": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "fragments": {
+        "status": "tested subset",
+        "evidence": "tests/time-messages.test.js; tests/feature-grammar.test.js; documentation/coverage/stage2-progress.json; full breadth remains unproven"
+      }
+    }
+  },
+  {
+    "dimension": "Noun phrases",
+    "cells": [
+      "articles",
+      "demonstratives",
+      "pronouns",
+      "names",
+      "possessives",
+      "singular/plural",
+      "count/mass",
+      "quantifiers",
+      "modifiers",
+      "coordination"
+    ],
+    "status": "partial: generated family tests do not establish ordinary-language coverage",
+    "evidence": "See per-cell cellStatus in inventory.json, feature-grammar.test.js and stage2-progress.json. Independent breadth/decoy review remains pending.",
+    "cellStatus": {
+      "articles": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "demonstratives": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "pronouns": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "names": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "possessives": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "singular/plural": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "count/mass": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "quantifiers": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "modifiers": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "coordination": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      }
+    }
+  },
+  {
+    "dimension": "Predicates",
+    "cells": [
+      "copulas",
+      "existence",
+      "intransitive",
+      "transitive",
+      "ditransitive",
+      "required prepositions",
+      "adjective complements",
+      "noun complements",
+      "location complements",
+      "clause complements"
+    ],
+    "status": "partial: generated family tests do not establish ordinary-language coverage",
+    "evidence": "See per-cell cellStatus in inventory.json, feature-grammar.test.js and stage2-progress.json. Independent breadth/decoy review remains pending.",
+    "cellStatus": {
+      "copulas": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "existence": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "intransitive": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "transitive": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "ditransitive": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "required prepositions": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "adjective complements": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "noun complements": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "location complements": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "clause complements": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      }
+    }
+  },
+  {
+    "dimension": "Verb features",
+    "cells": [
+      "person/number agreement",
+      "present",
+      "past",
+      "future",
+      "progressive",
+      "perfect",
+      "modals",
+      "negation",
+      "contractions",
+      "active/passive",
+      "auxiliary combinations"
+    ],
+    "status": "partial: generated family tests do not establish ordinary-language coverage",
+    "evidence": "See per-cell cellStatus in inventory.json, feature-grammar.test.js and stage2-progress.json. Independent breadth/decoy review remains pending.",
+    "cellStatus": {
+      "person/number agreement": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "present": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "past": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "future": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "progressive": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "perfect": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "modals": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "negation": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "contractions": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "active/passive": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "auxiliary combinations": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      }
+    }
+  },
+  {
+    "dimension": "Clause composition",
+    "cells": [
+      "coordination",
+      "subordination",
+      "relatives",
+      "conditionals",
+      "reported speech",
+      "embedded questions",
+      "infinitives",
+      "participles",
+      "ellipsis"
+    ],
+    "status": "partial: generated family tests do not establish ordinary-language coverage",
+    "evidence": "See per-cell cellStatus in inventory.json, feature-grammar.test.js and stage2-progress.json. Independent breadth/decoy review remains pending.",
+    "cellStatus": {
+      "coordination": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "subordination": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "relatives": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "conditionals": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "reported speech": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "embedded questions": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "infinitives": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "participles": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "ellipsis": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      }
+    }
+  },
+  {
+    "dimension": "Surface variation",
+    "cells": [
+      "word order",
+      "optional modifiers",
+      "adverb positions",
+      "punctuation",
+      "apostrophes",
+      "quotation",
+      "regional spelling",
+      "casing",
+      "whitespace"
+    ],
+    "status": "partial: generated family tests do not establish ordinary-language coverage",
+    "evidence": "See per-cell cellStatus in inventory.json, feature-grammar.test.js and stage2-progress.json. Independent breadth/decoy review remains pending.",
+    "cellStatus": {
+      "word order": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "optional modifiers": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "adverb positions": {
+        "status": "tested subset",
+        "evidence": "tests/time-messages.test.js; tests/feature-grammar.test.js; documentation/coverage/stage2-progress.json; full breadth remains unproven"
+      },
+      "punctuation": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "apostrophes": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "quotation": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "regional spelling": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "casing": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "whitespace": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      }
+    }
+  },
+  {
+    "dimension": "Message content",
+    "cells": [
+      "relationships",
+      "work",
+      "school",
+      "home",
+      "plans",
+      "travel",
+      "food",
+      "feelings",
+      "instructions",
+      "names",
+      "dates",
+      "times",
+      "quantities",
+      "multi-sentence conversations"
+    ],
+    "status": "partial: generated family tests do not establish ordinary-language coverage",
+    "evidence": "See per-cell cellStatus in inventory.json, feature-grammar.test.js and stage2-progress.json. Independent breadth/decoy review remains pending.",
+    "cellStatus": {
+      "relationships": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "work": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "school": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "home": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "plans": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "travel": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "food": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "feelings": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "instructions": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "names": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "dates": {
+        "status": "tested subset",
+        "evidence": "tests/time-messages.test.js; tests/feature-grammar.test.js; documentation/coverage/stage2-progress.json; full breadth remains unproven"
+      },
+      "times": {
+        "status": "tested subset",
+        "evidence": "tests/time-messages.test.js; tests/feature-grammar.test.js; documentation/coverage/stage2-progress.json; full breadth remains unproven"
+      },
+      "quantities": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "multi-sentence conversations": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      }
+    }
+  },
+  {
+    "dimension": "Interactions",
+    "cells": [
+      "perfect questions",
+      "negative modals",
+      "plural copulas",
+      "passive relatives",
+      "contractions in questions",
+      "names with possessives",
+      "numeric subject agreement"
+    ],
+    "status": "partial: generated family tests do not establish ordinary-language coverage",
+    "evidence": "See per-cell cellStatus in inventory.json, feature-grammar.test.js and stage2-progress.json. Independent breadth/decoy review remains pending.",
+    "cellStatus": {
+      "perfect questions": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "negative modals": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "plural copulas": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "passive relatives": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "contractions in questions": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      },
+      "names with possessives": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "numeric subject agreement": {
+        "status": "tested subset",
+        "evidence": "tests/feature-grammar.test.js; tests/codec.test.js; documentation/coverage/stage2-progress.json"
+      }
+    }
+  },
+  {
+    "dimension": "Additional UD audit",
+    "cells": [
+      "apposition",
+      "parataxis",
+      "discourse markers",
+      "multiword expressions",
+      "dislocation",
+      "comparative clauses"
+    ],
+    "status": "partial: generated family tests do not establish ordinary-language coverage",
+    "evidence": "See per-cell cellStatus in inventory.json, feature-grammar.test.js and stage2-progress.json. Independent breadth/decoy review remains pending.",
+    "cellStatus": {
+      "apposition": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "parataxis": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "discourse markers": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "multiword expressions": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "dislocation": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      },
+      "comparative clauses": {
+        "status": "blocked / untested",
+        "evidence": "No cell-specific support claim; retain as backlog"
+      }
+    }
+  }
+]

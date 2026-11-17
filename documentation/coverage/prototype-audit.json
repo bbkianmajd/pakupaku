@@ -1,0 +1,3536 @@
+{
+  "scope": "Nine-construction experiments; no claim of production coverage or independent English review.",
+  "language": "de1f169f82bd8e527c678cd117f6a0b28926f26aa68a21c01575e91961fd7cca",
+  "subjectChoices": 4252,
+  "adjectives": 387,
+  "clauseFamilies": 9,
+  "bandSize": "2147483648",
+  "domainSize": "19327352832",
+  "note": "this is cool. sarah is sexy.",
+  "salt": "16 zero bytes",
+  "aliasRandomness": "Deterministic SHA-256 counter for this reproducible audit only; browser uses crypto.getRandomValues.",
+  "modes": {
+    "narrow": {
+      "payload": "eyJmb3JtYXQiOiJwYWt1cGFrdS1leHBlcmltZW50LTEiLCJsYW5ndWFnZSI6ImRlMWYxNjlmODJiZDhlNTI3YzY3OGNkMTE3ZjZhMGIyODkyNmYyNmFhNjhhMjFjMDE1NzVlOTE5NjFmZDdjY2EiLCJtb2RlIjoibmFycm93Iiwic2FsdCI6IjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwiY29kZXMiOltbIjAiLCIyNTAiXSxbIjE5NyIsIjMxNSJdXSwibGF5b3V0IjpbeyJ0ZW1wbGF0ZSI6MCwiZ3JvdXBzIjpbImZpeGVkOnRoaXMiLCJhZGplY3RpdmUiXX0seyJ0ZW1wbGF0ZSI6MCwiZ3JvdXBzIjpbInBlcnNvbiIsImFkamVjdGl2ZSJdfV19",
+      "authorRecovered": true,
+      "sampleCount": 128,
+      "uniqueReadings": 128,
+      "constructionCounts": {
+        "Describing something": 256
+      },
+      "uniqueConstructionSequences": 1,
+      "allReadingsParse": true,
+      "samples": [
+        {
+          "key": "t",
+          "text": "this is awkward. marlene is lovely.",
+          "clauses": [
+            {
+              "template": 0,
+              "values": [
+                4127,
+                26
+              ],
+              "text": "this is awkward.",
+              "pattern": "Describing something",
+              "previous": null
+            },
+            {
+              "template": 0,
+              "values": [
+                972,
+                210
+              ],
+              "text": "marlene is lovely.",
+              "pattern": "Describing something",
+              "previous": "this is awkward."
+            }
+          ],
+          "mode": "narrow"
+        },
+        {
+          "key": "te",
+          "text": "this is dependable. curtis is uncomfortable.",
+          "clauses": [
+            {
+              "template": 0,
+              "values": [
+                4127,
+                81
+              ],
+              "text": "this is dependable.",
+              "pattern": "Describing something",
+              "previous": null
+            },
+            {
+              "template": 0,
+              "values": [
+                340,
+                351
+              ],
+              "text": "curtis is uncomfortable.",
+              "pattern": "Describing something",
+              "previous": "this is dependable."
+            }
+          ],
+          "mode": "narrow"
+        },
+        {
+          "key": "tes",
+          "text": "this is possible. celia is appropriate.",
+          "clauses": [
+            {
+              "template": 0,
+              "values": [
+                4127,
+                252
+              ],
+              "text": "this is possible.",
+              "pattern": "Describing something",
+              "previous": null
+            },
+            {
+              "template": 0,
+              "values": [
+                263,
+                15
+              ],
+              "text": "celia is appropriate.",
+              "pattern": "Describing something",
+              "previous": "this is possible."
+            }
+          ],
+          "mode": "narrow"
+        },
+        {
+          "key": "test",
+          "text": "this is cool. sarah is sexy.",
+          "clauses": [
+            {
+              "template": 0,
+              "values": [
+                4127,
+                66
+              ],
+              "text": "this is cool.",
+              "pattern": "Describing something",
+              "previous": null
+            },
+            {
+              "template": 0,
+              "values": [
+                1301,
+                293
+              ],
+              "text": "sarah is sexy.",
+              "pattern": "Describing something",
+              "previous": "this is cool."
+            }
+          ],
+          "mode": "narrow"
+        }
+      ],
+      "readings": [
+        {
+          "key": "review-000",
+          "text": "this is suitable. lindsey is massive.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-001",
+          "text": "this is greasy. virginia is terrified.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-002",
+          "text": "this is great. teresa is deep.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-003",
+          "text": "this is unpredictable. arturo is accurate.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-004",
+          "text": "this is sad. bertha is unpredictable.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-005",
+          "text": "this is invisible. lula is ancient.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-006",
+          "text": "this is smart. earnest is refreshed.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-007",
+          "text": "this is modest. katie is large.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-008",
+          "text": "this is earlier. brooklyn is real.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-009",
+          "text": "this is lean. mable is worried.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-010",
+          "text": "this is useless. abby is dishonest.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-011",
+          "text": "this is flat. patty is greasy.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-012",
+          "text": "this is wet. justin is damaged.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-013",
+          "text": "this is selfish. zoe is dishonest.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-014",
+          "text": "this is polite. preston is updated.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-015",
+          "text": "this is cooked. gordon is handsome.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-016",
+          "text": "this is dreadful. clinton is awake.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-017",
+          "text": "this is fantastic. washington is great.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-018",
+          "text": "this is sticky. dean is uncertain.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-019",
+          "text": "this is guilty. rebekah is fine.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-020",
+          "text": "this is old. hector is bold.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-021",
+          "text": "this is cool. dean is purple.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-022",
+          "text": "this is new. layla is content.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-023",
+          "text": "this is fair. jocelyn is welcome.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-024",
+          "text": "this is likeable. carter is firm.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-025",
+          "text": "this is terrible. philip is true.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-026",
+          "text": "this is bold. darren is invisible.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-027",
+          "text": "this is little. derrick is solid.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-028",
+          "text": "this is unkind. shaun is amused.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-029",
+          "text": "this is large. joann is stale.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-030",
+          "text": "this is tired. grace is available.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-031",
+          "text": "this is harmless. camila is inappropriate.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-032",
+          "text": "this is friendly. kathleen is guilty.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-033",
+          "text": "this is athletic. kimberly is nice.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-034",
+          "text": "this is smart. aaron is honest.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-035",
+          "text": "this is peaceful. bryson is costly.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-036",
+          "text": "this is sad. trevor is precise.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-037",
+          "text": "this is tired. teresa is smart.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-038",
+          "text": "this is furious. gayle is gorgeous.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-039",
+          "text": "this is obvious. jo is guilty.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-040",
+          "text": "this is artistic. trinity is dusty.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-041",
+          "text": "this is mandatory. zoey is long.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-042",
+          "text": "this is fair. shelly is yellow.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-043",
+          "text": "this is deep. kristi is nervous.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-044",
+          "text": "this is compassionate. brett is angry.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-045",
+          "text": "this is special. sonya is dirty.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-046",
+          "text": "this is modest. donna is solid.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-047",
+          "text": "this is graceful. jeffrey is loud.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-048",
+          "text": "this is terrible. kaylee is fun.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-049",
+          "text": "this is fun. norma is earlier.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-050",
+          "text": "this is dirty. ricardo is smart.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-051",
+          "text": "this is stunning. marc is resourceful.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-052",
+          "text": "this is short. gordon is wide.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-053",
+          "text": "this is costly. vera is frozen.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-054",
+          "text": "this is gray. xavier is flat.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-055",
+          "text": "this is friendly. mary is nervous.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-056",
+          "text": "this is imperfect. patrick is likeable.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-057",
+          "text": "this is correct. anne is famous.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-058",
+          "text": "this is silver. alisha is possible.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-059",
+          "text": "this is flirtatious. katrina is muscular.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-060",
+          "text": "this is afraid. gerald is cute.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-061",
+          "text": "this is dusty. geneva is grey.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-062",
+          "text": "this is different. tanner is exhausted.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-063",
+          "text": "this is loud. rhonda is glad.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-064",
+          "text": "this is tasty. georgia is good.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-065",
+          "text": "this is well. frederick is dishonest.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-066",
+          "text": "this is wild. danny is strange.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-067",
+          "text": "this is loud. joy is ancient.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-068",
+          "text": "this is rusty. rene is incorrect.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-069",
+          "text": "this is silent. cathy is courageous.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-070",
+          "text": "this is pale. reagan is public.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-071",
+          "text": "this is excellent. roger is bitter.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-072",
+          "text": "this is reliable. malachi is damp.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-073",
+          "text": "this is grateful. vanessa is large.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-074",
+          "text": "this is interesting. mathew is kind.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-075",
+          "text": "this is awake. norman is clever.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-076",
+          "text": "this is gorgeous. julio is competent.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-077",
+          "text": "this is tight. sophia is exact.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-078",
+          "text": "this is old. manuel is grey.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-079",
+          "text": "this is lovely. laverne is dry.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-080",
+          "text": "this is burnt. dale is intelligent.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-081",
+          "text": "this is flirty. michele is disappointed.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-082",
+          "text": "this is polite. damon is full.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-083",
+          "text": "this is ill. jason is deep.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-084",
+          "text": "this is whole. gianna is graceful.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-085",
+          "text": "this is talented. margaret is unfamiliar.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-086",
+          "text": "this is convenient. vanessa is charming.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-087",
+          "text": "this is silly. crystal is relaxed.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-088",
+          "text": "this is slim. teresa is terrible.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-089",
+          "text": "this is rough. holly is organized.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-090",
+          "text": "this is long. geoffrey is neat.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-091",
+          "text": "this is charming. erick is rusty.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-092",
+          "text": "this is perfect. damon is compassionate.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-093",
+          "text": "this is tired. nicole is optimistic.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-094",
+          "text": "this is unsure. roxanne is cruel.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-095",
+          "text": "this is adorable. darrell is wonderful.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-096",
+          "text": "this is spontaneous. fernando is caring.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-097",
+          "text": "this is strange. charlotte is sick.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-098",
+          "text": "this is loose. addison is old.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-099",
+          "text": "this is unpredictable. celeste is violent.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-100",
+          "text": "this is simple. samantha is possible.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-101",
+          "text": "this is famous. courtney is excellent.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-102",
+          "text": "this is neat. jenny is common.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-103",
+          "text": "this is harmless. gail is false.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-104",
+          "text": "this is loving. dakota is clever.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-105",
+          "text": "this is predictable. annette is expensive.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-106",
+          "text": "this is significant. kayden is exciting.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-107",
+          "text": "this is confident. carrie is tasty.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-108",
+          "text": "this is fine. harley is proper.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-109",
+          "text": "this is plump. jeffery is sleepy.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-110",
+          "text": "this is predictable. mildred is fresh.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-111",
+          "text": "this is jealous. george is playful.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-112",
+          "text": "this is uncertain. quinn is rare.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-113",
+          "text": "this is healthy. bill is blue.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-114",
+          "text": "this is timid. jaime is helpful.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-115",
+          "text": "this is fantastic. patrick is full.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-116",
+          "text": "this is silver. garrett is imaginative.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-117",
+          "text": "this is disappointed. louise is dusty.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-118",
+          "text": "this is skilled. darryl is depressed.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-119",
+          "text": "this is spicy. carolyn is wet.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-120",
+          "text": "this is affectionate. jerry is amused.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-121",
+          "text": "this is shallow. leon is tight.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-122",
+          "text": "this is tasty. karl is simple.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-123",
+          "text": "this is sticky. annabelle is exhausted.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-124",
+          "text": "this is hopeful. andrew is invisible.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-125",
+          "text": "this is false. beverly is gentle.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-126",
+          "text": "this is red. charlene is worried.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-127",
+          "text": "this is smooth. stella is tiny.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        }
+      ]
+    },
+    "merged": {
+      "payload": "eyJmb3JtYXQiOiJwYWt1cGFrdS1leHBlcmltZW50LTEiLCJsYW5ndWFnZSI6ImRlMWYxNjlmODJiZDhlNTI3YzY3OGNkMTE3ZjZhMGIyODkyNmYyNmFhNjhhMjFjMDE1NzVlOTE5NjFmZDdjY2EiLCJtb2RlIjoibWVyZ2VkIiwic2FsdCI6IjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwiY29kZXMiOltbIjEzODkiLCIzMzciXSxbIjEzNSIsIjkiXV0sImxheW91dCI6W3sidGVtcGxhdGUiOjAsImdyb3VwcyI6W251bGwsbnVsbF19LHsidGVtcGxhdGUiOjAsImdyb3VwcyI6W251bGwsbnVsbF19XX0",
+      "authorRecovered": true,
+      "sampleCount": 128,
+      "uniqueReadings": 128,
+      "constructionCounts": {
+        "Describing something": 256
+      },
+      "uniqueConstructionSequences": 1,
+      "allReadingsParse": true,
+      "samples": [
+        {
+          "key": "t",
+          "text": "the goblet is fat. the democrat is exact.",
+          "clauses": [
+            {
+              "template": 0,
+              "values": [
+                2525,
+                117
+              ],
+              "text": "the goblet is fat.",
+              "pattern": "Describing something",
+              "previous": null
+            },
+            {
+              "template": 0,
+              "values": [
+                2151,
+                105
+              ],
+              "text": "the democrat is exact.",
+              "pattern": "Describing something",
+              "previous": "the goblet is fat."
+            }
+          ],
+          "mode": "merged"
+        },
+        {
+          "key": "te",
+          "text": "lawton is silent. victoria is correct.",
+          "clauses": [
+            {
+              "template": 0,
+              "values": [
+                860,
+                300
+              ],
+              "text": "lawton is silent.",
+              "pattern": "Describing something",
+              "previous": null
+            },
+            {
+              "template": 0,
+              "values": [
+                4193,
+                67
+              ],
+              "text": "victoria is correct.",
+              "pattern": "Describing something",
+              "previous": "lawton is silent."
+            }
+          ],
+          "mode": "merged"
+        },
+        {
+          "key": "tes",
+          "text": "the sideshow is pretty. the nozzle is horrible.",
+          "clauses": [
+            {
+              "template": 0,
+              "values": [
+                3631,
+                257
+              ],
+              "text": "the sideshow is pretty.",
+              "pattern": "Describing something",
+              "previous": null
+            },
+            {
+              "template": 0,
+              "values": [
+                3068,
+                166
+              ],
+              "text": "the nozzle is horrible.",
+              "pattern": "Describing something",
+              "previous": "the sideshow is pretty."
+            }
+          ],
+          "mode": "merged"
+        },
+        {
+          "key": "test",
+          "text": "this is cool. sarah is sexy.",
+          "clauses": [
+            {
+              "template": 0,
+              "values": [
+                4127,
+                66
+              ],
+              "text": "this is cool.",
+              "pattern": "Describing something",
+              "previous": null
+            },
+            {
+              "template": 0,
+              "values": [
+                1301,
+                293
+              ],
+              "text": "sarah is sexy.",
+              "pattern": "Describing something",
+              "previous": "this is cool."
+            }
+          ],
+          "mode": "merged"
+        }
+      ],
+      "readings": [
+        {
+          "key": "review-000",
+          "text": "the adviser is tiny. the blockage is exhausted.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-001",
+          "text": "the coroner is pink. the tartar is adventurous.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-002",
+          "text": "the cricketer is healthy. the backseat is tender.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-003",
+          "text": "the garibaldi is hopeful. the scammer is salty.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-004",
+          "text": "the commemoration is capable. the webcam is helpful.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-005",
+          "text": "the pane is enthusiastic. the washer is wise.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-006",
+          "text": "jonesboro is broken. the grange is affectionate.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-007",
+          "text": "the lorry is ill. the dinner is angry.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-008",
+          "text": "the bookstore is clear. alexander is sticky.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-009",
+          "text": "the climbing is sour. the equalizer is helpful.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-010",
+          "text": "miles is fat. the streamer is embarrassed.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-011",
+          "text": "the assemblage is local. the school is affectionate.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-012",
+          "text": "the kilt is fixed. the smoker is tall.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-013",
+          "text": "the mutation is welcome. brian is upset.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-014",
+          "text": "the widening is short. the game is lovely.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-015",
+          "text": "gail is brown. the czar is sure.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-016",
+          "text": "the ukulele is excellent. the waterfall is understanding.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-017",
+          "text": "germany is weak. the heath is sour.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-018",
+          "text": "the fireplace is violent. the review is delicious.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-019",
+          "text": "the kind is clumsy. bulgaria is anxious.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-020",
+          "text": "the cleaner is cruel. tara is nervous.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-021",
+          "text": "the gymnast is shy. the job is peculiar.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-022",
+          "text": "the play is sad. belgium is optimistic.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-023",
+          "text": "the warship is visible. the terrorist is valuable.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-024",
+          "text": "mobile is excited. the mecca is dull.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-025",
+          "text": "the mufti is ancient. ethel is nice.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-026",
+          "text": "olathe is new. the shrieking is whole.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-027",
+          "text": "the chapter is pink. melinda is angry.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-028",
+          "text": "the cello is happy. ashley is furious.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-029",
+          "text": "the chimney is different. gianna is perfect.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-030",
+          "text": "gillette is loving. the visor is wet.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-031",
+          "text": "rwanda is proper. the federation is harmful.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-032",
+          "text": "the librarian is complete. san francisco is green.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-033",
+          "text": "angelina is local. lafayette is generous.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-034",
+          "text": "nicaragua is firm. the cartel is confident.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-035",
+          "text": "mateo is respectful. geraldine is blue.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-036",
+          "text": "the wardrobe is loud. the exporter is homesick.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-037",
+          "text": "the republic of korea is muscular. the clubhouse is late.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-038",
+          "text": "the polytechnic is good. the puritan is familiar.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-039",
+          "text": "mabel is tall. johnnie is neat.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-040",
+          "text": "the furnace is fresh. calvin is gentle.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-041",
+          "text": "nichole is sleepy. jorge is friendly.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-042",
+          "text": "the blogger is intelligent. the vice is embarrassed.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-043",
+          "text": "the device is dangerous. kendall is whole.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-044",
+          "text": "new mexico is cheerful. the python is brilliant.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-045",
+          "text": "the leader is delicious. the anomaly is hopeful.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-046",
+          "text": "the cirque is familiar. garrett is fixed.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-047",
+          "text": "the children are unhappy. cory is dusty.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-048",
+          "text": "the adjutant is appropriate. paris is fit.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-049",
+          "text": "azerbaijan is precious. the loyalist is useless.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-050",
+          "text": "the locker is joyful. louisville is considerate.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-051",
+          "text": "the vibrator is mild. the tor is fresh.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-052",
+          "text": "the taping is deep. the headband is cold.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-053",
+          "text": "lesotho is busy. cranston is massive.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-054",
+          "text": "the form is fair. the observatory is lively.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-055",
+          "text": "the airway is brilliant. the parkway is damaged.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-056",
+          "text": "the hutch is radiant. roberto is fat.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-057",
+          "text": "the sunscreen is massive. guy is annoyed.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-058",
+          "text": "skinner is witty. sandra is grey.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-059",
+          "text": "florida is lean. poland is common.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-060",
+          "text": "the combining is dirty. the institution is exciting.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-061",
+          "text": "dolores is slippery. el salvador is excellent.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-062",
+          "text": "orlando is excellent. the planter is harmful.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-063",
+          "text": "the secretary is rare. elaine is worried.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-064",
+          "text": "hunter is simple. the tsunami is annoyed.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-065",
+          "text": "the turkey is dark. the bedroom is convenient.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-066",
+          "text": "the thoroughfare is hard. the reformer is competent.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-067",
+          "text": "the linkage is pink. the dell is plump.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-068",
+          "text": "the barn is weak. hong kong is incorrect.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-069",
+          "text": "the puddle is fine. the pathologist is graceful.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-070",
+          "text": "constance is anxious. the tomb is alright.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-071",
+          "text": "the sac is inconvenient. the wheeler is black.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-072",
+          "text": "the variation is late. the championship is cool.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-073",
+          "text": "the stage is playful. desiree is silly.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-074",
+          "text": "the rascal is generous. george is desirable.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-075",
+          "text": "diane is noisy. the minion is nervous.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-076",
+          "text": "the countryman is witty. the contingency is similar.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-077",
+          "text": "the humanoid is sad. heather is rusty.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-078",
+          "text": "marlene is stiff. the gambia is familiar.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-079",
+          "text": "the grocer is peculiar. the remnant is glamorous.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-080",
+          "text": "the copy is delicious. november is uncertain.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-081",
+          "text": "derrick is broken. the satin is tall.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-082",
+          "text": "the registrar is elegant. the bout is unfair.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-083",
+          "text": "paula is boring. the supermarket is narrow.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-084",
+          "text": "the filly is cold. the starship is radiant.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-085",
+          "text": "the instructor is good. gayle is famous.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-086",
+          "text": "the architecture is lively. the lifesaver is predictable.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-087",
+          "text": "the deal is awful. the debtor is golden.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-088",
+          "text": "the tendency is slippery. the organism is visible.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-089",
+          "text": "the pol is affectionate. the musician is personal.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-090",
+          "text": "karina is dangerous. the academy is desirable.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-091",
+          "text": "the gourmet is hopeful. george is valuable.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-092",
+          "text": "the shortcut is lean. the panorama is invisible.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-093",
+          "text": "the assembly is likable. the laguna is gorgeous.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-094",
+          "text": "the senator is understanding. lisa is unique.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-095",
+          "text": "drew is kind. johnny is imperfect.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-096",
+          "text": "the apostle is envious. the wrangler is alert.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-097",
+          "text": "the poultry is compassionate. the combination is messy.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-098",
+          "text": "the granddaughter is dark. the sinner is sick.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-099",
+          "text": "the invention is fashionable. the powerhouse is frozen.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-100",
+          "text": "the socialism is false. the friend is cool.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-101",
+          "text": "the solicitor is uncomfortable. green bay is stupid.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-102",
+          "text": "ivy is uncertain. the countryman is unfamiliar.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-103",
+          "text": "lynda is dusty. payton is peaceful.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-104",
+          "text": "the weekend is weak. the outburst is strong.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-105",
+          "text": "the organisation is graceful. whitney is violent.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-106",
+          "text": "the laser is timid. he is fashionable.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-107",
+          "text": "the cayman is exciting. the holder is depressed.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-108",
+          "text": "casey is spicy. durham is refreshed.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-109",
+          "text": "the businesswoman is cooked. the folio is bad.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-110",
+          "text": "the pathway is illegal. the column is plump.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-111",
+          "text": "the airport is stylish. dustin is stupid.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-112",
+          "text": "isabelle is unfamiliar. the jonah is strange.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-113",
+          "text": "the herb is embarrassed. the loch is flexible.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-114",
+          "text": "the colliery is aware. the password is huge.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-115",
+          "text": "the dug is recent. the hub is wonderful.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-116",
+          "text": "nelson is closed. the sheep is noisy.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-117",
+          "text": "perry is enormous. the fish is fresh.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-118",
+          "text": "alma is humorous. lucille is damaged.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-119",
+          "text": "the ligament is pretty. cynthia is muscular.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-120",
+          "text": "frankie is dishonest. the standstill is clear.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-121",
+          "text": "audrey is proud. felix is warm.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-122",
+          "text": "malta is intelligent. the thorn is bad.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-123",
+          "text": "the starship is loving. the gunner is free.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-124",
+          "text": "the cusp is flirty. the gelatin is joyful.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-125",
+          "text": "the puck is sexy. anna is handsome.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-126",
+          "text": "the workplace is cool. south carolina is awful.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-127",
+          "text": "côte d’ivoire is useful. the blender is small.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        }
+      ]
+    },
+    "clauses": {
+      "payload": "eyJmb3JtYXQiOiJwYWt1cGFrdS1leHBlcmltZW50LTEiLCJsYW5ndWFnZSI6ImRlMWYxNjlmODJiZDhlNTI3YzY3OGNkMTE3ZjZhMGIyODkyNmYyNmFhNjhhMjFjMDE1NzVlOTE5NjFmZDdjY2EiLCJtb2RlIjoiY2xhdXNlcyIsInNhbHQiOiIwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsImNvZGVzIjpbIjEyOTAzODAxMzQwIiwiNTc1MjQzMTQ4NyJdfQ",
+      "authorRecovered": true,
+      "sampleCount": 128,
+      "uniqueReadings": 128,
+      "constructionCounts": {
+        "Putting the time first": 28,
+        "Describing something": 30,
+        "Speaking to someone": 26,
+        "Something possible or planned": 34,
+        "Asking a question": 28,
+        "Someone going somewhere": 28,
+        "Saying where something is": 30,
+        "Someone acting toward someone": 23,
+        "Someone doing something": 29
+      },
+      "uniqueConstructionSequences": 70,
+      "allReadingsParse": true,
+      "samples": [
+        {
+          "key": "t",
+          "text": "on monday, wendell smiles. gianna goes to the marshall islands.",
+          "clauses": [
+            {
+              "template": 7,
+              "values": [
+                4,
+                1006,
+                1
+              ],
+              "text": "on monday, wendell smiles.",
+              "pattern": "Putting the time first",
+              "previous": null
+            },
+            {
+              "template": 3,
+              "values": [
+                384,
+                0,
+                457
+              ],
+              "text": "gianna goes to the marshall islands.",
+              "pattern": "Someone going somewhere",
+              "previous": "on monday, wendell smiles."
+            }
+          ],
+          "mode": "clauses"
+        },
+        {
+          "key": "te",
+          "text": "does albert trust jaime? does ariana help pauline?",
+          "clauses": [
+            {
+              "template": 6,
+              "values": [
+                19,
+                8,
+                461
+              ],
+              "text": "does albert trust jaime?",
+              "pattern": "Asking a question",
+              "previous": null
+            },
+            {
+              "template": 6,
+              "values": [
+                71,
+                4,
+                788
+              ],
+              "text": "does ariana help pauline?",
+              "pattern": "Asking a question",
+              "previous": "does albert trust jaime?"
+            }
+          ],
+          "mode": "clauses"
+        },
+        {
+          "key": "tes",
+          "text": "yolanda, the climbing is awake. iran is in michigan.",
+          "clauses": [
+            {
+              "template": 8,
+              "values": [
+                1012,
+                1910,
+                22
+              ],
+              "text": "yolanda, the climbing is awake.",
+              "pattern": "Speaking to someone",
+              "previous": null
+            },
+            {
+              "template": 4,
+              "values": [
+                657,
+                277
+              ],
+              "text": "iran is in michigan.",
+              "pattern": "Saying where something is",
+              "previous": "yolanda, the climbing is awake."
+            }
+          ],
+          "mode": "clauses"
+        },
+        {
+          "key": "test",
+          "text": "this is cool. sarah is sexy.",
+          "clauses": [
+            {
+              "template": 0,
+              "values": [
+                4127,
+                66
+              ],
+              "text": "this is cool.",
+              "pattern": "Describing something",
+              "previous": null
+            },
+            {
+              "template": 0,
+              "values": [
+                1301,
+                293
+              ],
+              "text": "sarah is sexy.",
+              "pattern": "Describing something",
+              "previous": "this is cool."
+            }
+          ],
+          "mode": "clauses"
+        }
+      ],
+      "readings": [
+        {
+          "key": "review-000",
+          "text": "today, ellen smiles. the colt is clumsy.",
+          "patterns": [
+            "Putting the time first",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-001",
+          "text": "tomorrow, candace laughs. alexandria, the platform is burnt.",
+          "patterns": [
+            "Putting the time first",
+            "Speaking to someone"
+          ]
+        },
+        {
+          "key": "review-002",
+          "text": "terry might smile. jay will dance.",
+          "patterns": [
+            "Something possible or planned",
+            "Something possible or planned"
+          ]
+        },
+        {
+          "key": "review-003",
+          "text": "does phillip thank vera? does armando meet byron?",
+          "patterns": [
+            "Asking a question",
+            "Asking a question"
+          ]
+        },
+        {
+          "key": "review-004",
+          "text": "celia will laugh. does sandra like wallace?",
+          "patterns": [
+            "Something possible or planned",
+            "Asking a question"
+          ]
+        },
+        {
+          "key": "review-005",
+          "text": "bennie, the beanie is rusty. the student travels to boulder.",
+          "patterns": [
+            "Speaking to someone",
+            "Someone going somewhere"
+          ]
+        },
+        {
+          "key": "review-006",
+          "text": "tyler is in phoenix. care is unfair.",
+          "patterns": [
+            "Saying where something is",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-007",
+          "text": "the intercom is in reno. antigua and barbuda is in knoxville.",
+          "patterns": [
+            "Saying where something is",
+            "Saying where something is"
+          ]
+        },
+        {
+          "key": "review-008",
+          "text": "lula is sad. alfredo remembers agnes.",
+          "patterns": [
+            "Describing something",
+            "Someone acting toward someone"
+          ]
+        },
+        {
+          "key": "review-009",
+          "text": "max will wait. north macedonia is in richmond.",
+          "patterns": [
+            "Something possible or planned",
+            "Saying where something is"
+          ]
+        },
+        {
+          "key": "review-010",
+          "text": "isabel goes to bulgaria. lucy will laugh.",
+          "patterns": [
+            "Someone going somewhere",
+            "Something possible or planned"
+          ]
+        },
+        {
+          "key": "review-011",
+          "text": "does mia like ella? nevada is in arizona.",
+          "patterns": [
+            "Asking a question",
+            "Saying where something is"
+          ]
+        },
+        {
+          "key": "review-012",
+          "text": "trevor, the supermarket is imperfect. grayson dances.",
+          "patterns": [
+            "Speaking to someone",
+            "Someone doing something"
+          ]
+        },
+        {
+          "key": "review-013",
+          "text": "does laurie help faith? does helen like jon?",
+          "patterns": [
+            "Asking a question",
+            "Asking a question"
+          ]
+        },
+        {
+          "key": "review-014",
+          "text": "does joan trust roy? louise, the airline is unkind.",
+          "patterns": [
+            "Asking a question",
+            "Speaking to someone"
+          ]
+        },
+        {
+          "key": "review-015",
+          "text": "dave, the analyst is violent. lance goes to egypt.",
+          "patterns": [
+            "Speaking to someone",
+            "Someone going somewhere"
+          ]
+        },
+        {
+          "key": "review-016",
+          "text": "tomorrow, lucille works. heidi helps rita.",
+          "patterns": [
+            "Putting the time first",
+            "Someone acting toward someone"
+          ]
+        },
+        {
+          "key": "review-017",
+          "text": "fernando travels to tajikistan. eli trusts addison.",
+          "patterns": [
+            "Someone going somewhere",
+            "Someone acting toward someone"
+          ]
+        },
+        {
+          "key": "review-018",
+          "text": "chris sleeps. does jesse help evelyn?",
+          "patterns": [
+            "Someone doing something",
+            "Asking a question"
+          ]
+        },
+        {
+          "key": "review-019",
+          "text": "the gangster is in winston-salem. peggy meets melinda.",
+          "patterns": [
+            "Saying where something is",
+            "Someone acting toward someone"
+          ]
+        },
+        {
+          "key": "review-020",
+          "text": "the lawn is in guyana. brittney calls celia.",
+          "patterns": [
+            "Saying where something is",
+            "Someone acting toward someone"
+          ]
+        },
+        {
+          "key": "review-021",
+          "text": "leon might laugh. the formation is in uzbekistan.",
+          "patterns": [
+            "Something possible or planned",
+            "Saying where something is"
+          ]
+        },
+        {
+          "key": "review-022",
+          "text": "after lunch, dwayne smiles. does tommy thank august?",
+          "patterns": [
+            "Putting the time first",
+            "Asking a question"
+          ]
+        },
+        {
+          "key": "review-023",
+          "text": "mitchell will dance. kendra is suitable.",
+          "patterns": [
+            "Something possible or planned",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-024",
+          "text": "miguel, andrea is patient. earnest walks to alexandria.",
+          "patterns": [
+            "Speaking to someone",
+            "Someone going somewhere"
+          ]
+        },
+        {
+          "key": "review-025",
+          "text": "lorenzo sleeps. brooke goes to new york.",
+          "patterns": [
+            "Someone doing something",
+            "Someone going somewhere"
+          ]
+        },
+        {
+          "key": "review-026",
+          "text": "the rapper is in italy. geoffrey might sleep.",
+          "patterns": [
+            "Saying where something is",
+            "Something possible or planned"
+          ]
+        },
+        {
+          "key": "review-027",
+          "text": "tomorrow, benjamin arrives. after lunch, salvatore sleeps.",
+          "patterns": [
+            "Putting the time first",
+            "Putting the time first"
+          ]
+        },
+        {
+          "key": "review-028",
+          "text": "alfred, the pounding is uncertain. sabrina will sleep.",
+          "patterns": [
+            "Speaking to someone",
+            "Something possible or planned"
+          ]
+        },
+        {
+          "key": "review-029",
+          "text": "tara walks to savannah. does freddie like annette?",
+          "patterns": [
+            "Someone going somewhere",
+            "Asking a question"
+          ]
+        },
+        {
+          "key": "review-030",
+          "text": "marcella goes to paraguay. ruth will smile.",
+          "patterns": [
+            "Someone going somewhere",
+            "Something possible or planned"
+          ]
+        },
+        {
+          "key": "review-031",
+          "text": "joanne is uncomfortable. the pusher is different.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-032",
+          "text": "owensboro is in new zealand. on monday, walter smiles.",
+          "patterns": [
+            "Saying where something is",
+            "Putting the time first"
+          ]
+        },
+        {
+          "key": "review-033",
+          "text": "mildred might laugh. frances arrives.",
+          "patterns": [
+            "Something possible or planned",
+            "Someone doing something"
+          ]
+        },
+        {
+          "key": "review-034",
+          "text": "does sierra call owen? alfredo works.",
+          "patterns": [
+            "Asking a question",
+            "Someone doing something"
+          ]
+        },
+        {
+          "key": "review-035",
+          "text": "does angelina thank nancy? tomorrow, nora smiles.",
+          "patterns": [
+            "Asking a question",
+            "Putting the time first"
+          ]
+        },
+        {
+          "key": "review-036",
+          "text": "frank might work. the cyberspace is gentle.",
+          "patterns": [
+            "Something possible or planned",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-037",
+          "text": "cindy goes to pocatello. corey works.",
+          "patterns": [
+            "Someone going somewhere",
+            "Someone doing something"
+          ]
+        },
+        {
+          "key": "review-038",
+          "text": "after lunch, chloe waits. tomorrow, randy arrives.",
+          "patterns": [
+            "Putting the time first",
+            "Putting the time first"
+          ]
+        },
+        {
+          "key": "review-039",
+          "text": "ana will dance. the bile is in kaneohe.",
+          "patterns": [
+            "Something possible or planned",
+            "Saying where something is"
+          ]
+        },
+        {
+          "key": "review-040",
+          "text": "the office is glamorous. melinda is unhappy.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-041",
+          "text": "the point is warm. the programmer is in grand rapids.",
+          "patterns": [
+            "Describing something",
+            "Saying where something is"
+          ]
+        },
+        {
+          "key": "review-042",
+          "text": "does frank call duane? brayden loves herbert.",
+          "patterns": [
+            "Asking a question",
+            "Someone acting toward someone"
+          ]
+        },
+        {
+          "key": "review-043",
+          "text": "adam might sleep. cody goes to north charleston.",
+          "patterns": [
+            "Something possible or planned",
+            "Someone going somewhere"
+          ]
+        },
+        {
+          "key": "review-044",
+          "text": "jackson will work. jacob goes to greenville.",
+          "patterns": [
+            "Something possible or planned",
+            "Someone going somewhere"
+          ]
+        },
+        {
+          "key": "review-045",
+          "text": "today, leonard dances. bessie arrives.",
+          "patterns": [
+            "Putting the time first",
+            "Someone doing something"
+          ]
+        },
+        {
+          "key": "review-046",
+          "text": "peyton can wait. donald, the dell is smooth.",
+          "patterns": [
+            "Something possible or planned",
+            "Speaking to someone"
+          ]
+        },
+        {
+          "key": "review-047",
+          "text": "marissa goes to anchorage. marie dances.",
+          "patterns": [
+            "Someone going somewhere",
+            "Someone doing something"
+          ]
+        },
+        {
+          "key": "review-048",
+          "text": "amber is green. lori laughs.",
+          "patterns": [
+            "Describing something",
+            "Someone doing something"
+          ]
+        },
+        {
+          "key": "review-049",
+          "text": "gwendolyn smiles. does alejandro love patty?",
+          "patterns": [
+            "Someone doing something",
+            "Asking a question"
+          ]
+        },
+        {
+          "key": "review-050",
+          "text": "the scoreboard is in huntington. kristen walks to nepal.",
+          "patterns": [
+            "Saying where something is",
+            "Someone going somewhere"
+          ]
+        },
+        {
+          "key": "review-051",
+          "text": "sandy remembers ramon. brad goes to cincinnati.",
+          "patterns": [
+            "Someone acting toward someone",
+            "Someone going somewhere"
+          ]
+        },
+        {
+          "key": "review-052",
+          "text": "the call is in kaneohe. after lunch, roger laughs.",
+          "patterns": [
+            "Saying where something is",
+            "Putting the time first"
+          ]
+        },
+        {
+          "key": "review-053",
+          "text": "does aria trust alana? pat likes harry.",
+          "patterns": [
+            "Asking a question",
+            "Someone acting toward someone"
+          ]
+        },
+        {
+          "key": "review-054",
+          "text": "kevin loves mason. amelia, the sprite is special.",
+          "patterns": [
+            "Someone acting toward someone",
+            "Speaking to someone"
+          ]
+        },
+        {
+          "key": "review-055",
+          "text": "johnathan will arrive. the passageway is difficult.",
+          "patterns": [
+            "Something possible or planned",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-056",
+          "text": "rosalie sleeps. dylan waits.",
+          "patterns": [
+            "Someone doing something",
+            "Someone doing something"
+          ]
+        },
+        {
+          "key": "review-057",
+          "text": "cecelia, blake is slippery. alexandria trusts ronald.",
+          "patterns": [
+            "Speaking to someone",
+            "Someone acting toward someone"
+          ]
+        },
+        {
+          "key": "review-058",
+          "text": "jesse can sleep. allison meets aimee.",
+          "patterns": [
+            "Something possible or planned",
+            "Someone acting toward someone"
+          ]
+        },
+        {
+          "key": "review-059",
+          "text": "lynn is wild. southaven is sensitive.",
+          "patterns": [
+            "Describing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-060",
+          "text": "warren travels to fayetteville. alberta will work.",
+          "patterns": [
+            "Someone going somewhere",
+            "Something possible or planned"
+          ]
+        },
+        {
+          "key": "review-061",
+          "text": "destiny, the paddy is greasy. this evening, joanne works.",
+          "patterns": [
+            "Speaking to someone",
+            "Putting the time first"
+          ]
+        },
+        {
+          "key": "review-062",
+          "text": "chelsea sleeps. maggie, the dag is fit.",
+          "patterns": [
+            "Someone doing something",
+            "Speaking to someone"
+          ]
+        },
+        {
+          "key": "review-063",
+          "text": "the nobility is timid. colby sleeps.",
+          "patterns": [
+            "Describing something",
+            "Someone doing something"
+          ]
+        },
+        {
+          "key": "review-064",
+          "text": "celia can sleep. sawyer will work.",
+          "patterns": [
+            "Something possible or planned",
+            "Something possible or planned"
+          ]
+        },
+        {
+          "key": "review-065",
+          "text": "vivian goes to aurora. the doctor is in peru.",
+          "patterns": [
+            "Someone going somewhere",
+            "Saying where something is"
+          ]
+        },
+        {
+          "key": "review-066",
+          "text": "does kyle remember sonia? emily goes to davenport.",
+          "patterns": [
+            "Asking a question",
+            "Someone going somewhere"
+          ]
+        },
+        {
+          "key": "review-067",
+          "text": "the preschool is unfair. jeffery, the tam is dirty.",
+          "patterns": [
+            "Describing something",
+            "Speaking to someone"
+          ]
+        },
+        {
+          "key": "review-068",
+          "text": "terri travels to saint louis. martha calls joshua.",
+          "patterns": [
+            "Someone going somewhere",
+            "Someone acting toward someone"
+          ]
+        },
+        {
+          "key": "review-069",
+          "text": "avery dances. on monday, alexandria waits.",
+          "patterns": [
+            "Someone doing something",
+            "Putting the time first"
+          ]
+        },
+        {
+          "key": "review-070",
+          "text": "rose helps the teacher. kyle, may is huge.",
+          "patterns": [
+            "Someone acting toward someone",
+            "Speaking to someone"
+          ]
+        },
+        {
+          "key": "review-071",
+          "text": "keith laughs. today, theodore works.",
+          "patterns": [
+            "Someone doing something",
+            "Putting the time first"
+          ]
+        },
+        {
+          "key": "review-072",
+          "text": "lori is in newark. sharon, columbus is new.",
+          "patterns": [
+            "Saying where something is",
+            "Speaking to someone"
+          ]
+        },
+        {
+          "key": "review-073",
+          "text": "the pic is in iraq. tokyo is in jacksonville.",
+          "patterns": [
+            "Saying where something is",
+            "Saying where something is"
+          ]
+        },
+        {
+          "key": "review-074",
+          "text": "does hugh thank sarah? this evening, veronica dances.",
+          "patterns": [
+            "Asking a question",
+            "Putting the time first"
+          ]
+        },
+        {
+          "key": "review-075",
+          "text": "the bonanza is intelligent. this evening, jeannette arrives.",
+          "patterns": [
+            "Describing something",
+            "Putting the time first"
+          ]
+        },
+        {
+          "key": "review-076",
+          "text": "timothy waits. kennedy travels to vanuatu.",
+          "patterns": [
+            "Someone doing something",
+            "Someone going somewhere"
+          ]
+        },
+        {
+          "key": "review-077",
+          "text": "tomorrow, josie laughs. the depot is functional.",
+          "patterns": [
+            "Putting the time first",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-078",
+          "text": "on monday, janet sleeps. the firehouse is in uzbekistan.",
+          "patterns": [
+            "Putting the time first",
+            "Saying where something is"
+          ]
+        },
+        {
+          "key": "review-079",
+          "text": "alan, jonathan is fit. kay knows arthur.",
+          "patterns": [
+            "Speaking to someone",
+            "Someone acting toward someone"
+          ]
+        },
+        {
+          "key": "review-080",
+          "text": "natasha will laugh. jaxson walks to fort worth.",
+          "patterns": [
+            "Something possible or planned",
+            "Someone going somewhere"
+          ]
+        },
+        {
+          "key": "review-081",
+          "text": "does trenton help abel? rome is tiny.",
+          "patterns": [
+            "Asking a question",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-082",
+          "text": "noah goes to maryland. gloria travels to florida.",
+          "patterns": [
+            "Someone going somewhere",
+            "Someone going somewhere"
+          ]
+        },
+        {
+          "key": "review-083",
+          "text": "does ryan call aubrey? does clinton like edith?",
+          "patterns": [
+            "Asking a question",
+            "Asking a question"
+          ]
+        },
+        {
+          "key": "review-084",
+          "text": "jayden smiles. on monday, cory works.",
+          "patterns": [
+            "Someone doing something",
+            "Putting the time first"
+          ]
+        },
+        {
+          "key": "review-085",
+          "text": "colby helps inez. the caregiver is likeable.",
+          "patterns": [
+            "Someone acting toward someone",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-086",
+          "text": "nicole is in nampa. does sophia thank linda?",
+          "patterns": [
+            "Saying where something is",
+            "Asking a question"
+          ]
+        },
+        {
+          "key": "review-087",
+          "text": "rebekah travels to hong kong. ida, the staircase is generous.",
+          "patterns": [
+            "Someone going somewhere",
+            "Speaking to someone"
+          ]
+        },
+        {
+          "key": "review-088",
+          "text": "tomorrow, stanley works. after lunch, willard dances.",
+          "patterns": [
+            "Putting the time first",
+            "Putting the time first"
+          ]
+        },
+        {
+          "key": "review-089",
+          "text": "does daisy call leah? tomorrow, norma sleeps.",
+          "patterns": [
+            "Asking a question",
+            "Putting the time first"
+          ]
+        },
+        {
+          "key": "review-090",
+          "text": "patricia waits. eli goes to sioux falls.",
+          "patterns": [
+            "Someone doing something",
+            "Someone going somewhere"
+          ]
+        },
+        {
+          "key": "review-091",
+          "text": "alec, the molding is mild. the lackey is enormous.",
+          "patterns": [
+            "Speaking to someone",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-092",
+          "text": "brendan waits. andre, the receiver is greasy.",
+          "patterns": [
+            "Someone doing something",
+            "Speaking to someone"
+          ]
+        },
+        {
+          "key": "review-093",
+          "text": "angelina dances. the spine is visible.",
+          "patterns": [
+            "Someone doing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-094",
+          "text": "lester helps patsy. the reinforcement is in delaware.",
+          "patterns": [
+            "Someone acting toward someone",
+            "Saying where something is"
+          ]
+        },
+        {
+          "key": "review-095",
+          "text": "dave is early. antoinette, the intercom is strong.",
+          "patterns": [
+            "Describing something",
+            "Speaking to someone"
+          ]
+        },
+        {
+          "key": "review-096",
+          "text": "after lunch, jerry sleeps. does wesley trust marjorie?",
+          "patterns": [
+            "Putting the time first",
+            "Asking a question"
+          ]
+        },
+        {
+          "key": "review-097",
+          "text": "caleb smiles. richard is silly.",
+          "patterns": [
+            "Someone doing something",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-098",
+          "text": "sawyer will smile. kaitlyn dances.",
+          "patterns": [
+            "Something possible or planned",
+            "Someone doing something"
+          ]
+        },
+        {
+          "key": "review-099",
+          "text": "the streetcar is in argentina. the unification is confident.",
+          "patterns": [
+            "Saying where something is",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-100",
+          "text": "does agnes like josie? today, the children arrive.",
+          "patterns": [
+            "Asking a question",
+            "Putting the time first"
+          ]
+        },
+        {
+          "key": "review-101",
+          "text": "russell loves herbert. the watermark is in russia.",
+          "patterns": [
+            "Someone acting toward someone",
+            "Saying where something is"
+          ]
+        },
+        {
+          "key": "review-102",
+          "text": "today, joe waits. willie will smile.",
+          "patterns": [
+            "Putting the time first",
+            "Something possible or planned"
+          ]
+        },
+        {
+          "key": "review-103",
+          "text": "jay will dance. serenity might dance.",
+          "patterns": [
+            "Something possible or planned",
+            "Something possible or planned"
+          ]
+        },
+        {
+          "key": "review-104",
+          "text": "the burglar is in sacramento. the receptor is in olathe.",
+          "patterns": [
+            "Saying where something is",
+            "Saying where something is"
+          ]
+        },
+        {
+          "key": "review-105",
+          "text": "ryan goes to bloomington. inez might laugh.",
+          "patterns": [
+            "Someone going somewhere",
+            "Something possible or planned"
+          ]
+        },
+        {
+          "key": "review-106",
+          "text": "alec can sleep. bradley, kylie is enthusiastic.",
+          "patterns": [
+            "Something possible or planned",
+            "Speaking to someone"
+          ]
+        },
+        {
+          "key": "review-107",
+          "text": "memphis is in fargo. the lad is refreshed.",
+          "patterns": [
+            "Saying where something is",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-108",
+          "text": "debbie, the showcase is colorful. timothy is in las cruces.",
+          "patterns": [
+            "Speaking to someone",
+            "Saying where something is"
+          ]
+        },
+        {
+          "key": "review-109",
+          "text": "the superintendent is correct. arianna laughs.",
+          "patterns": [
+            "Describing something",
+            "Someone doing something"
+          ]
+        },
+        {
+          "key": "review-110",
+          "text": "aria, tennessee is stylish. tucson is in reno.",
+          "patterns": [
+            "Speaking to someone",
+            "Saying where something is"
+          ]
+        },
+        {
+          "key": "review-111",
+          "text": "valerie smiles. vernon can dance.",
+          "patterns": [
+            "Someone doing something",
+            "Something possible or planned"
+          ]
+        },
+        {
+          "key": "review-112",
+          "text": "diane sleeps. does gertrude meet gracie?",
+          "patterns": [
+            "Someone doing something",
+            "Asking a question"
+          ]
+        },
+        {
+          "key": "review-113",
+          "text": "after lunch, yvette sleeps. after lunch, peggy waits.",
+          "patterns": [
+            "Putting the time first",
+            "Putting the time first"
+          ]
+        },
+        {
+          "key": "review-114",
+          "text": "angie dances. jimmie thanks ricky.",
+          "patterns": [
+            "Someone doing something",
+            "Someone acting toward someone"
+          ]
+        },
+        {
+          "key": "review-115",
+          "text": "flora likes floyd. cynthia calls emily.",
+          "patterns": [
+            "Someone acting toward someone",
+            "Someone acting toward someone"
+          ]
+        },
+        {
+          "key": "review-116",
+          "text": "the borough is hard. ella walks to milford.",
+          "patterns": [
+            "Describing something",
+            "Someone going somewhere"
+          ]
+        },
+        {
+          "key": "review-117",
+          "text": "karla, the freeman is dusty. the component is rude.",
+          "patterns": [
+            "Speaking to someone",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-118",
+          "text": "does muriel meet august? jayden will arrive.",
+          "patterns": [
+            "Asking a question",
+            "Something possible or planned"
+          ]
+        },
+        {
+          "key": "review-119",
+          "text": "kristina, fargo is tidy. the makeup is popular.",
+          "patterns": [
+            "Speaking to someone",
+            "Describing something"
+          ]
+        },
+        {
+          "key": "review-120",
+          "text": "naomi can dance. does andre thank harriet?",
+          "patterns": [
+            "Something possible or planned",
+            "Asking a question"
+          ]
+        },
+        {
+          "key": "review-121",
+          "text": "hope, clinton is busy. does jillian remember albert?",
+          "patterns": [
+            "Speaking to someone",
+            "Asking a question"
+          ]
+        },
+        {
+          "key": "review-122",
+          "text": "jeffery meets edgar. shirley arrives.",
+          "patterns": [
+            "Someone acting toward someone",
+            "Someone doing something"
+          ]
+        },
+        {
+          "key": "review-123",
+          "text": "roger travels to pakistan. rosalie might arrive.",
+          "patterns": [
+            "Someone going somewhere",
+            "Something possible or planned"
+          ]
+        },
+        {
+          "key": "review-124",
+          "text": "norman travels to south africa. the papa is in uganda.",
+          "patterns": [
+            "Someone going somewhere",
+            "Saying where something is"
+          ]
+        },
+        {
+          "key": "review-125",
+          "text": "eliza might laugh. louise arrives.",
+          "patterns": [
+            "Something possible or planned",
+            "Someone doing something"
+          ]
+        },
+        {
+          "key": "review-126",
+          "text": "josiah meets jaxson. the councillor is in macau.",
+          "patterns": [
+            "Someone acting toward someone",
+            "Saying where something is"
+          ]
+        },
+        {
+          "key": "review-127",
+          "text": "vernon calls abraham. billy will wait.",
+          "patterns": [
+            "Someone acting toward someone",
+            "Something possible or planned"
+          ]
+        }
+      ]
+    }
+  },
+  "feedback": {
+    "laterCodesUnchanged": true,
+    "before": {
+      "text": "this is cool. sarah is sexy.",
+      "clauses": [
+        {
+          "template": 0,
+          "values": [
+            4127,
+            66
+          ],
+          "text": "this is cool.",
+          "pattern": "Describing something",
+          "previous": null
+        },
+        {
+          "template": 0,
+          "values": [
+            1301,
+            293
+          ],
+          "text": "sarah is sexy.",
+          "pattern": "Describing something",
+          "previous": "this is cool."
+        }
+      ],
+      "mode": "clauses"
+    },
+    "after": {
+      "text": "hudson sleeps. natalia, the briar is selfish.",
+      "clauses": [
+        {
+          "template": 1,
+          "values": [
+            432,
+            3
+          ],
+          "text": "hudson sleeps.",
+          "pattern": "Someone doing something",
+          "previous": null
+        },
+        {
+          "template": 8,
+          "values": [
+            744,
+            1727,
+            290
+          ],
+          "text": "natalia, the briar is selfish.",
+          "pattern": "Speaking to someone",
+          "previous": "hudson sleeps."
+        }
+      ],
+      "mode": "clauses"
+    }
+  },
+  "developmentParseOnly": {
+    "total": 1000,
+    "passed": 0,
+    "ids": [],
+    "scope": "Parse-only scope check of the small experimental grammar; not the production full-pipeline benchmark."
+  },
+  "implementation": {
+    "src/prototypes/language.js": "61000396ce7cb93f3dac1ecaa69f0088d5be1314a5a81213efe192f4b5d2c5b2",
+    "src/prototypes/codec.js": "757c05a2fe6ea1119fccc2b58b381eec0a47637aec1c1bcfa1c55b585811d264",
+    "src/mapping.js": "1093d9a700bffb0894c915b7b7a8680a75bb49bb530a33c3f4361ee526456f98",
+    "data/semantics.json": "ecf9ce10029133c4c4cfc806826af1b3396c3f5d997cf3e5df3bf797b6fcfbcc"
+  }
+}

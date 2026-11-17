@@ -1,0 +1,481 @@
+{
+  "criteria": "English grammar, agreement, case, required complements and article sounds. Odd meanings are allowed. Parser/composer replay alone is not independent grammaticality evidence. All rows await independent review; these 68 readings do not satisfy the 1000-reading review gate.",
+  "results": [
+    {
+      "authorText": "this is a test",
+      "key": "",
+      "reading": "this is a nanny",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "this is a test",
+      "key": "x",
+      "reading": "this is a trunk",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "this is a test",
+      "key": "other",
+      "reading": "this is a trombone",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "this is a test",
+      "key": "🔑",
+      "reading": "this is a cutler",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "i am ready",
+      "key": "",
+      "reading": "i am real",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "i am ready",
+      "key": "x",
+      "reading": "i am alright",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "i am ready",
+      "key": "other",
+      "reading": "i am usual",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "i am ready",
+      "key": "🔑",
+      "reading": "i am new",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "those are my books",
+      "key": "",
+      "reading": "those are my weeks",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "those are my books",
+      "key": "x",
+      "reading": "those are my photons",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "those are my books",
+      "key": "other",
+      "reading": "those are my stoles",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "those are my books",
+      "key": "🔑",
+      "reading": "those are my roadblocks",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "an old cat sleeps",
+      "key": "",
+      "reading": "an unbeaten sector laughs",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "an old cat sleeps",
+      "key": "x",
+      "reading": "an official planner leaves",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "an old cat sleeps",
+      "key": "other",
+      "reading": "an academic cutoff eats",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "an old cat sleeps",
+      "key": "🔑",
+      "reading": "an unsafe governor plays",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "2 cats love you",
+      "key": "",
+      "reading": "92 cusps teach them",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "2 cats love you",
+      "key": "x",
+      "reading": "25 vineyards understand you",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "2 cats love you",
+      "key": "other",
+      "reading": "16 safeties change her",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "2 cats love you",
+      "key": "🔑",
+      "reading": "71 farmlands support it",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "do you love me?",
+      "key": "",
+      "reading": "do you keep it?",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "do you love me?",
+      "key": "x",
+      "reading": "do you multiply us?",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "do you love me?",
+      "key": "other",
+      "reading": "do you train her?",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "do you love me?",
+      "key": "🔑",
+      "reading": "do you hate me?",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "i can't see you",
+      "key": "",
+      "reading": "i can't meet him",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "i can't see you",
+      "key": "x",
+      "reading": "i can't chase her",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "i can't see you",
+      "key": "other",
+      "reading": "i can't support me",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "i can't see you",
+      "key": "🔑",
+      "reading": "i can't like me",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "she has been walking",
+      "key": "",
+      "reading": "she has been stopping",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "she has been walking",
+      "key": "x",
+      "reading": "she has been running",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "she has been walking",
+      "key": "other",
+      "reading": "it has been laughing",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "she has been walking",
+      "key": "🔑",
+      "reading": "she has been drinking",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "he's seen me",
+      "key": "",
+      "reading": "he's dragged us",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "he's seen me",
+      "key": "x",
+      "reading": "he's served him",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "he's seen me",
+      "key": "other",
+      "reading": "he's understood him",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "he's seen me",
+      "key": "🔑",
+      "reading": "he's held him",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "tom walks to the park",
+      "key": "",
+      "reading": "joy listens to the federalist",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "tom walks to the park",
+      "key": "x",
+      "reading": "krista thinks to the tum",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "tom walks to the park",
+      "key": "other",
+      "reading": "erick swims to the widower",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "tom walks to the park",
+      "key": "🔑",
+      "reading": "carlos travels to the missy",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "she gives me a book",
+      "key": "",
+      "reading": "it sends her a diaphragm",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "she gives me a book",
+      "key": "x",
+      "reading": "she offers me a pastor",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "she gives me a book",
+      "key": "other",
+      "reading": "she teaches it a safety",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "she gives me a book",
+      "key": "🔑",
+      "reading": "he shows you a chemist",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "he depends on you",
+      "key": "",
+      "reading": "he relies on me",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "he depends on you",
+      "key": "x",
+      "reading": "she depends on them",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "he depends on you",
+      "key": "other",
+      "reading": "it relies on us",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "he depends on you",
+      "key": "🔑",
+      "reading": "she relies on him",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "she wants to see you",
+      "key": "",
+      "reading": "she wants to confirm me",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "she wants to see you",
+      "key": "x",
+      "reading": "it hopes to prepare us",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "she wants to see you",
+      "key": "other",
+      "reading": "she decides to tell me",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "she wants to see you",
+      "key": "🔑",
+      "reading": "it decides to hug you",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "i think that she is ready",
+      "key": "",
+      "reading": "i believe that she is nice",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "i think that she is ready",
+      "key": "x",
+      "reading": "i know that she is necessary",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "i think that she is ready",
+      "key": "other",
+      "reading": "i think that she is free",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "i think that she is ready",
+      "key": "🔑",
+      "reading": "i remember that she is warm",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "the cat that tom loves sleeps",
+      "key": "",
+      "reading": "the raja that fernando eats walks",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "the cat that tom loves sleeps",
+      "key": "x",
+      "reading": "the messenger that jocelyn leaves cries",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "the cat that tom loves sleeps",
+      "key": "other",
+      "reading": "the mufti that grace eats eats",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "the cat that tom loves sleeps",
+      "key": "🔑",
+      "reading": "the chased that frankie carries drinks",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "the book was written by tom",
+      "key": "",
+      "reading": "the presenter was made by janice",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "the book was written by tom",
+      "key": "x",
+      "reading": "the stairway was dragged by mallory",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "the book was written by tom",
+      "key": "other",
+      "reading": "the biker was visited by tommy",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "the book was written by tom",
+      "key": "🔑",
+      "reading": "the basketball was known by eli",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "if she is ready, i will visit tom",
+      "key": "",
+      "reading": "if she is long, i will carry gail",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "if she is ready, i will visit tom",
+      "key": "x",
+      "reading": "if it is sure, i will trim julian",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "if she is ready, i will visit tom",
+      "key": "other",
+      "reading": "if he is large, i will consider mark",
+      "composerReplay": true,
+      "independentReview": "pending"
+    },
+    {
+      "authorText": "if she is ready, i will visit tom",
+      "key": "🔑",
+      "reading": "if he is short, i will keep brandon",
+      "composerReplay": true,
+      "independentReview": "pending"
+    }
+  ]
+}

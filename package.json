@@ -1,0 +1,18 @@
+{
+  "name": "pakupaku",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "test:prototypes": "node --test tests/prototypes.test.js",
+    "audit:prototypes": "node tools/coverage/prototype-audit.js",
+    "coverage": "node tools/coverage/run.js",
+    "coverage:stage2": "node tools/coverage/run.js --stage2",
+    "vocabulary:stage2": "python3 tools/vocabulary/build_geography.py && python3 tools/vocabulary/build_dependency_grammar.py && python3 tools/vocabulary/extend_stage2.py && python3 tools/vocabulary/build_option3_pools.py",
+    "release:check": "node tools/release/lock.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "version": "1.0.0"
+}

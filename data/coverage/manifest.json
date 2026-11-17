@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "scope": "Ordinary contemporary English personal messages. Pilot proxies: workplace email and spoken conversation; not a representative deployment sample.",
+  "normalization": "Lowercase; collapse whitespace; remove spaces before closing sentence punctuation, around numeric date slashes and after a clock colon. No paraphrase or word removal.",
+  "exclusions": "None in this pilot. Typos, emoji, URLs, code, non-English and jargon retained in all-submitted denominators; future representative collection must prelabel scope before measurement.",
+  "sampling": "UD r2.15 training files, email/conversation documents in SHA256(document ID) order. Preserve original pilot: first 30 nonduplicate documents per source, every third retained document supplies an intact note; others supply sentences, 80/10/10 document split by retained ordinal. Expansion: scan unselected documents in the same order, adding development sentences until each source has exactly 500 development sentences. Reserved pilot groups remain unchanged. The last expansion document may be partially sampled. Global token-set Jaccard >= .85 for >=5 tokens or identical token sets removed before sampling. Conservative similarity can remove legitimate repeated greetings.",
+  "mix": {
+    "work": 0.5,
+    "conversation": 0.5
+  },
+  "mix_status": "Provisional equal source weighting, not observed deployment frequencies; owner scope review pending.",
+  "acceptance_status": "Reserved pilot split, not measured by default. Insufficient size and author/thread metadata for release independence; obtain fresh human challenge batches and representative 10000 sentences/2000 notes for stage 4.",
+  "sources": [
+    {
+      "id": "ewt",
+      "url": "https://github.com/UniversalDependencies/UD_English-EWT/tree/r2.15",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a049fc40822e21593ff89ccd0a4b081443f09fae71b61f813c624aa598f6c566",
+      "readme_sha256": "fc0c5d1344f56442af1501c8c2c850c002924ab6fe20f7de6f8667c1ebc46a79",
+      "attribution": "Universal Dependencies UD_English-EWT, release 2.15; full credits in sources/ewt-README.md"
+    },
+    {
+      "id": "gum",
+      "url": "https://github.com/UniversalDependencies/UD_English-GUM/tree/r2.15",
+      "license": "CC-BY-NC-SA-4.0",
+      "sha256": "2c25ae2a7c51ac467777eeeb0beae46b46e389c5e8c5d6f8a0513b0e0f7683af",
+      "readme_sha256": "21fa1d058c33a06d95019651b8a8fff362e33a803e214797c4a33983b29e40cb",
+      "attribution": "Universal Dependencies UD_English-GUM, release 2.15; full credits in sources/gum-README.md"
+    }
+  ],
+  "corpus_sha256": "7040280b6e17881058f3f95e086976b6a682bbf54f4ac20df16a80bad1d25c45"
+}

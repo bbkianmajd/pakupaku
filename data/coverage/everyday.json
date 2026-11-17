@@ -1,0 +1,40 @@
+{
+  "description": "Representative construction families; additions should cover families rather than individual phrases.",
+  "supported": [
+    "hello",
+    "hi good morning",
+    "good evening, tom",
+    "i love you",
+    "you trust me",
+    "we need her",
+    "they help bobby",
+    "he loves her",
+    "she sees tom",
+    "it follows me",
+    "tom loves bobby",
+    "bobby visits tom",
+    "the cats love you",
+    "the cat loves you",
+    "the lovely cat follows bobby",
+    "the lovely cats follow tom",
+    "tom and bobby love you",
+    "i and tom love you",
+    "tom and i love you",
+    "i love you and she likes me",
+    "tom loves bobby and walks",
+    "the cats sleep",
+    "the cat sleeps",
+    "sally slept. hello",
+    "i love you. good morning",
+    "17 cats laughed",
+    "sally bought 1 apple"
+  ],
+  "known_gaps": {
+    "question": ["do you love me"],
+    "negation": ["i do not love you"],
+    "future": ["tom will visit bobby"],
+    "present_numeric_subject": ["2 cats love you"],
+    "prepositional_phrase": ["tom walks to the park"],
+    "relative_clause": ["the cat that tom loves sleeps"]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "scope": "Uniform versus weighted selection on the same grammar. Four saved packets per policy; 400 reader keys per packet. Descriptive experiment, not a natural-language or security benchmark.",
+  "results": {
+    "uniform": {
+      "readings": 1600,
+      "withDigits": 15,
+      "withLargeNumber": 5,
+      "authorRecoveries": 4,
+      "packets": [
+        {
+          "note": "this is cool. sarah is sexy.",
+          "payload": "eyJ2ZXJzaW9uIjoicGFrdXBha3UtZ3JhbW1hci1zdHJlYW0tMy13ZWlnaHRlZC1udW1iZXJzIiwibGFuZ3VhZ2UiOiJjZGE0YzU5MjBkYTBjOTAzNzAzOWM4MDQyMjRjOTVlNzE1ODliODdhNDg3YzU4YzE0MzIxZjg4Mjc1MjM1YTQzIiwiYnVkZ2V0IjozMiwibnVtYmVycyI6Miwic2FsdCI6Ijc1Zjg5NjM4OWY0ZjcxYzc3OGZiZjA2OTVkM2QwMzYwIiwiYm9keSI6InRLNGRyNHZScFVtckhwTVp5SEE2LTZPWk8ySXoxT2Z2WEl5dXJYTmUyYy1NN1ZvN1VBLXpoSXVOYnpZTVhyQnptRkZEd3ZjYWNVd2x3VG8wUW4tOGlHZmRmSjBIVHJORXNWT0hiaUQtYjlCV3FKSmE5SVJkdE9FazdBZFh3U1ZTIn0"
+        },
+        {
+          "note": "hello. i love you. can you help me? meet me at 1530.",
+          "payload": "eyJ2ZXJzaW9uIjoicGFrdXBha3UtZ3JhbW1hci1zdHJlYW0tMy13ZWlnaHRlZC1udW1iZXJzIiwibGFuZ3VhZ2UiOiJjZGE0YzU5MjBkYTBjOTAzNzAzOWM4MDQyMjRjOTVlNzE1ODliODdhNDg3YzU4YzE0MzIxZjg4Mjc1MjM1YTQzIiwiYnVkZ2V0Ijo2NCwibnVtYmVycyI6Miwic2FsdCI6ImIyNGFhOTJhYjY1ODBiOWE1MjYyNTUzYWQxYjJmMzRiIiwiYm9keSI6IjdWRUxkaFA2bW0zdVRxWWtuYk9WUHJlcmRRLWVkMll5NDNuc3VlWExsWWl1UGF6TXhHOXNsc2J2R19LOTZtcnB6OWdIZmdLQkVxLWZmTHFHdzJDMlJpTVIwMkhybDZ4ZzI2RkEydHlZMENYcTFxNDJid20xX0RxS0Q5bzlRcFhUM0xUMGMyN0pzUVRuYkpDUlZvNmc2UzVGZWVwY0I0TVdxTFIxSV96aWlkRlZJNzdBNUR5QXUzTUdBX2liazFxVmo3VGpqNi1JVnhSWk1Hejg0R3lzRUwxaDNqbmhJbDFuQ0EtYW5oV0djaXRMVXljQW9IdFo4UVhtRFgxclpGNl8ifQ"
+        },
+        {
+          "note": "i have 123456 books.",
+          "payload": "eyJ2ZXJzaW9uIjoicGFrdXBha3UtZ3JhbW1hci1zdHJlYW0tMy13ZWlnaHRlZC1udW1iZXJzIiwibGFuZ3VhZ2UiOiJjZGE0YzU5MjBkYTBjOTAzNzAzOWM4MDQyMjRjOTVlNzE1ODliODdhNDg3YzU4YzE0MzIxZjg4Mjc1MjM1YTQzIiwiYnVkZ2V0IjozMiwibnVtYmVycyI6Miwic2FsdCI6Ijc0MDdkYjZkMWYyNjc1ZTY4YmE2MjkzZjJiOTkwYjljIiwiYm9keSI6IlhWY2JvMzAtay13TmFseGJmcjFtZlE2bS1zbFNEOS0xVjFCQzY3WnhCcmkzZWo1eG40Vkg3UWxERk83U0hBb3BRMDVUenJQT25ueTZybnpRT2R4ZlhWWTVVZ25hRE11aWhFUUIxRWJkNExkNF9tcHN6RG94R2gyYXJWWHdBSDhYIn0"
+        },
+        {
+          "note": "is this ready for production?",
+          "payload": "eyJ2ZXJzaW9uIjoicGFrdXBha3UtZ3JhbW1hci1zdHJlYW0tMy13ZWlnaHRlZC1udW1iZXJzIiwibGFuZ3VhZ2UiOiJjZGE0YzU5MjBkYTBjOTAzNzAzOWM4MDQyMjRjOTVlNzE1ODliODdhNDg3YzU4YzE0MzIxZjg4Mjc1MjM1YTQzIiwiYnVkZ2V0IjozMiwibnVtYmVycyI6Miwic2FsdCI6IjY3NGUxZDg3ODg5MDViZjc4NjRlMmZhNmZlY2Q4MWQ4IiwiYm9keSI6IkdlNi16RUVZWlRtYmd5UWh6TjA1Q0EtWVV5a3hTa1Y2ZFoyZkh4MDlQd2oxUFp3OWxaMXlhMmRER1J1anlpUkVRU3c3SEl0OUxIbkNFVkdoX0g1VGk5NnlGcmF6TGdBalBVMWJlNnpmTUlkUExRLWxJM1BSVkw5RjdjNzFGSzEwIn0"
+        }
+      ],
+      "samples": [
+        "sa- me too? 08/16/2000 10:30 am; both — take care, – thank you,? regards, —",
+        "how was the th detail - pdf communications do@enron_doc! ok; thirty-two —? tha- – that's fatal; i am in mediation — three 11 am; hey - much; none? thank you, —",
+        "ezra, and he's quite helpful above with “[the so sticky quite personal extremely lean hair]” around 31/12/3526 really directly after 02/16/2048",
+        "their pediatric very uncertain very rough so skilled quite imperfect really popular lyrical quite spontaneous extremely honest so ripe paramount very mature extremely clumsy sugar doesn't mean the world to “me” as it's playing the unification ask and you didn't mean very little to €652557 really together.",
+        "a little quite welcome kathleen was not missed by \"$51.37\" very much until noon before noon very much after midnight very much by noon very much after midnight up kinda probably after noon very much until midnight inside outside.",
+        "ok so, what — 03/28/2001 01:09 pm. some. or late- —; but, um, a? understand there not.",
+        "d- is, it, too prosperous — 08/07/2001 12 pm",
+        "uh, to choate, and, from — from corel - thanks for ''£211,883,133,738.62''. where: conf. parent; huskers close over davies; some; thank you, –",
+        "phyllis, it’s tested $965,611.17 extreme today in ''you'' especially.",
+        "passcode: 4153030 - a case, selected me that copies are also snoozing to execute – some? all –",
+        "passcode: 4153030. you want? many; much? most — take care,? take care, — enough; enough; most — most -",
+        "she'd contacted \"(“the behemoth and 6242 really annoyed quite pretty designers, and this and that”) and you\" up."
+      ]
+    },
+    "weighted": {
+      "readings": 1600,
+      "withDigits": 2,
+      "withLargeNumber": 0,
+      "authorRecoveries": 4,
+      "packets": [
+        {
+          "note": "this is cool. sarah is sexy.",
+          "payload": "eyJ2ZXJzaW9uIjoicGFrdXBha3UtZ3JhbW1hci1zdHJlYW0tMy13ZWlnaHRlZC1udW1iZXJzIiwibGFuZ3VhZ2UiOiIyNzlhZWQ2NTcxNWM2NTc1Y2I1NmMzNzllZjYyOWM1N2RlODNiYjI4OWRjYzgyYWQxY2RhMTM5NTU3Yjc4MGI4IiwiYnVkZ2V0IjozMiwibnVtYmVycyI6Miwic2FsdCI6IjljNzUzZWMyMzQ0YjRiZDNlYWM4NDI1MTM2MzUyM2ExIiwiYm9keSI6InY0LTlwY04tTEZrSHp0RXI3Z0dUbTlHRkVlSlZKVWpkcVY5N2NVT1YwTFBLRVAtVnhzODFKRmlOOE1GS09UdS01Y01tTDR0SzRyUkRfZWxWSDJLWjV2ZUgta2Jxa1dKMm9BSW5xX05XSTl2eEx6TnN3YmxGWDV2bHp6dGthdzA4In0"
+        },
+        {
+          "note": "hello. i love you. can you help me? meet me at 1530.",
+          "payload": "eyJ2ZXJzaW9uIjoicGFrdXBha3UtZ3JhbW1hci1zdHJlYW0tMy13ZWlnaHRlZC1udW1iZXJzIiwibGFuZ3VhZ2UiOiIyNzlhZWQ2NTcxNWM2NTc1Y2I1NmMzNzllZjYyOWM1N2RlODNiYjI4OWRjYzgyYWQxY2RhMTM5NTU3Yjc4MGI4IiwiYnVkZ2V0Ijo2NCwibnVtYmVycyI6Miwic2FsdCI6IjkzMDUzZDQ5OTA0ZWY0Y2YzMjQxYjBiOGJlOWYzMzJlIiwiYm9keSI6IlNJaVlpZjJiX0dtalJEaElQM19yRFNtVnJ0dXMweEN2dDFVVEg4UzE4LUFjZm5iX0NacHZrRkpRQXh4VVI0SHpXV1lnSDhSNmNXTlBnZzVTYkdEZUJERy1EUlktUHY5Y041X0VjRFNRYlNzUVBhcWR2bW1udlhmQ3pZVnpCUFA4UzBhZmg0UUVjZ2ZIb2NVN0UtQlBJUTFHTGxKRkUzTG9jWU5vZlJseWkyUkM5RlBsYU5QaXZSOVc3Rmh6RTJ1d2t3azM3M2d5cU5LQnByazhGNERWQUNoblE2ODNPNS0weTNFeWNRTnlOb3VvWWhNendZT0lmWkQ5bVJmU0xxa2oifQ"
+        },
+        {
+          "note": "i have 123456 books.",
+          "payload": "eyJ2ZXJzaW9uIjoicGFrdXBha3UtZ3JhbW1hci1zdHJlYW0tMy13ZWlnaHRlZC1udW1iZXJzIiwibGFuZ3VhZ2UiOiIyNzlhZWQ2NTcxNWM2NTc1Y2I1NmMzNzllZjYyOWM1N2RlODNiYjI4OWRjYzgyYWQxY2RhMTM5NTU3Yjc4MGI4IiwiYnVkZ2V0IjozMiwibnVtYmVycyI6Miwic2FsdCI6ImU5M2Y3YzcyYzJiNTBmN2E1ZWE1NjA2NTBiYjBkODY1IiwiYm9keSI6IlhqeEdlWFItdHltbmdNQjNQZjFvSjFzNEF4b3pqa3JPcGNZdXItN09jM0swQTRRU09pLWtjeV82a0doZGd3MG8zWm1qbnFqUFF5M1h4eEZlQ054X0Npa3pTVWd0MDljT2VZeTBxdXFhcDJreVFMSGwybEJubkZJQnF4dXhsemRGIn0"
+        },
+        {
+          "note": "is this ready for production?",
+          "payload": "eyJ2ZXJzaW9uIjoicGFrdXBha3UtZ3JhbW1hci1zdHJlYW0tMy13ZWlnaHRlZC1udW1iZXJzIiwibGFuZ3VhZ2UiOiIyNzlhZWQ2NTcxNWM2NTc1Y2I1NmMzNzllZjYyOWM1N2RlODNiYjI4OWRjYzgyYWQxY2RhMTM5NTU3Yjc4MGI4IiwiYnVkZ2V0IjozMiwibnVtYmVycyI6Miwic2FsdCI6IjYyYWM0Y2QxNWU5OTAyNTMxNDU3ZDVjZTljZGE5NTMwIiwiYm9keSI6InVaT3pkQUVzNUtNZzNWejRwVVo2SW0tNkU5RUZQYkZxSUpFbEpjRDdQclY2akRLQ2FTUm5YczBFWVJiM1RqVVlUZzcwNFMwa2M1aGJWakVQYU1YZ0pvZ1V6N3Z2cVA1N25qaGhYOXczMlBUaTRyV1NRaDhIVThnTGR2UEFqN3NoIn0"
+        }
+      ],
+      "samples": [
+        "hm? call-in #: 281-435-0295. “jito” - yeah i mean — both.",
+        "hayden, she'll be admired definitely before 5 am on her immediately unfortunately too very much anyway very much."
+      ]
+    }
+  }
+}

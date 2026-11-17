@@ -1,0 +1,1915 @@
+{
+  "snapshot_sha256": "16a7769ed5c106fb3453c7d1d851821653de1d62d879beb4f1202fa3598cf2f4",
+  "method": "Manual primary-family triage of all 139 failed sentences with no surface-word misses or unsupported punctuation. First rejected tokens were replayed against production suggestNext. Family choices are diagnostic judgments, not counterfactual proof that one fix will rescue an item; secondary blockers can remain. IDs are pinned to this measured snapshot.",
+  "items": [
+    {
+      "id": "ewt:email-enronsent34_01-0018",
+      "text": "needless to say i am very excited.",
+      "issue": {
+        "token": "needless",
+        "preceding": [],
+        "completeBefore": false
+      },
+      "family": "Modifier placement, prepositional phrases and degree expressions"
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0023",
+      "text": "haven't heard from you in a while.",
+      "issue": {
+        "token": "while",
+        "preceding": [
+          "haven't",
+          "heard",
+          "from",
+          "you",
+          "in",
+          "a"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0034",
+      "text": "do you yahoo!?",
+      "issue": {
+        "token": "yahoo",
+        "preceding": [
+          "do",
+          "you"
+        ],
+        "completeBefore": true
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0053",
+      "text": "ted noble",
+      "issue": {
+        "token": "noble",
+        "preceding": [
+          "ted"
+        ],
+        "completeBefore": true
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0059",
+      "text": "anyway, lots of fun meetings today.",
+      "issue": {
+        "token": "meetings",
+        "preceding": [
+          "anyway",
+          ",",
+          "lots",
+          "of",
+          "fun"
+        ],
+        "completeBefore": true
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0001",
+      "text": "important information of big companies",
+      "issue": {
+        "token": "important",
+        "preceding": [],
+        "completeBefore": false
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0050",
+      "text": "i am on yahoo!",
+      "issue": {
+        "token": "!",
+        "preceding": [
+          "i",
+          "am",
+          "on",
+          "yahoo"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-7",
+      "text": "it's on page three eleven.",
+      "issue": {
+        "token": "three",
+        "preceding": [
+          "it's",
+          "on",
+          "page"
+        ],
+        "completeBefore": false
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-43",
+      "text": "when he will, and whom he will.",
+      "issue": {
+        "token": ",",
+        "preceding": [
+          "when",
+          "he",
+          "will"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-60",
+      "text": "well that's as clear as you can get it.",
+      "issue": {
+        "token": "can",
+        "preceding": [
+          "well",
+          "that's",
+          "as",
+          "clear",
+          "as",
+          "you"
+        ],
+        "completeBefore": true
+      },
+      "family": "Embedded questions, complements and relative/comparative clauses"
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-67",
+      "text": "are there not?",
+      "issue": {
+        "token": "not",
+        "preceding": [
+          "are",
+          "there"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-77",
+      "text": "what do you will?",
+      "issue": {
+        "token": "will",
+        "preceding": [
+          "what",
+          "do",
+          "you"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0024",
+      "text": "if you would, please review the entire list and let me know if you are in agreement with the presentation by tomorrow evening, if possible.",
+      "issue": {
+        "token": ",",
+        "preceding": [
+          "if",
+          "you",
+          "would"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0035",
+      "text": "job group: specialist",
+      "issue": {
+        "token": ":",
+        "preceding": [
+          "job",
+          "group"
+        ],
+        "completeBefore": true
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0039",
+      "text": "1 year agreement",
+      "issue": {
+        "token": "agreement",
+        "preceding": [
+          "1",
+          "year"
+        ],
+        "completeBefore": true
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0011",
+      "text": "i will be looking for one or more of the following.",
+      "issue": {
+        "token": "of",
+        "preceding": [
+          "i",
+          "will",
+          "be",
+          "looking",
+          "for",
+          "one",
+          "or",
+          "more"
+        ],
+        "completeBefore": false
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0036",
+      "text": "is there 1 available?",
+      "issue": {
+        "token": "?",
+        "preceding": [
+          "is",
+          "there",
+          "1",
+          "available"
+        ],
+        "completeBefore": false
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0042",
+      "text": "01/19/2001 09:14 am",
+      "issue": {
+        "token": "am",
+        "preceding": [
+          "01",
+          "/",
+          "19",
+          "/",
+          "2001",
+          "09",
+          ":",
+          "14"
+        ],
+        "completeBefore": true
+      },
+      "family": "Time format composition: padded 12-hour fields with am/pm"
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0045",
+      "text": "01/19/01 07:55 am",
+      "issue": {
+        "token": "am",
+        "preceding": [
+          "01",
+          "/",
+          "19",
+          "/",
+          "01",
+          "07",
+          ":",
+          "55"
+        ],
+        "completeBefore": true
+      },
+      "family": "Time format composition: padded 12-hour fields with am/pm"
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0051",
+      "text": "01/19/2001 07:24 am",
+      "issue": {
+        "token": "am",
+        "preceding": [
+          "01",
+          "/",
+          "19",
+          "/",
+          "2001",
+          "07",
+          ":",
+          "24"
+        ],
+        "completeBefore": true
+      },
+      "family": "Time format composition: padded 12-hour fields with am/pm"
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0001",
+      "text": "ladies,",
+      "issue": {
+        "token": "<end>",
+        "preceding": [
+          "ladies",
+          ","
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0047",
+      "text": "i know you all are going to have so much fun with them.",
+      "issue": {
+        "token": "all",
+        "preceding": [
+          "i",
+          "know",
+          "you"
+        ],
+        "completeBefore": true
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0075",
+      "text": "marie heard senior legal specialist",
+      "issue": {
+        "token": "senior",
+        "preceding": [
+          "marie",
+          "heard"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0095",
+      "text": "let me know if this is your understanding, as well.",
+      "issue": {
+        "token": "understanding",
+        "preceding": [
+          "let",
+          "me",
+          "know",
+          "if",
+          "this",
+          "is",
+          "your"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0097",
+      "text": "should you have any questions, feel free to call me.",
+      "issue": {
+        "token": "feel",
+        "preceding": [
+          "should",
+          "you",
+          "have",
+          "any",
+          "questions",
+          ","
+        ],
+        "completeBefore": false
+      },
+      "family": "Modifier placement, prepositional phrases and degree expressions"
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0010",
+      "text": "i will take you next one in august.",
+      "issue": {
+        "token": "next",
+        "preceding": [
+          "i",
+          "will",
+          "take",
+          "you"
+        ],
+        "completeBefore": true
+      },
+      "family": "Uncertain authored construction requiring review"
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0025",
+      "text": "michelle, please comment.",
+      "issue": {
+        "token": "comment",
+        "preceding": [
+          "michelle",
+          ",",
+          "please"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0027",
+      "text": "after that, what do we do?",
+      "issue": {
+        "token": "after",
+        "preceding": [],
+        "completeBefore": false
+      },
+      "family": "Modifier placement, prepositional phrases and degree expressions"
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0049",
+      "text": "can you please help with this one?",
+      "issue": {
+        "token": "please",
+        "preceding": [
+          "can",
+          "you"
+        ],
+        "completeBefore": true
+      },
+      "family": "Modifier placement, prepositional phrases and degree expressions"
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0077",
+      "text": "all,",
+      "issue": {
+        "token": ",",
+        "preceding": [
+          "all"
+        ],
+        "completeBefore": true
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0094",
+      "text": "cindy skinner",
+      "issue": {
+        "token": "skinner",
+        "preceding": [
+          "cindy"
+        ],
+        "completeBefore": true
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0110",
+      "text": "thanks for following up on this.",
+      "issue": {
+        "token": "following",
+        "preceding": [
+          "thanks",
+          "for"
+        ],
+        "completeBefore": false
+      },
+      "family": "Embedded questions, complements and relative/comparative clauses"
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0142",
+      "text": "two in one day.",
+      "issue": {
+        "token": "in",
+        "preceding": [
+          "two"
+        ],
+        "completeBefore": false
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "ewt:email-enronsent38_01-0001",
+      "text": "marianne: the following are my comments:",
+      "issue": {
+        "token": "the",
+        "preceding": [
+          "marianne",
+          ":"
+        ],
+        "completeBefore": true
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-5",
+      "text": "i'm gonna",
+      "issue": {
+        "token": "gonna",
+        "preceding": [
+          "i'm"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-11",
+      "text": "i don't know how to say it.",
+      "issue": {
+        "token": "to",
+        "preceding": [
+          "i",
+          "don't",
+          "know",
+          "how"
+        ],
+        "completeBefore": false
+      },
+      "family": "Embedded questions, complements and relative/comparative clauses"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-12",
+      "text": "but you know, they do it for a living.",
+      "issue": {
+        "token": "they",
+        "preceding": [
+          "but",
+          "you",
+          "know",
+          ","
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-14",
+      "text": "and i'm not that good or, and i'm not very strong.",
+      "issue": {
+        "token": "or",
+        "preceding": [
+          "and",
+          "i'm",
+          "not",
+          "that",
+          "good"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-23",
+      "text": "dad, you know, has done some of it.",
+      "issue": {
+        "token": ",",
+        "preceding": [
+          "dad"
+        ],
+        "completeBefore": true
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-26",
+      "text": "and, i don't know.",
+      "issue": {
+        "token": ",",
+        "preceding": [
+          "and"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-27",
+      "text": "then, down there, um, it's mandatory.",
+      "issue": {
+        "token": "um",
+        "preceding": [
+          "then",
+          ",",
+          "down",
+          "there",
+          ","
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-35",
+      "text": "in the beginning of the year there was a lot of classroom work.",
+      "issue": {
+        "token": "in",
+        "preceding": [],
+        "completeBefore": false
+      },
+      "family": "Modifier placement, prepositional phrases and degree expressions"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-55",
+      "text": "that's not bad, but sometimes you can get it really bad.",
+      "issue": {
+        "token": "but",
+        "preceding": [
+          "that's",
+          "not",
+          "bad",
+          ","
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-56",
+      "text": "you can really make a horse really bad.",
+      "issue": {
+        "token": "bad",
+        "preceding": [
+          "you",
+          "can",
+          "really",
+          "make",
+          "a",
+          "horse",
+          "really"
+        ],
+        "completeBefore": true
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-59",
+      "text": "so, i don't know.",
+      "issue": {
+        "token": ",",
+        "preceding": [
+          "so"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-62",
+      "text": "i mean they're still long, when i get done with them.",
+      "issue": {
+        "token": "they're",
+        "preceding": [
+          "i",
+          "mean"
+        ],
+        "completeBefore": true
+      },
+      "family": "Embedded questions, complements and relative/comparative clauses"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-65",
+      "text": "see we did that too.",
+      "issue": {
+        "token": "we",
+        "preceding": [
+          "see"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-84",
+      "text": "which we, we had it in another class too.",
+      "issue": {
+        "token": "we",
+        "preceding": [
+          "which"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-86",
+      "text": "well it was a review for some people, depending on what time of the year you took it.",
+      "issue": {
+        "token": "depending",
+        "preceding": [
+          "it",
+          "was",
+          "a",
+          "review",
+          "for",
+          "some",
+          "people",
+          ","
+        ],
+        "completeBefore": false
+      },
+      "family": "Embedded questions, complements and relative/comparative clauses"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-88",
+      "text": "if it was a review or not.",
+      "issue": {
+        "token": "not",
+        "preceding": [
+          "if",
+          "it",
+          "was",
+          "a",
+          "review",
+          "or"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-89",
+      "text": "but, anyway, um, what was i gonna say?",
+      "issue": {
+        "token": ",",
+        "preceding": [
+          "but"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-92",
+      "text": "gonna say.",
+      "issue": {
+        "token": "gonna",
+        "preceding": [],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-93",
+      "text": "but.",
+      "issue": {
+        "token": ".",
+        "preceding": [
+          "but"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-99",
+      "text": "this is, you know.",
+      "issue": {
+        "token": ",",
+        "preceding": [
+          "this",
+          "is"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-3",
+      "text": "all the way down to that?",
+      "issue": {
+        "token": "down",
+        "preceding": [
+          "all",
+          "the",
+          "way"
+        ],
+        "completeBefore": false
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-6",
+      "text": "i don't think i am.",
+      "issue": {
+        "token": ".",
+        "preceding": [
+          "i",
+          "don't",
+          "think",
+          "i",
+          "am"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-8",
+      "text": "and you'd have to have that plus or minus.",
+      "issue": {
+        "token": "to",
+        "preceding": [
+          "and",
+          "you'd",
+          "have"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-10",
+      "text": "i don't know what i did to get that.",
+      "issue": {
+        "token": "what",
+        "preceding": [
+          "i",
+          "don't",
+          "know"
+        ],
+        "completeBefore": true
+      },
+      "family": "Embedded questions, complements and relative/comparative clauses"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-12",
+      "text": "because you brought this over here.",
+      "issue": {
+        "token": "here",
+        "preceding": [
+          "because",
+          "you",
+          "brought",
+          "this",
+          "over"
+        ],
+        "completeBefore": false
+      },
+      "family": "Modifier placement, prepositional phrases and degree expressions"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-19",
+      "text": "no it couldn't be.",
+      "issue": {
+        "token": ".",
+        "preceding": [
+          "no",
+          "it",
+          "couldn't",
+          "be"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-21",
+      "text": "but then you got the other one nathan.",
+      "issue": {
+        "token": "nathan",
+        "preceding": [
+          "but",
+          "then",
+          "you",
+          "got",
+          "the",
+          "other",
+          "one"
+        ],
+        "completeBefore": true
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-35",
+      "text": "that's what i'm talking about.",
+      "issue": {
+        "token": "what",
+        "preceding": [
+          "that's"
+        ],
+        "completeBefore": false
+      },
+      "family": "Embedded questions, complements and relative/comparative clauses"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-36",
+      "text": "so, would that one be, square root of one half?",
+      "issue": {
+        "token": ",",
+        "preceding": [
+          "so"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-38",
+      "text": "it would?",
+      "issue": {
+        "token": "?",
+        "preceding": [
+          "it",
+          "would"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-48",
+      "text": "even for that one?",
+      "issue": {
+        "token": "for",
+        "preceding": [
+          "even"
+        ],
+        "completeBefore": true
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-54",
+      "text": "like that, right?",
+      "issue": {
+        "token": "right",
+        "preceding": [
+          "like",
+          "that",
+          ","
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-65",
+      "text": "this is what we came out with.",
+      "issue": {
+        "token": "what",
+        "preceding": [
+          "this",
+          "is"
+        ],
+        "completeBefore": false
+      },
+      "family": "Embedded questions, complements and relative/comparative clauses"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-74",
+      "text": "that's what it was.",
+      "issue": {
+        "token": "what",
+        "preceding": [
+          "that's"
+        ],
+        "completeBefore": false
+      },
+      "family": "Embedded questions, complements and relative/comparative clauses"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-75",
+      "text": "then right here you'd get, square root of two over two.",
+      "issue": {
+        "token": "you'd",
+        "preceding": [
+          "then",
+          "right",
+          "here"
+        ],
+        "completeBefore": false
+      },
+      "family": "Modifier placement, prepositional phrases and degree expressions"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-78",
+      "text": "right, but then, what about this one?",
+      "issue": {
+        "token": "what",
+        "preceding": [
+          "right",
+          ",",
+          "but",
+          "then",
+          ","
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-79",
+      "text": "on this one.",
+      "issue": {
+        "token": "on",
+        "preceding": [],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-83",
+      "text": "i can't even say it right.",
+      "issue": {
+        "token": ".",
+        "preceding": [
+          "i",
+          "can't",
+          "even",
+          "say",
+          "it",
+          "right"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-84",
+      "text": "over, do i have another i down here, or just the one i?",
+      "issue": {
+        "token": "over",
+        "preceding": [],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-86",
+      "text": "just one.",
+      "issue": {
+        "token": "one",
+        "preceding": [
+          "just"
+        ],
+        "completeBefore": true
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-88",
+      "text": "i square root of six.",
+      "issue": {
+        "token": "square",
+        "preceding": [
+          "i"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-90",
+      "text": "over three.",
+      "issue": {
+        "token": "over",
+        "preceding": [],
+        "completeBefore": false
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-96",
+      "text": "square root of two, times square root of three, is square root of six, is it?",
+      "issue": {
+        "token": "of",
+        "preceding": [
+          "square",
+          "root"
+        ],
+        "completeBefore": true
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-108",
+      "text": "i mean i have it.",
+      "issue": {
+        "token": "i",
+        "preceding": [
+          "i",
+          "mean"
+        ],
+        "completeBefore": true
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-111",
+      "text": "is that it?",
+      "issue": {
+        "token": "it",
+        "preceding": [
+          "is",
+          "that"
+        ],
+        "completeBefore": true
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-117",
+      "text": "and that's easy, you can do that.",
+      "issue": {
+        "token": "you",
+        "preceding": [
+          "and",
+          "that's",
+          "easy",
+          ","
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_zero-124",
+      "text": "cause if it's not.",
+      "issue": {
+        "token": ".",
+        "preceding": [
+          "cause",
+          "if",
+          "it's",
+          "not"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-2",
+      "text": "you probably have one like it already.",
+      "issue": {
+        "token": "like",
+        "preceding": [
+          "you",
+          "probably",
+          "have",
+          "one"
+        ],
+        "completeBefore": true
+      },
+      "family": "Modifier placement, prepositional phrases and degree expressions"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-6",
+      "text": "to a museum.",
+      "issue": {
+        "token": "to",
+        "preceding": [],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-11",
+      "text": "where they came from.",
+      "issue": {
+        "token": ".",
+        "preceding": [
+          "where",
+          "they",
+          "came",
+          "from"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-14",
+      "text": "oh good.",
+      "issue": {
+        "token": ".",
+        "preceding": [
+          "oh",
+          "good"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-25",
+      "text": "i'm just interested in when did she get that.",
+      "issue": {
+        "token": "when",
+        "preceding": [
+          "i'm",
+          "just",
+          "interested",
+          "in"
+        ],
+        "completeBefore": false
+      },
+      "family": "Embedded questions, complements and relative/comparative clauses"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-35",
+      "text": "oh, to dan?",
+      "issue": {
+        "token": "to",
+        "preceding": [
+          "oh",
+          ","
+        ],
+        "completeBefore": true
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-40",
+      "text": "and this one is, to dad, from judy.",
+      "issue": {
+        "token": ",",
+        "preceding": [
+          "and",
+          "this",
+          "one",
+          "is"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-44",
+      "text": "that is dad.",
+      "issue": {
+        "token": ".",
+        "preceding": [
+          "that",
+          "is",
+          "dad"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-47",
+      "text": "look up.",
+      "issue": {
+        "token": ".",
+        "preceding": [
+          "look",
+          "up"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-48",
+      "text": "look up babe.",
+      "issue": {
+        "token": ".",
+        "preceding": [
+          "look",
+          "up",
+          "babe"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-56",
+      "text": "there's another one for dad down there.",
+      "issue": {
+        "token": "down",
+        "preceding": [
+          "there's",
+          "another",
+          "one",
+          "for",
+          "dad"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-60",
+      "text": "oh dad, from judy.",
+      "issue": {
+        "token": ",",
+        "preceding": [
+          "oh",
+          "dad"
+        ],
+        "completeBefore": true
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-63",
+      "text": "just what you've always needed.",
+      "issue": {
+        "token": "what",
+        "preceding": [
+          "just"
+        ],
+        "completeBefore": true
+      },
+      "family": "Embedded questions, complements and relative/comparative clauses"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-68",
+      "text": "probably more.",
+      "issue": {
+        "token": "more",
+        "preceding": [
+          "probably"
+        ],
+        "completeBefore": true
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-69",
+      "text": "probably more like fifteen years.",
+      "issue": {
+        "token": "more",
+        "preceding": [
+          "probably"
+        ],
+        "completeBefore": true
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-70",
+      "text": "good.",
+      "issue": {
+        "token": ".",
+        "preceding": [
+          "good"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-72",
+      "text": "oh great.",
+      "issue": {
+        "token": "great",
+        "preceding": [
+          "oh"
+        ],
+        "completeBefore": true
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-87",
+      "text": "you'd better wear it too.",
+      "issue": {
+        "token": "better",
+        "preceding": [
+          "you'd"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-89",
+      "text": "you'd better wear it.",
+      "issue": {
+        "token": "better",
+        "preceding": [
+          "you'd"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-94",
+      "text": "if you don't, i will.",
+      "issue": {
+        "token": ",",
+        "preceding": [
+          "if",
+          "you",
+          "don't"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-95",
+      "text": "yeah, now that i can wear.",
+      "issue": {
+        "token": "i",
+        "preceding": [
+          "yeah",
+          ",",
+          "now",
+          "that"
+        ],
+        "completeBefore": false
+      },
+      "family": "Embedded questions, complements and relative/comparative clauses"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-99",
+      "text": "she's been saying for months that you would never wear it.",
+      "issue": {
+        "token": "been",
+        "preceding": [
+          "she's"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-102",
+      "text": "i will.",
+      "issue": {
+        "token": ".",
+        "preceding": [
+          "i",
+          "will"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-105",
+      "text": "i have one the same.",
+      "issue": {
+        "token": "the",
+        "preceding": [
+          "i",
+          "have",
+          "one"
+        ],
+        "completeBefore": true
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-109",
+      "text": "cause it was really huge.",
+      "issue": {
+        "token": "huge",
+        "preceding": [
+          "cause",
+          "it",
+          "was",
+          "really"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-112",
+      "text": "so.",
+      "issue": {
+        "token": ".",
+        "preceding": [
+          "so"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-113",
+      "text": "that's big enough.",
+      "issue": {
+        "token": "enough",
+        "preceding": [
+          "that's",
+          "big"
+        ],
+        "completeBefore": true
+      },
+      "family": "Modifier placement, prepositional phrases and degree expressions"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-115",
+      "text": "that big enough?",
+      "issue": {
+        "token": "enough",
+        "preceding": [
+          "that",
+          "big"
+        ],
+        "completeBefore": false
+      },
+      "family": "Modifier placement, prepositional phrases and degree expressions"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-119",
+      "text": "it'll keep you warm.",
+      "issue": {
+        "token": "warm",
+        "preceding": [
+          "it'll",
+          "keep",
+          "you"
+        ],
+        "completeBefore": true
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-120",
+      "text": "looks good on you.",
+      "issue": {
+        "token": "looks",
+        "preceding": [],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-128",
+      "text": "thanks judy.",
+      "issue": {
+        "token": "judy",
+        "preceding": [
+          "thanks"
+        ],
+        "completeBefore": true
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-134",
+      "text": "i'll make good use of this.",
+      "issue": {
+        "token": "good",
+        "preceding": [
+          "i'll",
+          "make"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-139",
+      "text": "now what.",
+      "issue": {
+        "token": "what",
+        "preceding": [
+          "now"
+        ],
+        "completeBefore": true
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-150",
+      "text": "from me.",
+      "issue": {
+        "token": "from",
+        "preceding": [],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-152",
+      "text": "i don't know if he wanted to open that or not, or not right now.",
+      "issue": {
+        "token": "not",
+        "preceding": [
+          "know",
+          "if",
+          "he",
+          "wanted",
+          "to",
+          "open",
+          "that",
+          "or"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-154",
+      "text": "right uh now?",
+      "issue": {
+        "token": "uh",
+        "preceding": [
+          "right"
+        ],
+        "completeBefore": true
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-158",
+      "text": "you know what it is?",
+      "issue": {
+        "token": "what",
+        "preceding": [
+          "you",
+          "know"
+        ],
+        "completeBefore": true
+      },
+      "family": "Embedded questions, complements and relative/comparative clauses"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-162",
+      "text": "well dad always picks.",
+      "issue": {
+        "token": "always",
+        "preceding": [
+          "well",
+          "dad"
+        ],
+        "completeBefore": true
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-166",
+      "text": "if it's too small, mom can take it.",
+      "issue": {
+        "token": "can",
+        "preceding": [
+          "if",
+          "it's",
+          "too",
+          "small",
+          ",",
+          "mom"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-174",
+      "text": "down at the back.",
+      "issue": {
+        "token": "at",
+        "preceding": [
+          "down"
+        ],
+        "completeBefore": true
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-191",
+      "text": "i think you'll have to wait on that one.",
+      "issue": {
+        "token": "to",
+        "preceding": [
+          "i",
+          "think",
+          "you'll",
+          "have"
+        ],
+        "completeBefore": false
+      },
+      "family": "Auxiliary composition, modal/verb-phrase ellipsis and negation"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-196",
+      "text": "are all the rest of these from diana?",
+      "issue": {
+        "token": "rest",
+        "preceding": [
+          "are",
+          "all",
+          "the"
+        ],
+        "completeBefore": false
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-201",
+      "text": "to diana, and from diana.",
+      "issue": {
+        "token": "to",
+        "preceding": [],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-203",
+      "text": "oh i see.",
+      "issue": {
+        "token": ".",
+        "preceding": [
+          "oh",
+          "i",
+          "see"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-209",
+      "text": "so, we'll just wait, on ours.",
+      "issue": {
+        "token": ",",
+        "preceding": [
+          "so"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-210",
+      "text": "oh here's one you can open.",
+      "issue": {
+        "token": "you",
+        "preceding": [
+          "oh",
+          "here's",
+          "one"
+        ],
+        "completeBefore": true
+      },
+      "family": "Embedded questions, complements and relative/comparative clauses"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-214",
+      "text": "right now.",
+      "issue": {
+        "token": ".",
+        "preceding": [
+          "right",
+          "now"
+        ],
+        "completeBefore": false
+      },
+      "family": "Modifier placement, prepositional phrases and degree expressions"
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-215",
+      "text": "to judy, from mom.",
+      "issue": {
+        "token": "to",
+        "preceding": [],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_vet-6",
+      "text": "i wouldn't see why we couldn't send her home tonight, would you?",
+      "issue": {
+        "token": "why",
+        "preceding": [
+          "i",
+          "wouldn't",
+          "see"
+        ],
+        "completeBefore": false
+      },
+      "family": "Embedded questions, complements and relative/comparative clauses"
+    },
+    {
+      "id": "gum:GUM_conversation_vet-7",
+      "text": "if she wakes up, fine.",
+      "issue": {
+        "token": "fine",
+        "preceding": [
+          "if",
+          "she",
+          "wakes",
+          "up",
+          ","
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_vet-36",
+      "text": "um, did you get hold of dan then?",
+      "issue": {
+        "token": "hold",
+        "preceding": [
+          "um",
+          ",",
+          "did",
+          "you",
+          "get"
+        ],
+        "completeBefore": false
+      },
+      "family": "Known-word lexical roles, names and verb frames"
+    },
+    {
+      "id": "gum:GUM_conversation_vet-40",
+      "text": "let me see, let me see.",
+      "issue": {
+        "token": ",",
+        "preceding": [
+          "let",
+          "me",
+          "see"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_vet-41",
+      "text": "we need one of these and one of these, one of those, and one of those, and two of those.",
+      "issue": {
+        "token": "one",
+        "preceding": [
+          "one",
+          "of",
+          "these",
+          "and",
+          "one",
+          "of",
+          "these",
+          ","
+        ],
+        "completeBefore": false
+      },
+      "family": "Noun phrases, quantification, compounds and nominal ellipsis"
+    },
+    {
+      "id": "gum:GUM_conversation_vet-47",
+      "text": "no, i was just trying to figure out what we spent already.",
+      "issue": {
+        "token": "what",
+        "preceding": [
+          ",",
+          "i",
+          "was",
+          "just",
+          "trying",
+          "to",
+          "figure",
+          "out"
+        ],
+        "completeBefore": false
+      },
+      "family": "Embedded questions, complements and relative/comparative clauses"
+    },
+    {
+      "id": "gum:GUM_conversation_vet-54",
+      "text": "yeah, it's more for a surgery.",
+      "issue": {
+        "token": "for",
+        "preceding": [
+          "yeah",
+          ",",
+          "it's",
+          "more"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_vet-63",
+      "text": "but, still, it's more expensive.",
+      "issue": {
+        "token": ",",
+        "preceding": [
+          "but"
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_vet-69",
+      "text": "maybe not.",
+      "issue": {
+        "token": "not",
+        "preceding": [
+          "maybe"
+        ],
+        "completeBefore": true
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    },
+    {
+      "id": "gum:GUM_conversation_vet-73",
+      "text": "i don't know if he's in the barn, from home.",
+      "issue": {
+        "token": "from",
+        "preceding": [
+          "don't",
+          "know",
+          "if",
+          "he's",
+          "in",
+          "the",
+          "barn",
+          ","
+        ],
+        "completeBefore": false
+      },
+      "family": "Discourse, fragments, vocatives and punctuation inside known-word utterances"
+    }
+  ]
+}

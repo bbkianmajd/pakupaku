@@ -1,0 +1,9 @@
+{
+  "count-noun": ["bird", "boat", "box", "cake", "car", "chair", "city", "cup", "dog", "door", "fish", "flower", "friend", "garden", "house", "key", "letter", "meal", "mountain", "mouse", "phone", "river", "road", "room", "song", "star", "story", "table", "tree", "window"],
+  "mass-noun": ["advice", "air", "bread", "cheese", "coffee", "furniture", "gold", "happiness", "information", "love", "milk", "money", "rain", "salt", "silver", "snow", "sugar", "sunlight", "tea", "time"],
+  "adjective": ["blue", "brave", "cold", "fast", "friendly", "gentle", "happy", "kind", "loud", "new", "old", "red", "sad", "short", "slow", "soft", "strange", "tall", "tired", "warm"],
+  "past-transitive-verb": ["build", "buy", "call", "choose", "clean", "close", "help", "hold", "keep", "love", "meet", "open", "read", "save", "take", "visit", "watch", "write"],
+  "past-intransitive-verb": ["cry", "dance", "depart", "fall", "jump", "laugh", "return", "rise", "run", "sit", "sneeze", "vanish", "walk", "wake"],
+  "person-name": ["Ada", "Alice", "Bob", "Emma", "Grace", "Henry", "Jack", "James", "Jane", "John", "Lily", "Mary", "Noah", "Oliver", "Olivia", "Peter", "Rose", "Sofia", "Thomas", "William", "Zoe"],
+  "excluded": ["put"]
+}

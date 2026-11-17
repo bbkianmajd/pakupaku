@@ -1,0 +1,8 @@
+{
+  "url": "https://github.com/mledoze/countries",
+  "file": "geography-sources/countries.json",
+  "sha256": "0d92fb23b43ae080bd439f5dc5d61a8845395fdd0af1479b433c59fe079bd6fd",
+  "license": "ODbL-1.0; see geography-sources/LICENSE-countries",
+  "snapshot_date": "2026-11-10",
+  "note": "Source unMember flag for Vatican City corrected explicitly by the builder; Kosovo code UNK is a source identifier, not an ISO assignment."
+}

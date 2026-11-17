@@ -1,0 +1,85 @@
+{
+  "page": "codec-demo.html",
+  "modes": [
+    "clauses"
+  ],
+  "cases": [
+    {
+      "example": "hey. i just want to say that i love you. you mean a lot to me.",
+      "authorRecovered": true,
+      "alternate": [
+        "and, we took him to the – – are there not — suerat (any works on enron's original policy and plans; as well as cubist analysis of dirt (gender, nationality, purgatory, age)? -!"
+      ]
+    },
+    {
+      "example": "i'm ready. are you ready?",
+      "authorRecovered": true,
+      "alternate": [
+        "gabrielle, the archaeologist is cheerful. the fender is in haiti."
+      ]
+    },
+    {
+      "example": "meet me on 02/29/2024 at 09:05.",
+      "authorRecovered": true,
+      "alternate": [
+        "does janet meet jessica? does claude remember miles? elaine, cincinnati is anxious. minnie works. jace will arrive. damian is glad."
+      ]
+    },
+    {
+      "example": "hello. i love you. can you help me? meet me at 1530.",
+      "authorRecovered": true,
+      "alternate": [
+        "i do not mean very little to (€4505) so properly as we haven't meant the world to '''[([me])]''' very carefully really properly after 01:42 pm really immediately regarding them, and us and it very much at noon"
+      ]
+    },
+    {
+      "example": "meet me at 2 30 pm",
+      "authorRecovered": true,
+      "alternate": [
+        "linda will arrive. jane remembers the engineer. today, grant laughs. does diane like lisa? michelle likes eunice."
+      ]
+    },
+    {
+      "example": "this is cool. sarah is sexy.",
+      "authorRecovered": true,
+      "alternate": [
+        "this evening, marco laughs. ashton helps him. mila, the locator is smooth. faith travels to suriname. bethany travels to jackson. ross goes to greenville."
+      ]
+    },
+    {
+      "example": "i love you. tomorrow, sarah arrives.",
+      "authorRecovered": true,
+      "alternate": [
+        "melanie dances. cody might wait."
+      ]
+    },
+    {
+      "example": "sarah, you are sexy. we might dance.",
+      "authorRecovered": true,
+      "alternate": [
+        "ezekiel, gregory is scared."
+      ]
+    },
+    {
+      "example": "does sarah know me? the doctor is in paris.",
+      "authorRecovered": true,
+      "alternate": [
+        "briana, the investigator is honest. the counterpart is unusual. cleveland is smart. does mikayla know nicolas? the crosse is smooth."
+      ]
+    },
+    {
+      "example": "sarah travels to new york. this is interesting.",
+      "authorRecovered": true,
+      "alternate": [
+        "gina travels to huntington. dillon might wait. the friend, darrell is awesome. the variety is in illinois. gabrielle waits."
+      ]
+    }
+  ],
+  "sharedLinkRecovered": true,
+  "rapidKeysPassed": true,
+  "unsupportedInputHandled": true,
+  "mobileOverflow": false,
+  "errors": [],
+  "localRequestsOnly": true,
+  "browser": "158.0.8127.18"
+}

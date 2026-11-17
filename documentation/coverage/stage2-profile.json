@@ -1,0 +1,128 @@
+{
+  "runtime": "v22.16.0",
+  "platform": "linux",
+  "arch": "x64",
+  "method": "Single Node CLI run, no browser claim. Merged states include ordinary chart deduplication, not a count of linguistic parses. Timings vary by machine.",
+  "results": [
+    {
+      "family": "coordination",
+      "length": 1,
+      "states": 1882,
+      "mergedStates": 5500,
+      "maxColumnStates": 1471,
+      "tokens": 2,
+      "complete": true,
+      "milliseconds": 3.738597999999996
+    },
+    {
+      "family": "coordination",
+      "length": 10,
+      "states": 4768,
+      "mergedStates": 13412,
+      "maxColumnStates": 1471,
+      "tokens": 29,
+      "complete": true,
+      "milliseconds": 4.950378999999998
+    },
+    {
+      "family": "coordination",
+      "length": 100,
+      "states": 33298,
+      "mergedStates": 92252,
+      "maxColumnStates": 1471,
+      "tokens": 299,
+      "complete": true,
+      "milliseconds": 26.161545999999987
+    },
+    {
+      "family": "coordination",
+      "length": 1000,
+      "states": 318598,
+      "mergedStates": 880652,
+      "maxColumnStates": 1471,
+      "tokens": 2999,
+      "complete": true,
+      "milliseconds": 150.467727
+    },
+    {
+      "family": "relative",
+      "length": 1,
+      "states": 2646,
+      "mergedStates": 6634,
+      "maxColumnStates": 1471,
+      "tokens": 6,
+      "complete": true,
+      "milliseconds": 1.1336449999999445
+    },
+    {
+      "family": "relative",
+      "length": 5,
+      "states": 5546,
+      "mergedStates": 10726,
+      "maxColumnStates": 1471,
+      "tokens": 18,
+      "complete": true,
+      "milliseconds": 2.294766999999979
+    },
+    {
+      "family": "relative",
+      "length": 10,
+      "states": 9171,
+      "mergedStates": 15841,
+      "maxColumnStates": 1471,
+      "tokens": 33,
+      "complete": true,
+      "milliseconds": 4.517566000000045
+    },
+    {
+      "family": "relative",
+      "length": 20,
+      "states": 16421,
+      "mergedStates": 26071,
+      "maxColumnStates": 1471,
+      "tokens": 63,
+      "complete": true,
+      "milliseconds": 5.198358000000042
+    },
+    {
+      "family": "complement",
+      "length": 1,
+      "states": 3504,
+      "mergedStates": 15632,
+      "maxColumnStates": 1471,
+      "tokens": 6,
+      "complete": true,
+      "milliseconds": 1.995252999999991
+    },
+    {
+      "family": "complement",
+      "length": 5,
+      "states": 9448,
+      "mergedStates": 53006,
+      "maxColumnStates": 1471,
+      "tokens": 18,
+      "complete": true,
+      "milliseconds": 6.810310000000015
+    },
+    {
+      "family": "complement",
+      "length": 10,
+      "states": 17463,
+      "mergedStates": 99791,
+      "maxColumnStates": 1471,
+      "tokens": 33,
+      "complete": true,
+      "milliseconds": 11.651497999999947
+    },
+    {
+      "family": "complement",
+      "length": 20,
+      "states": 35443,
+      "mergedStates": 193586,
+      "maxColumnStates": 1471,
+      "tokens": 63,
+      "complete": true,
+      "milliseconds": 22.42111699999998
+    }
+  ]
+}

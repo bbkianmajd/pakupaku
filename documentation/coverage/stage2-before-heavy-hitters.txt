@@ -1,0 +1,262 @@
+STAGE 2 FAILURE REPORT
+======================
+
+Conclusion: 12.3% is unacceptable. Stage 2 is not complete and the product is
+not ready for acceptance. The dominant measured blocker is lexical breadth;
+the remaining failures also establish substantial role, grammar and surface
+coverage gaps. Adding individual example phrases is not a credible route to
+99.5% development coverage.
+
+1. SNAPSHOT AND DENOMINATORS
+Independent development sentences: 1000; passed: 123 (12.30%); failed: 877 (87.70%).
+Complete development notes: 3; passed: 0; failed: 3.
+Project regression cases: 33/33. They are NOT included in the 1,000-item score.
+Validation and acceptance splits were not measured for this report.
+Comparison: this follow-up increased sentence success from 10/1,000 to
+123/1,000 (+11.3 percentage points). It did not achieve acceptable coverage.
+Corpus SHA-256: 7040280b6e17881058f3f95e086976b6a682bbf54f4ac20df16a80bad1d25c45
+Measurement JSON SHA-256: 16a7769ed5c106fb3453c7d1d851821653de1d62d879beb4f1202fa3598cf2f4
+Measured implementation hashes: documentation/coverage/stage2-progress.json.
+All recorded implementation hashes were checked against current files.
+The 1,000 original item texts and their denominators remain unchanged.
+Whitespace normalization now also handles closing punctuation, numeric date
+slashes and clock colons; it is recorded in the manifest. No words were
+dropped, paraphrased, substituted or repaired to obtain a pass.
+
+2. RANKED PRIMARY FAILURE BUCKETS (EXCLUSIVE)
+Policy: a missing surface word is a necessary blocker; unsupported surface
+tokens are an additional necessary blocker. These partitions describe
+observed blockers, not promises that removing one blocker will repair a note.
+All-sentence denominator = 1,000. Failed-sentence denominator = 877.
+
+Rank | Count | % of all 1,000 | % of 877 failures | Bucket
+   1 |   521 |         52.10% |            59.41% | Missing surface words; no unsupported surface tokens
+   2 |   172 |         17.20% |            19.61% | Missing surface words AND unsupported surface tokens
+   3 |   139 |         13.90% |            15.85% | Known surface words; unsupported roles/constructions
+   4 |    45 |          4.50% |             5.13% | Known surface words; unsupported surface tokens
+
+These four buckets total 877 failures. The other 123 items passed.
+The first two buckets together contain 693 sentences: 69.30% of all items
+and 79.02% of failures. The other 184 failing sentences already have no
+surface-word misses; dictionary word additions alone cannot explain them.
+
+3. LEXICAL BLOCKERS, RANKED BY AFFECTED SENTENCES (OVERLAPPING)
+Denominators: 1,000 total sentences and 693 sentences with surface misses.
+One sentence can contain several categories; these percentages do NOT add
+to 100%. Each category is counted once per affected sentence.
+Classification uses the retained UD token POS/lemma annotations. A known
+lemma does not prove that its required POS, sense or form is implemented.
+Proper nouns include weekday/month names and organizations, not only people.
+Unmatched spellings/contractions stay unclassified instead of receiving a
+guessed grammatical role. These are lexical triage labels, not proof that
+vocabulary fixes alone will make the sentence parse.
+
+Rank | Count | % of all 1,000 | % of 693 lexical failures | Category
+   1 |   426 |         42.60% |                    61.47% | Missing noun, adjective or adverb surface
+       Examples: tagg, counterparty, exactly, stage, etc, sense, least, wild
+   2 |   275 |         27.50% |                    39.68% | Missing verb lemma/sense surface
+       Examples: referenced, entered, assess, updated, hit, dragging, prepare, considering
+   3 |   224 |         22.40% |                    32.32% | Missing proper-noun surface (people, places, organizations, calendar names)
+       Examples: seoul, saturday, december, chuck, kelley, card, houston, rent
+   4 |   106 |         10.60% |                    15.30% | Missing function or discourse word
+       Examples: yourself, than, into, during, whatever, off, herself, since
+   5 |    95 |          9.50% |                    13.71% | Unclassified token, contraction, abbreviation or segmentation
+       Examples: u, t, full-day, hoot's, what's, http, im, com
+   6 |    54 |          5.40% |                     7.79% | Known-lemma form or role gap (candidate)
+       Examples: guys, harder, dating, earlier, rode, formed, named, accessing
+   7 |     6 |          0.60% |                     0.87% | Missing number-word/symbol surface
+       Examples: k, m, hundred
+
+Lexical failures have a median of 2 distinct missing
+surface words per sentence; mean 2.67; maximum 16.
+A large word list has not delivered a broad usable lexicon. The production
+grammar needs the appropriate senses, forms, function words, names and
+complement frames, rather than only additional noun/adjective headwords.
+
+Highest-frequency missing spellings (sentence-only counts; notes excluded):
+  enron               16 items (1.60% of 1,000)
+  attached            12 items (1.20% of 1,000)
+  into                11 items (1.10% of 1,000)
+  put                 11 items (1.10% of 1,000)
+  x                   10 items (1.00% of 1,000)
+  erasmus              9 items (0.90% of 1,000)
+  com                  8 items (0.80% of 1,000)
+  k                    8 items (0.80% of 1,000)
+  kinda                8 items (0.80% of 1,000)
+  such                 7 items (0.70% of 1,000)
+  let's                7 items (0.70% of 1,000)
+  forward              7 items (0.70% of 1,000)
+  em                   7 items (0.70% of 1,000)
+  whole                6 items (0.60% of 1,000)
+  only                 6 items (0.60% of 1,000)
+  s                    6 items (0.60% of 1,000)
+  alright              6 items (0.60% of 1,000)
+  per                  6 items (0.60% of 1,000)
+  than                 5 items (0.50% of 1,000)
+  least                5 items (0.50% of 1,000)
+  off                  5 items (0.50% of 1,000)
+  though               5 items (0.50% of 1,000)
+  regards              5 items (0.50% of 1,000)
+  everything           5 items (0.50% of 1,000)
+  below                5 items (0.50% of 1,000)
+
+Why one-word-at-a-time patches have low return:
+  Top 10 misses touch 92 sentences, but cover ALL missing words in only 16; 13 of those have no unsupported surface tokens.
+  Top 50 misses touch 226 sentences, but cover ALL missing words in only 65; 55 of those have no unsupported surface tokens.
+  Top 100 misses touch 311 sentences, but cover ALL missing words in only 107; 89 of those have no unsupported surface tokens.
+  These are optimistic lexical-unblocking counts, not predicted new passes.
+  Even perfect additions of every currently missing word, with the current
+  punctuation and grammar unchanged, can rescue at most the 521 lexical-only
+  items: an optimistic total ceiling of 644/1,000 (64.4%). Many of those 521
+  still have unmeasured secondary construction blockers, so actual gains from
+  word additions alone can be much lower. Word coverage is not note coverage.
+
+4. KNOWN-WORD CONSTRUCTION/ROLE FAILURES: PRIMARY-FAMILY TRIAGE
+All 139 sentences in this subset were inspected and replayed to their first
+rejected token or incomplete ending. A supported spelling can still lack the
+needed role; this subset must not be labelled purely a syntax failure.
+The table assigns one likely primary engineering family to each item.
+It is a diagnostic judgment, not a repair-tested causal estimate. Sentences
+can have secondary blockers. An explicit uncertain bucket is retained.
+The per-item decisions and rejection evidence are in
+data/coverage/stage2-triage.json and documentation/coverage/stage2-prefix-audit.json.
+
+Rank | Count | % of all 1,000 | % of 139-item subset | Primary engineering family
+   1 |    49 |          4.90% |                35.25% | Discourse, fragments, vocatives and punctuation inside known-word utterances
+   2 |    23 |          2.30% |                16.55% | Known-word lexical roles, names and verb frames
+   3 |    19 |          1.90% |                13.67% | Auxiliary composition, modal/verb-phrase ellipsis and negation
+   4 |    17 |          1.70% |                12.23% | Noun phrases, quantification, compounds and nominal ellipsis
+   5 |    16 |          1.60% |                11.51% | Embedded questions, complements and relative/comparative clauses
+   6 |    11 |          1.10% |                 7.91% | Modifier placement, prepositional phrases and degree expressions
+   7 |     3 |          0.30% |                 2.16% | Time format composition: padded 12-hour fields with am/pm
+   8 |     1 |          0.10% |                 0.72% | Uncertain authored construction requiring review
+
+Concrete diagnosis examples:
+  - "can you please help with this one?": rejection at "please". Request
+    modifiers are not composable in the inverted auxiliary/subject frame.
+  - "i don't know how to say it.": rejection at "to". Embedded wh-infinitive
+    complements are missing despite the individual words being recognized.
+  - "it'll keep you warm.": rejection at "warm". The object-plus-predicate
+    verb frame is missing; a direct-object verb classification is insufficient.
+  - "haven't heard from you in a while.": rejection at "while". Its spelling
+    is recognized as a conjunction, but the required count-noun role is absent.
+  - "01/19/2001 09:14 am": rejection at "am". Padded clock hours are supported
+    without a meridiem, but not in the 12-hour-plus-am/pm production. This is
+    an implementation consistency gap, not an unfamiliar word.
+  - "i will.": an incomplete ending. Modal ellipsis is not available in that
+    statement production, even though some elliptical questions work.
+
+5. SURFACE HANDLING AND DOWNSTREAM FAILURE ATTRIBUTION
+217/1,000 sentences (21.70%; 24.74% of failures) contain unsupported surface
+tokens; 172 also have missing words, and 45 have no missing surface words.
+This includes punctuation, interrupted word tokens and special notation.
+The current harness label "punctuation" combines these different phenomena.
+It must not be interpreted as 217 otherwise grammatical punctuation-only bugs.
+Most frequent unsupported tokens (overlapping item counts):
+  '—'                 74 items (7.40% of 1,000)
+  '('                 42 items (4.20% of 1,000)
+  ')'                 42 items (4.20% of 1,000)
+  '-'                 39 items (3.90% of 1,000)
+  '–'                 20 items (2.00% of 1,000)
+  '$'                 13 items (1.30% of 1,000)
+  "'"                 12 items (1.20% of 1,000)
+  '@'                  9 items (0.90% of 1,000)
+  '"'                  7 items (0.70% of 1,000)
+  '<'                  6 items (0.60% of 1,000)
+  '>'                  6 items (0.60% of 1,000)
+  ';'                  5 items (0.50% of 1,000)
+  '&'                  4 items (0.40% of 1,000)
+  'th-'                4 items (0.40% of 1,000)
+  '_'                  3 items (0.30% of 1,000)
+
+All 877 failing sentences currently reject at both parse and composer replay.
+There is no observed parse-success/composer-failure discrepancy in this run.
+The recorded 877 "UI" flags therefore do not establish 877 independent UI
+defects. Parsing failures block codec/decoy measurement; those entries are null,
+not passes. The 123 accepted sentences passed author recovery and the fixed
+alternate-key samples. This is 0 observed codec failures in 123 exercised items,
+not proof of codec correctness for all 1,000 or of English grammaticality under
+every key. Independent decoy review remains outstanding.
+
+6. SOURCE/SAMPLING AUDIT (ALL ITEMS RETAINED)
+  ewt: 55/500 pass (11.00%).
+  gum: 68/500 pass (13.60%).
+  The 1,000 sentences come from only 13 source documents/conversations.
+  Actual source-ID genres: {'email': 449, 'newsgroup': 51, 'conversation': 500}.
+  Five GUM conversations supply all 500 conversation items. They include
+  mathematics, religion, technical discussion and transcribed interruptions.
+  Email items include workplace/legal material, headers, addresses and links.
+  I also mislabelled 51 newsgroup sentences as work/email: the importer checks
+  whether "email" occurs anywhere in a document ID, which also matches a
+  newsgroup ID containing "emails". This is a sampling implementation defect.
+  These facts limit representativeness; they do not excuse the ordinary
+  unsupported constructions or justify removing failures after seeing results.
+  Keep this benchmark as a frozen regression set. Correct collection/genre
+  selection and collect a new, predeclared representative message sample in
+  parallel, publishing both results and a separate all-submitted score.
+
+7. RANKED IMPROVEMENT PLAN AND CONCLUSION
+Priority 1 - Replace incremental headword additions with a sourced lexical
+  pipeline covering common noun/adjective/adverb senses, verb senses and all
+  inflections. Audit high-frequency function words completely. Permit multiple
+  roles for one spelling, with explicit person/number/case, countability and
+  complement frames. Review ambiguous classifications instead of guessing.
+  Evidence: 693 surface-miss items, including the overlapping lexical categories
+  above. Do not add just the top few words: most affected notes have several
+  misses and can remain blocked after the first one is fixed.
+Priority 2 - Make the grammar genuinely compositional across shared noun,
+  predicate, clause and utterance features. Implement the ranked 139-item
+  backlog by families: discourse/ellipsis; known-word roles and frames;
+  auxiliaries; noun/quantity/partitive phrases; embedded clauses; modifiers;
+  and clock combinations. Reuse the same production in statements, questions,
+  requests, contractions and multi-sentence documents. Test feature products,
+  not only one example from each feature. Padded hours plus am/pm is a clear
+  example of individually supported features failing when combined.
+Priority 3 - Expand surface/utterance handling with reversible structures for
+  ordinary apostrophes, quotations, parentheses, dashes, headings, addresses,
+  punctuation runs, pauses and fragments where declared in scope. Keep partial
+  transcript words and specialist notation visible in all-submitted results;
+  prelabel scope for new collections rather than silently excluding them.
+Priority 4 - Broaden typed proper-name coverage for people, organizations,
+  places and calendar names. Evaluate a reversible typed mechanism if a closed
+  pool remains the limiting factor. Do not pass arbitrary unknown text through
+  unchanged or assign it a guessed grammatical role under alternate keys.
+  This work is part of the lexical priority; its percentages are not additive.
+Priority 5 - Improve failure attribution: retain all secondary blockers,
+  distinguish missing word/form/role/frame from parse structure, separate
+  unsupported punctuation from transcript fragments, and count UI/codec faults
+  independently only when an upstream stage passed. Track newly rescued full
+  sentences and complete notes per family, alongside regressions and decoys.
+In parallel - Correct sampling and obtain substantially more independent
+  complete notes. Three note samples and five conversations do not support a
+  deployment coverage claim. Do not tune against validation/acceptance data.
+
+Required decision: keep Stage 2 open. Reaching 99.5% on this 1,000-item
+development sentence set would require at least 995 passes: 872 additional
+successful complete sentences. A family is completed only after production
+composer entry, exact canonical author recovery, alternate-key replay and
+regression checks pass together. Then measure untouched validation and obtain
+the required independent decoy review. Neither added dictionary size nor
+passing the owner examples is an acceptable substitute.
+
+Final conclusion: the low score reflects an incomplete English lexical and
+grammatical model, compounded by inconsistent composition and a weak pilot
+sampling design. The highest-return route is a broad, reviewed lexical model
+PLUS reusable feature-aware constructions and systematic cross-feature tests.
+Do not raise the score by accepting arbitrary known-word sequences or marking
+unfinished phrases complete. Retain negative controls and enforce grammatical
+dependencies under alternate-key mapping.
+Local phrase patches and punctuation relaxations cannot resolve an 87.7%
+failure rate. The benchmark must remain honest while those families are fixed.
+
+REPRODUCTION / EVIDENCE
+  node tools/coverage/stage2-diagnostics.js
+  python3 tools/coverage/stage2-report.py
+  documentation/coverage/stage2-progress.json - measured full-pipeline results
+  data/coverage/items.json - pinned input texts and UD annotations
+  data/coverage/manifest.json - scope, licenses, normalization and sampling
+  data/coverage/stage2-triage.json - reviewed 139-item primary-family assignments
+  documentation/coverage/stage2-root-causes.json - machine-readable breakdown
+  documentation/coverage/stage2-prefix-audit.json - actual rejected-token evidence
+When the measured candidate changes, regenerate diagnostics and review triage;
+the report generator rejects stale snapshot hashes and stale implementation.

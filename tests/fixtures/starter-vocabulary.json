@@ -1,0 +1,390 @@
+{
+  "version": "1.0.0",
+  "language": "en",
+  "entries": [
+    {
+      "id": 1,
+      "text": "sally",
+      "roles": [
+        "person-name"
+      ],
+      "features": {}
+    },
+    {
+      "id": 2,
+      "text": "sarah",
+      "roles": [
+        "person-name"
+      ],
+      "features": {}
+    },
+    {
+      "id": 3,
+      "text": "washington",
+      "roles": [
+        "person-name"
+      ],
+      "features": {}
+    },
+    {
+      "id": 4,
+      "text": "morgan",
+      "roles": [
+        "person-name"
+      ],
+      "features": {}
+    },
+    {
+      "id": 5,
+      "text": "alex",
+      "roles": [
+        "person-name"
+      ],
+      "features": {}
+    },
+    {
+      "id": 6,
+      "text": "jordan",
+      "roles": [
+        "person-name"
+      ],
+      "features": {}
+    },
+    {
+      "id": 7,
+      "text": "sam",
+      "roles": [
+        "person-name"
+      ],
+      "features": {}
+    },
+    {
+      "id": 8,
+      "text": "taylor",
+      "roles": [
+        "person-name"
+      ],
+      "features": {}
+    },
+    {
+      "id": 9,
+      "text": "jamie",
+      "roles": [
+        "person-name"
+      ],
+      "features": {}
+    },
+    {
+      "id": 10,
+      "text": "casey",
+      "roles": [
+        "person-name"
+      ],
+      "features": {}
+    },
+    {
+      "id": 11,
+      "text": "robin",
+      "roles": [
+        "person-name"
+      ],
+      "features": {}
+    },
+    {
+      "id": 12,
+      "text": "charlie",
+      "roles": [
+        "person-name"
+      ],
+      "features": {}
+    },
+    {
+      "id": 13,
+      "text": "riley",
+      "roles": [
+        "person-name"
+      ],
+      "features": {}
+    },
+    {
+      "id": 14,
+      "text": "avery",
+      "roles": [
+        "person-name"
+      ],
+      "features": {}
+    },
+    {
+      "id": 15,
+      "text": "quinn",
+      "roles": [
+        "person-name"
+      ],
+      "features": {}
+    },
+    {
+      "id": 16,
+      "text": "ate",
+      "roles": [
+        "past-transitive-verb"
+      ],
+      "features": {}
+    },
+    {
+      "id": 17,
+      "text": "served",
+      "roles": [
+        "past-transitive-verb"
+      ],
+      "features": {}
+    },
+    {
+      "id": 18,
+      "text": "found",
+      "roles": [
+        "past-transitive-verb"
+      ],
+      "features": {}
+    },
+    {
+      "id": 19,
+      "text": "carried",
+      "roles": [
+        "past-transitive-verb"
+      ],
+      "features": {}
+    },
+    {
+      "id": 20,
+      "text": "saw",
+      "roles": [
+        "past-transitive-verb"
+      ],
+      "features": {}
+    },
+    {
+      "id": 21,
+      "text": "liked",
+      "roles": [
+        "past-transitive-verb"
+      ],
+      "features": {}
+    },
+    {
+      "id": 22,
+      "text": "counted",
+      "roles": [
+        "past-transitive-verb"
+      ],
+      "features": {}
+    },
+    {
+      "id": 23,
+      "text": "slept",
+      "roles": [
+        "past-intransitive-verb"
+      ],
+      "features": {}
+    },
+    {
+      "id": 24,
+      "text": "sang",
+      "roles": [
+        "past-intransitive-verb"
+      ],
+      "features": {}
+    },
+    {
+      "id": 25,
+      "text": "waited",
+      "roles": [
+        "past-intransitive-verb"
+      ],
+      "features": {}
+    },
+    {
+      "id": 26,
+      "text": "smiled",
+      "roles": [
+        "past-intransitive-verb"
+      ],
+      "features": {}
+    },
+    {
+      "id": 27,
+      "text": "arrived",
+      "roles": [
+        "past-intransitive-verb"
+      ],
+      "features": {}
+    },
+    {
+      "id": 28,
+      "text": "soup",
+      "roles": [
+        "mass-noun"
+      ],
+      "features": {}
+    },
+    {
+      "id": 29,
+      "text": "pudding",
+      "roles": [
+        "mass-noun"
+      ],
+      "features": {}
+    },
+    {
+      "id": 30,
+      "text": "water",
+      "roles": [
+        "mass-noun"
+      ],
+      "features": {}
+    },
+    {
+      "id": 31,
+      "text": "rice",
+      "roles": [
+        "mass-noun"
+      ],
+      "features": {}
+    },
+    {
+      "id": 32,
+      "text": "music",
+      "roles": [
+        "mass-noun"
+      ],
+      "features": {}
+    },
+    {
+      "id": 33,
+      "text": "sand",
+      "roles": [
+        "mass-noun"
+      ],
+      "features": {}
+    },
+    {
+      "id": 34,
+      "text": "apple",
+      "roles": [
+        "count-noun"
+      ],
+      "features": {},
+      "forms": {
+        "singular": "apple",
+        "plural": "apples"
+      }
+    },
+    {
+      "id": 35,
+      "text": "person",
+      "roles": [
+        "count-noun"
+      ],
+      "features": {},
+      "forms": {
+        "singular": "person",
+        "plural": "people"
+      }
+    },
+    {
+      "id": 36,
+      "text": "child",
+      "roles": [
+        "count-noun"
+      ],
+      "features": {},
+      "forms": {
+        "singular": "child",
+        "plural": "children"
+      }
+    },
+    {
+      "id": 37,
+      "text": "puddle",
+      "roles": [
+        "count-noun"
+      ],
+      "features": {},
+      "forms": {
+        "singular": "puddle",
+        "plural": "puddles"
+      }
+    },
+    {
+      "id": 38,
+      "text": "book",
+      "roles": [
+        "count-noun"
+      ],
+      "features": {},
+      "forms": {
+        "singular": "book",
+        "plural": "books"
+      }
+    },
+    {
+      "id": 39,
+      "text": "cat",
+      "roles": [
+        "count-noun"
+      ],
+      "features": {},
+      "forms": {
+        "singular": "cat",
+        "plural": "cats"
+      }
+    },
+    {
+      "id": 40,
+      "text": "lovely",
+      "roles": [
+        "adjective"
+      ],
+      "features": {}
+    },
+    {
+      "id": 41,
+      "text": "quiet",
+      "roles": [
+        "adjective"
+      ],
+      "features": {}
+    },
+    {
+      "id": 42,
+      "text": "green",
+      "roles": [
+        "adjective"
+      ],
+      "features": {}
+    },
+    {
+      "id": 43,
+      "text": "small",
+      "roles": [
+        "adjective"
+      ],
+      "features": {}
+    },
+    {
+      "id": 44,
+      "text": "bright",
+      "roles": [
+        "adjective"
+      ],
+      "features": {}
+    },
+    {
+      "id": 45,
+      "text": "the",
+      "roles": [
+        "determiner"
+      ],
+      "features": {}
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "saltHex": "000102030405060708090a0b0c0d0e0f",
+  "passkey": "sarah",
+  "note": "i saw her, and she slept.",
+  "payload": "UEtMBTEuMC4wAAECAwQFBgcICQoLDA0ODwkQDQATCBcAEwcEEAQDAA",
+  "layout": [
+    16,
+    13,
+    0,
+    19,
+    8,
+    23,
+    0,
+    19,
+    7
+  ]
+}

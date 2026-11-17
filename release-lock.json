@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "files": {
+    "codec-demo.html": "616d0dbabeee4cbbe587ee64de1b00508d0e606206e408ac88a40c2d70546a64",
+    "data/semantics.json": "b72a9856a5bc963d794efd7b70e0d208d9d99bdffab928aaaf74f6f9f9020edd",
+    "data/semantics/1.0.0.json": "b72a9856a5bc963d794efd7b70e0d208d9d99bdffab928aaaf74f6f9f9020edd",
+    "src/binary.js": "9aaed23c77fa97b3fe90dd282c7b3508493812df619ef4f9843ade6b0777028c",
+    "src/codec-worker.js": "d081cd9f529a11e74e75d543fac1ce2a8ad5d4067c07350868d750ae9cd881aa",
+    "src/codec.js": "6d0b43cbfdd6a46656b60c9877c7b051d4f5b67c93df39263be2dfad9b4ff676",
+    "src/demo.css": "2cf2f83059e7e19d2ca4bc55cd3f9bd28223766bb70834375c7f4dfb5a42a298",
+    "src/demo.js": "b00dd41d50e55ef705f7e9e4ce12f00efb384a173ee96348ed9e5968bdbf55a8",
+    "src/dependency-grammar-data.js": "454c0dcdf6ce078662db17a42f40e39bdca993c2d2f69096e49495c484964c52",
+    "src/draft.js": "bb002fef7129afcc2e62a5dd0188768956a0d98d5c9ab1ad756ed232e32bb30e",
+    "src/grammar-contract.js": "cbbbc3c5f4b36d03f89a4fac15f3f67fc82715250d8e72aed1a51f47f1e1dec0",
+    "src/grammar.js": "8c7b33b619f73cf109a0beecd3388db2a7cd0bc02782d28dc2f51b5beff431e2",
+    "src/mapping.js": "1093d9a700bffb0894c915b7b7a8680a75bb49bb530a33c3f4361ee526456f98",
+    "src/numbers.js": "1f54981faf0ea8fd4c70dff12bea267c2982358afaa3837e8071dc1b7f42e912",
+    "src/numeric-formats.js": "c5390d3f4d0a108ab934b4b613c913678816e5a29bc443de0fec544a01340fb4",
+    "src/option3-pool-signatures.js": "d20a5cc7d827330601bd1af205d8ccc1c81f5e5890ec951b8cf434af01856967",
+    "src/productive-grammar.js": "48f3d7fd1a098566c32a576cad5ea975a4c38ba861058175dcc8d3deb227f2a1",
+    "src/prototypes/codec.js": "757c05a2fe6ea1119fccc2b58b381eec0a47637aec1c1bcfa1c55b585811d264",
+    "src/prototypes/demo.js": "39779ddc979780b45f29f2e8a84505a2fd6c16aadc8b42fb2dd63f769abe7fcd",
+    "src/prototypes/language.js": "bf5ff4d152b0ea8c407019f18a504213f3b5d963c230fc6afcf3ba6d169820ff",
+    "src/release.js": "7a92a79f5d1aa1549eb45d708b107202cfde3878ff64f79c6cda37eb52bd9b10",
+    "src/structure-codec.js": "4e923305c6e138efe4c6d872bf1fab5cbce75afbc18cb6469149d132f17bd35b",
+    "src/text.js": "19f7b805517c64fefe6f7337ed91a9963e07b40d2bb3577d74d3ef622e5b52a7",
+    "src/vocabulary.js": "81227b37038b7cd5b7260079294eee22a1de5d5017976c91ee3e9dc7c01295eb"
+  }
+}

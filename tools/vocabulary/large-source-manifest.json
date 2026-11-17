@@ -1,0 +1,23 @@
+{
+  "wordnet_release": "Open English WordNet 2025",
+  "wordnet_json": {
+    "url": "https://en-word.net/static/english-wordnet-2025-json.zip",
+    "sha256": "7d749f6e2c39e6970e4997839dcf6e42fd281f3c2fae0171d2192bae8cfa4b51"
+  },
+  "wordnet_wndb": {
+    "url": "https://en-word.net/static/english-wordnet-2025.zip",
+    "sha256": "38b16326159f51853626b7d24a44c453fa88ab33f06fce5ec8fc5996d1c2be93"
+  },
+  "frequency_source": "wordfreq 3.1.1 top_n_list('en', 50000)",
+  "frequency_file_sha256": "38c72fb3a2d4ded8b9ac00c36cab6a25b721465b111809e810ecd816776a5cfd",
+  "ssa_names_source": "https://www.ssa.gov/oact/babynames/limits.html; pinned mirror https://github.com/hackerb9/ssa-baby-names/tree/0b1a1316457d55447d1a1f7bfe57ee15e53cc2f0/raw-data",
+  "ssa_names_archive_sha256": "67cf9c3fbbbcc18994cc071417267c48545130131112bcda83a9a36b2abcbc7e",
+  "ssa_top_1000_sha256": "d58f289319c1aacf5fbc44a10969926c43b7ff819a2343faabb3aaf25d96abcf",
+  "seed_candidate_sha256": "5195c33f52546e13422f99bd203132712b65b323167fd9880c0a2b1bb7d4f9ac",
+  "target_distinct_words": 5013,
+  "target_new_count_nouns": 2500,
+  "noun_synset_files": ["noun.animal.json", "noun.artifact.json", "noun.body.json", "noun.event.json", "noun.group.json", "noun.location.json", "noun.object.json", "noun.person.json", "noun.plant.json"],
+  "noun_exclusions": ["blood", "cattle", "clothing", "data", "equipment", "furniture", "hardware", "information", "luggage", "money", "news", "police", "research", "rice", "software", "soup", "sugar", "support", "traffic", "water", "weather", "woman", "work"],
+  "adjective_exclusions": ["all", "another", "any", "born", "both", "done", "eight", "eleven", "every", "few", "five", "four", "given", "gone", "heard", "in", "known", "lost", "made", "many", "million", "more", "must", "negro", "nine", "no", "ok", "on", "one", "other", "out", "paid", "retarded", "said", "same", "self", "sent", "seven", "several", "shot", "six", "some", "sorry", "taken", "ten", "thousand", "three", "twelve", "two", "up", "whatever", "won", "world", "written", "xx", "xxx"],
+  "license_notice": "See documentation/vocabulary-source.md"
+}

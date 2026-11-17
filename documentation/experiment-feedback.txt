@@ -1,0 +1,84 @@
+PakuPaku experiments and user feedback
+Updated November 12, 2026
+
+1. Fixed sentence structure, separate word pools
+   Keys changed words but kept the sentence skeleton. The user observed that
+   "this is cool. sarah is sexy." kept becoming two similar "is" statements.
+   More words did not solve the recognizable structure.
+
+2. Broader, merged word pools (Prototype B)
+   Names, places, things and pronouns could share compatible phrase positions.
+   This broadened word choices while preserving agreement, but retained the
+   same kind of sentence. In our test it still produced one pattern pair.
+   The user did not explicitly reject B; they selected A as the preferred
+   approach. The structural limitation above is our measured observation.
+
+3. Whole-clause structure changes (Prototype A)
+   The key selects both a construction and its words. Each decoded clause
+   feeds into the mapping for the next clause. The author key recovers the
+   original canonical note. Our 128-key sample produced 70 pattern pairs.
+   User feedback: "PROTOTYPE A · CHANGING STRUCTURE is good."
+   User clarified that this strategy should replace the flow at
+   http://localhost:8080/pakupaku/codec-demo.html.
+
+Decision implemented
+   codec-demo.html now uses A alone, with structure-changing links (#a=).
+   Links do not bundle the narrow/merged controls or the original public tree.
+   prototypes.html remains available for comparison and research.
+   Earlier experimental link formats are not supported on the migrated page.
+
+Current scope
+   This migration adopts the new strategy, not the older grammar's coverage.
+   The page currently supports nine clause families, up to 64 clauses.
+   Clause count stays fixed. Meaning may be odd even when syntax fits.
+   The next work is broader input grammar and more natural combinations.
+
+Correction after the user's follow-up
+   Moving only the nine-pattern demo onto codec-demo.html was not the requested
+   migration. The user wanted broader phrase writing with the new strategy and
+   explicitly rejected the limited replacement: "THAT IS WHAT I ASKED YOU TO DO".
+   The active page now uses the full existing grammar through structure-codec.js,
+   with keyed production and word choices and rolling feedback. It also retains
+   the reviewed simple families for output variety. Input remains bounded by the
+   vocabulary/grammar rather than unrestricted plaintext. See structure-migration.md.
+
+UI correction
+   The user clarified that only encoding was to change: the original UI,
+   automatic lowercase conversion, and red invalid-token highlighting should
+   remain. Replacing the design with the comparison prototype was a mistake.
+   Restored codec-demo.html to the original editor, styles, and interaction
+   flow. The worker now runs the new structure codec behind that interface.
+
+Option 3 selected
+   The user requested the six-level spectrum in the design and selected broad
+   parts of speech with grammatical forms preserved, explicitly accepting
+   examples like "Sarah arrives the sandwich" for more coverage. The active
+   editor/encoder now uses that profile. Context/valency restrictions are relaxed;
+   agreement, pronoun case, article forms and numeric validity remain checked.
+   See grammar-flexibility.md for tradeoffs and measured results.
+
+Valid input is the priority (November 15)
+   The user asked to solve false rejections of valid written sentences, rather
+   than revisit output quality or the grammar spectrum. Fixed the reported
+   "hi. just going to test if this works." by adding the missing general verb
+   forms of test. The existing conversational rules already handled the rest.
+   Added prefix/editor/recovery regression coverage; left the UI and encoding
+   policy unchanged. See input-acceptance.md.
+
+Acceptance-first adjective modifiers
+   The user chose general adjective-before-verb acceptance over another narrow
+   lexical patch. They estimate about 70% rejection in their own usage and
+   questioned the development-trained benchmark. Added a broad modifier rule
+   across verb forms, including learned adjectives; preserved the editor and
+   encoding algorithm. The reported rate is user feedback, not a measured audit.
+
+Noun merging correction
+   The user reminded us that nouns were supposed to be merged. Leaving count/mass
+   barriers active caused "ready for production" to fail. Added shared noun
+   domains with bare and determiner uses, retaining number and pronoun case.
+
+Number frequency
+   The user observed many numbers under alternate keys and approved reducing
+   both number-bearing construction frequency and large-number frequency.
+   Added reversible weighted choices; author input and editor behavior remain
+   unchanged. See number-frequency.md for defaults and measured comparison.

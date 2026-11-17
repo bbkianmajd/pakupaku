@@ -1,0 +1,62 @@
+{
+  "page": "prototypes.html",
+  "modes": [
+    "narrow",
+    "merged",
+    "clauses"
+  ],
+  "cases": [
+    {
+      "example": "this is cool. sarah is sexy.",
+      "authorRecovered": true,
+      "alternate": [
+        "this is insignificant. carla is interesting.",
+        "jefferson city is weak. the neutron is affordable.",
+        "alexandria is shallow. does joe trust ryan?"
+      ]
+    },
+    {
+      "example": "i love you. tomorrow, sarah arrives.",
+      "authorRecovered": true,
+      "alternate": [
+        "i remember you. tomorrow, katherine laughs.",
+        "the artist helps randy. this evening, kurt sleeps.",
+        "does patrick meet joel? the jewelry is playful."
+      ]
+    },
+    {
+      "example": "sarah, you are sexy. we might dance.",
+      "authorRecovered": true,
+      "alternate": [
+        "jeannette, we are intelligent. they will sleep.",
+        "inez, rapid city is private. krystal will dance.",
+        "tracey goes to samoa. levi goes to côte d'ivoire."
+      ]
+    },
+    {
+      "example": "does sarah know me? the doctor is in paris.",
+      "authorRecovered": true,
+      "alternate": [
+        "does adeline call me? the tray is in springfield.",
+        "does zoe call jonah? kaleb is in rutland.",
+        "kathryn walks to the netherlands. does lisa remember evan?"
+      ]
+    },
+    {
+      "example": "sarah travels to new york. this is interesting.",
+      "authorRecovered": true,
+      "alternate": [
+        "aidan travels to saudi arabia. this is gray.",
+        "wendy goes to tunisia. the raider is dusty.",
+        "lola sleeps. genesis, the passenger is special."
+      ]
+    }
+  ],
+  "sharedLinkRecovered": true,
+  "rapidKeysPassed": true,
+  "unsupportedInputHandled": true,
+  "mobileOverflow": false,
+  "errors": [],
+  "localRequestsOnly": true,
+  "browser": "158.0.8127.18"
+}

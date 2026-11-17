@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>PakuPaku codec demo</title>
+  <link rel="stylesheet" href="src/demo.css">
+  <script type="module" src="src/demo.js"></script>
+</head>
+<body>
+<main>
+  <h1>Encoder and decoder demo</h1>
+  <p>Write a note and create a link. Your key recovers the note; other keys can change its words and sentence structures.</p>
+  <section>
+    <h2>Create a link</h2>
+    <label for="note">Note from the vocabulary and grammar</label>
+    <div class="note-editor">
+      <pre id="note-highlights" aria-hidden="true"></pre>
+      <textarea id="note" rows="4" autocomplete="off" spellcheck="false" aria-describedby="note-feedback" placeholder="try hello or i love you"></textarea>
+    </div>
+    <p id="note-feedback" role="status"></p>
+    <p>Uppercase becomes lowercase as you type. Spaces and line breaks are normalized in the link. Unsupported words or grammar are highlighted in red. Try <code>hello</code>, <code>i love you</code>, <code>sarah, you are sexy.</code>, or <code>hello. i love you. can you help me? meet me at 1530.</code></p>
+    <p>Broad grammar mode allows unusual combinations such as <code>sarah arrives the sandwich.</code>, while checking word forms and agreement.</p>
+    <label for="writer-key">Author pass-key (at least three characters)</label>
+    <input id="writer-key" type="password" autocomplete="off">
+    <p>Replace the generated key with one you choose.</p>
+    <button id="encode" disabled>Create link</button>
+    <p id="writer-status" role="status"></p>
+    <label for="link">Shareable link</label>
+    <textarea id="link" rows="3" readonly></textarea>
+  </section>
+  <section>
+    <h2>Read the link</h2>
+    <label for="reader-key">Reader pass-key</label>
+    <input id="reader-key" type="password" autocomplete="off">
+    <p>Every reader key produces a reading, including an empty key. Sentence structures and words can change, with earlier choices influencing later ones.</p>
+    <p id="reader-status" role="status">Create a link or open a shared demo link.</p>
+    <output id="reading" aria-live="polite"></output>
+  </section>
+  <p><a href="README.md">Documentation and tests</a></p>
+</main>
+</body>
+</html>

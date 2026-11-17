@@ -1,0 +1,25 @@
+:root { color-scheme: light dark; font: 1rem/1.6 system-ui, sans-serif; }
+body { margin: 2rem auto; max-width: 45rem; padding: 0 1.25rem; }
+section { margin: 2rem 0; padding: 1rem; border: 1px solid #888; border-radius: .5rem; }
+label { display: block; margin-top: .75rem; }
+input, textarea { box-sizing: border-box; width: 100%; padding: .6rem; font: inherit; }
+.note-editor { position: relative; }
+#note-highlights {
+  position: absolute; inset: 0; box-sizing: border-box; margin: 0;
+  overflow: auto; pointer-events: none; padding: .6rem;
+  border: 1px solid transparent; border-radius: 2px;
+  font: inherit; line-height: inherit; white-space: pre-wrap; overflow-wrap: anywhere;
+  color: light-dark(#111, #eee); scrollbar-width: none;
+}
+#note-highlights::-webkit-scrollbar { display: none; }
+#note-highlights .bad {
+  color: light-dark(#b42318, #ff9b92);
+  background: light-dark(#ffe1df, #5b2020);
+  text-decoration: underline wavy currentColor;
+}
+#note { position: relative; background: transparent; color: transparent; caret-color: light-dark(#111, #eee); }
+#note::selection { background: light-dark(#a9c7ff, #385c9d); }
+#note-feedback { min-height: 1.5em; margin: .3rem 0; }
+button { padding: .6rem 1rem; font: inherit; cursor: pointer; }
+output { display: block; font-size: 1.3rem; overflow-wrap: anywhere; min-height: 3rem; }
+a { color: light-dark(#064ca1, #95c9ff); }

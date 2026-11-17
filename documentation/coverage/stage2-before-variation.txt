@@ -1,0 +1,176 @@
+STAGE 2 REPORT: DEVELOPMENT COVERAGE ABOVE 90%
+===============================================
+
+Full-pipeline sentences: 983/1000 (98.30%). Target: at least 901/1000.
+Before: 145/1000; newly passing: 838; regressions: 0.
+Complete source notes: 0/3. Project cases: 33/33.
+All original input IDs, texts and denominators retained. No excluded failures.
+Corpus SHA-256: 7040280b6e17881058f3f95e086976b6a682bbf54f4ac20df16a80bad1d25c45
+Measurement SHA-256: ab99edf915a875bb720c7f4a9a318546cffb749526ac7bc972550550b8b38148
+All implementation hashes verified against the frozen measured files.
+
+INTERPRETATION: DEVELOPMENT-TRAINED, NOT HELD-OUT COVERAGE
+The new local dependency grammar and lexical classes are learned from the
+development annotations, including constituent sentences of development notes.
+This is a training-set engineering score. It does not establish 90% success
+on unseen English. Validation and acceptance were not used or measured.
+The runtime has typed reusable phrase rules and finite vocabulary pools, not
+a source-sentence lookup or arbitrary-text fallback. Source-annotation errors
+and sparse phrase patterns still limit generalization and decoy grammaticality.
+Stage 2 remains open: the 99.5% sentence/note gates and independent review fail.
+
+WHAT CHANGED
+1. Reproducible development-only dependency grammar and sourced lexical roles.
+   It preserves morphology, case/markers, selected complements, pronunciation
+   onset, delimiter interfaces and exact token joining. Sentence endings share
+   the existing document grammar, so learned and productive utterances combine.
+2. Productive finite coordination, auxiliary/passive chains, relative/object
+   gaps, embedded questions, selected object/adjective complements, indefinite
+   pronouns, gerund phrases and modifiers. Reviewed verb/noun/adjective breadth.
+3. Bounded per-grammar recognition/suggestion caches and indexed lexical pools.
+   These remove repeated prefix work while preserving deterministic parsing.
+4. The initial extraction-only candidate passed 2/15 newly authored ordinary
+   messages. Productive grammar fixes now pass 15/15 through the full pipeline.
+   Those messages are now regression fixtures, not independent acceptance.
+
+RANKED EXCLUSIVE FAILURE BUCKETS
+Denominators: 1000 sentences; 17 failures. Rows sum to all failures.
+Rank | Count | % of all sentences | % of failures | Necessary observed blocker
+   1 |    11 |              1.10% |        64.71% | Missing words (possibly also structural gaps)
+   2 |     5 |              0.50% |        29.41% | Known-word construction/role rejection
+   3 |     1 |              0.10% |         5.88% | Missing words plus unsupported surface tokens
+
+REVIEWED STRUCTURAL FAMILIES (PARSER FAILURES ONLY)
+Labels summarize the visible construction; they are not proof that one fix
+alone rescues an input. Source-extraction skip reasons are recorded separately.
+    9 (0.90% of all; 52.94% of failures) Interrupted, restarted or dislocated conversational clauses
+    2 (0.20% of all; 11.76% of failures) Unfinished greeting/vocative ending in a comma
+    2 (0.20% of all; 11.76% of failures) Relative gaps with a stranded preposition
+    1 (0.10% of all; 5.88% of failures) Comparison and relative-clause composition
+    1 (0.10% of all; 5.88% of failures) Discourse prefixes and informal wh-question composition
+    1 (0.10% of all; 5.88% of failures) Mathematical labels and coordinated nominal ellipsis
+    1 (0.10% of all; 5.88% of failures) Conversational restarts and stranded complements
+
+OVERLAPPING REMAINING LEXICAL AND SURFACE GAPS
+Missing-word items: 12/1000.
+Unsupported surface-token items: 1/1000.
+Missing spellings: girlie (1), investment (1), meditate (1), semi-pelagianism (1), emphasis (1), role (1), prevenient (1), views (1), attaining (1), thereby (1), conceptualizing (1), admit (1), predestined (1), omnipotent (1), ya'll (1), bone (1), wall (1), knife (1), y'all (1), mysteries (1), bandage (1)
+Unsupported surface tokens: 'v-' (1)
+
+PIPELINE EVIDENCE
+Parse successes: 983/1000.
+Parse-success/composer failures: 0.
+Author recoveries: 983/1000.
+Four sampled alternate-reader keys pass: 983/1000.
+Each successful item passed every-character prefix replay, exact author-key
+recovery and all four alternate-key replays. Missing diagnostics mean not
+reached, never passed. Replay does not independently certify grammaticality.
+
+PUBLIC-LAYOUT / LEXICAL DISCLOSURE
+Generated local productions: 5531; lexical pools: 2894; singleton pools: 2616.
+Across passing sentences: 4558 semantic slots; 2070 have multiple choices; 2488 are singleton.
+Fixed word-literal occurrences: 4971. Sentences with no variable slots: 223/983.
+Deterministic 50-reading disclosure sample: 9 readings unchanged under the sampled other key.
+Singletons, grammatical literals and distinctive layouts disclose content.
+Narrow/unreviewed senses are deliberately not exchanged with arbitrary POS
+peers. This protects local grammatical compatibility but reduces concealment.
+The required independent 1,000-reading grammatical review remains outstanding.
+
+EVERY REMAINING FAILED SENTENCE
+ewt:email-enronsent34_01-0008: Known-word construction/role rejection
+  Family: Comparison and relative-clause composition; first rejection: 'as'; extraction: nonprojective dependency
+  as much fun as they are, i figured we would probably do some different things than what you have planned for them.
+ewt:email-enronsent34_01-0021: Missing words (possibly also structural gaps)
+  Family: Unfinished greeting/vocative ending in a comma; first rejection: 'see pipeline diagnostics'; extraction: unfinished interjection
+  hey girlie,
+ewt:email-enronsent00_01-0003: Missing words (possibly also structural gaps)
+  Family: Relative gaps with a stranded preposition; first rejection: 'see pipeline diagnostics'; extraction: nonprojective dependency
+  i would have interest in meeting if you can present unique investment opportunities that i don't have access to now.
+gum:GUM_conversation_erasmus-2: Known-word construction/role rejection
+  Family: Interrupted, restarted or dislocated conversational clauses; first rejection: 'um'; extraction: nonprojective dependency
+  and um, when you come then, to, uh, however this debate.
+gum:GUM_conversation_erasmus-6: Missing words (possibly also structural gaps)
+  Family: Interrupted, restarted or dislocated conversational clauses; first rejection: 'see pipeline diagnostics'; extraction: nonprojective dependency
+  this is in the luther book some of you are reading, and um, if you, this evening when you go home, if you wanna meditate it on more, on – on it more, it's on page three eleven.
+gum:GUM_conversation_erasmus-32: Missing words (possibly also structural gaps)
+  Family: Interrupted, restarted or dislocated conversational clauses; first rejection: 'see pipeline diagnostics'; extraction: nonprojective dependency
+  catholic, and semi-pelagianism, with all of its emphasis on on the role of prevenient grace, finally views free will as the decisive factor in attaining salvation, thereby conceptualizing free will, as similar to a healthy man- – healthy human understanding.
+gum:GUM_conversation_erasmus-66: Missing words plus unsupported surface tokens
+  Family: Interrupted, restarted or dislocated conversational clauses; first rejection: 'see pipeline diagnostics'; extraction: nonprojective dependency
+  now, number one, we have to admit first – v- first off, that there seem to be passages, there are passages in the scriptures.
+gum:GUM_conversation_erasmus-82: Missing words (possibly also structural gaps)
+  Family: Interrupted, restarted or dislocated conversational clauses; first rejection: 'see pipeline diagnostics'; extraction: nonprojective dependency
+  on the other hand, we have passages of scripture, which seem to indicate, that the will is not free, and that the –, and that man i- th- is – man is predestined by a an omnipotent sovereign will of god.
+ewt:email-enronsent03_01-0122: Missing words (possibly also structural gaps)
+  Family: Unfinished greeting/vocative ending in a comma; first rejection: 'see pipeline diagnostics'; extraction: unfinished interjection
+  hi ya'll,
+gum:GUM_conversation_blacksmithing-42: Missing words (possibly also structural gaps)
+  Family: Interrupted, restarted or dislocated conversational clauses; first rejection: 'see pipeline diagnostics'; extraction: nonprojective dependency
+  you know, all the way down to the hoof, and then, the bone in the hoof, and, then all the wall, and, you know, of the hoof, and, what everything was called there, and then, he went over on how to trim it, and where you —
+gum:GUM_conversation_blacksmithing-43: Missing words (possibly also structural gaps)
+  Family: Relative gaps with a stranded preposition; first rejection: 'see pipeline diagnostics'; extraction: nonprojective dependency
+  th- there's a white line, that you go by, and a horse has this little white line, and you clean it out with the — with the hoof knife.
+gum:GUM_conversation_blacksmithing-46: Known-word construction/role rejection
+  Family: Interrupted, restarted or dislocated conversational clauses; first rejection: 'where'; extraction: nonprojective dependency
+  and that's kinda where you go by, to —
+gum:GUM_conversation_blacksmithing-89: Known-word construction/role rejection
+  Family: Discourse prefixes and informal wh-question composition; first rejection: 'anyway'; extraction: nonprojective dependency
+  but, anyway, um, what was i gonna say?
+gum:GUM_conversation_zero-41: Missing words (possibly also structural gaps)
+  Family: Interrupted, restarted or dislocated conversational clauses; first rejection: 'see pipeline diagnostics'; extraction: nonprojective dependency
+  but do y'all have to do that, um, you have to like, have it where you do that, there's no, um.
+gum:GUM_conversation_zero-84: Known-word construction/role rejection
+  Family: Mathematical labels and coordinated nominal ellipsis; first rejection: ','; extraction: nonprojective dependency
+  over, do i have another i down here, or just the one i?
+gum:GUM_conversation_christmas-30: Missing words (possibly also structural gaps)
+  Family: Conversational restarts and stranded complements; first rejection: 'see pipeline diagnostics'; extraction: nonprojective dependency
+  there are there are mysteries in this house that i'm not even aware of.
+gum:GUM_conversation_vet-33: Missing words (possibly also structural gaps)
+  Family: Interrupted, restarted or dislocated conversational clauses; first rejection: 'see pipeline diagnostics'; extraction: nonprojective dependency
+  well, well, all we did — i can't do that, cause all we did was, i was in here and put a bandage on.
+
+COMPLETE SOURCE NOTES
+  ewt:email-enronsent41_01: missing word, clause structure, UI
+  ewt:email-enronsent01_02: missing word, clause structure, UI
+  gum:GUM_conversation_gossip: punctuation, clause structure, UI
+Short mixed notes have separate automated/browser coverage; they do not
+replace these three intact source documents in the note denominator.
+
+BENCHMARK LIMITS
+The fixed pilot contains 449 email, 51 newsgroup and 500 transcribed
+conversation sentences from 13 documents/conversations. An original selector
+also matched newsgroup IDs containing emails. Math, restarts, partial words,
+typos and unusual source content remain counted. Three notes are insufficient
+to estimate note coverage. Future representative collection must be declared
+in advance; do not discard these failures or retune a held-out acceptance set.
+
+CONCLUSION AND RANKED NEXT WORK
+The requested development engineering checkpoint is met.
+1. Measure fresh, predeclared held-out messages and complete notes to test
+   generalization; keep the development-trained score explicitly labeled.
+2. Expand productive relative/preposition gaps, comparisons, discourse repairs
+   and question/ellipsis composition. Avoid source-specific sentence rules.
+3. Expand reviewed grammatical lexical equivalence classes to reduce singleton
+   disclosure, while independently auditing alternate-reader English.
+4. Complete source-document composition and resource/latency checks, retaining
+   every failed note. Preserve negative controls and exact author recovery.
+5. Reach 99.5% development AND validation sentence/note coverage and complete
+   the independent decoy review before closing Stage 2 or publishing.
+
+REPRODUCTION
+  python3 tools/vocabulary/build_dependency_grammar.py
+  python3 tools/vocabulary/extend_stage2.py
+  node tools/coverage/run.js --stage2
+  node tools/coverage/stage2-diagnostics.js
+  node tools/coverage/layout-audit.js
+  python3 tools/coverage/stage2-report.py
+Plan: documentation/coverage/road-to-90.md.
+Design/provenance: documentation/coverage/dependency-grammar.md.
+Previous result retained as documentation/coverage/stage2-before-90.json.
+
+GEOGRAPHY FOLLOW-UP
+Inventory: 50 states, 250 city/state memberships including all capitals, 200 country/territory entities.
+This is broad geographic coverage, not a measured discussion-frequency ranking.
+Multiword names are one semantic choice; continuation tokens do not mix names.
+See documentation/geography-vocabulary.md for the full catalog and sources.
+Before geography: 983/1000; after: 983/1000; regressions: 0.

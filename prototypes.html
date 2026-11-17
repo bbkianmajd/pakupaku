@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>PakuPaku · Two ways to change a note</title>
+  <link rel="stylesheet" href="src/prototypes/demo.css">
+  <script type="module" src="src/prototypes/demo.js"></script>
+</head>
+<body>
+<main>
+  <header><p class="eyebrow">PAKUPAKU / EXPERIMENTS</p><h1>Change the words.<br>Or change the whole sentence.</h1>
+  <p class="intro">Try the same note and key in two experiments. One mixes bigger word groups. The other lets the key choose a new sentence pattern, then uses that result to influence the next sentence.</p></header>
+  <details id="compose" open>
+    <summary>Start with your note</summary>
+    <form id="writer-form">
+      <label for="note">Your note</label>
+      <textarea id="note" rows="3" spellcheck="false">this is cool. sarah is sexy.</textarea>
+      <label for="example">Try another example</label>
+      <select id="example">
+        <option value="this is cool. sarah is sexy.">this is cool. sarah is sexy.</option>
+        <option value="i love you. tomorrow, sarah arrives.">i love you. tomorrow, sarah arrives.</option>
+        <option value="sarah, you are sexy. we might dance.">sarah, you are sexy. we might dance.</option>
+        <option value="does sarah know me? the doctor is in paris.">does sarah know me? the doctor is in paris.</option>
+        <option value="sarah travels to new york. this is interesting.">sarah travels to new york. this is interesting.</option>
+      </select>
+      <div class="writer-row"><div><label for="writer-key">Author key</label><input id="writer-key" type="password" autocomplete="off" value="test" aria-describedby="key-hint"></div>
+      <button id="compare" type="submit" disabled>Create comparison</button></div>
+      <p id="key-hint" class="hint">The example author key is “test.” The same key brings back your note. Lowercase and spacing are standardized; a missing final period is added.</p>
+    </form>
+  </details>
+  <p id="status" role="status">Loading the experimental vocabulary…</p>
+  <section class="reader" aria-labelledby="reader-title">
+    <h2 id="reader-title">Now change the reader key</h2>
+    <label for="reader-key">Reader key · every value gives a reading</label>
+    <input id="reader-key" type="text" autocomplete="off" spellcheck="false" value="test" disabled>
+    <div class="key-buttons" aria-label="Example reader keys">
+      <button type="button" data-key="t">t</button><button type="button" data-key="te">te</button><button type="button" data-key="tes">tes</button><button type="button" data-key="test">test</button><button type="button" data-key="another">another</button><button type="button" data-key="">empty key</button>
+    </div>
+  </section>
+  <div class="cards" aria-live="polite" aria-busy="false" id="results">
+    <section class="card control"><p class="eyebrow">CONTROL</p><h2>Small, separate groups</h2><p>Names stay names. “This” stays “this.” The sentence pattern stays put.</p><output id="narrow-reading">Create a comparison to begin.</output><p class="hint">An experimental control, not a replay of the production codec.</p></section>
+    <section class="card"><p class="eyebrow">PROTOTYPE B · POOL MERGING</p><h2>Bigger word groups</h2><p>Names, places, things, and pronouns can share a subject slot. “Is” can become “are,” but the kind of sentence stays the same.</p><output id="merged-reading">Create a comparison to begin.</output></section>
+    <section class="card featured"><p class="eyebrow">PROTOTYPE A · CHANGING STRUCTURE</p><h2>A different kind of sentence</h2><p>A description can become an action, a question, or a location. Each decoded clause influences the next choice.</p><output id="clauses-reading">Create a comparison to begin.</output></section>
+  </div>
+  <details><summary>See how the changing-structure reading grows</summary><ol id="chain"></ol><p class="hint">Each step feeds its chosen pattern and words into the next step. Changing an earlier result changes how later stored choices are read; it does not guarantee that every later word will differ.</p></details>
+  <section class="share"><label for="share-link">Link to this comparison · reader keys are not included</label><textarea id="share-link" rows="2" readonly></textarea></section>
+  <details><summary>What can I write in this experiment?</summary>
+    <p>This small grammar demonstrates nine patterns. It uses the existing name and adjective lists, but it does not support all the notes the main app accepts. It allows up to 64 clauses, ending in periods or question marks.</p>
+    <ul><li>this is cool.</li><li>sarah waits.</li><li>i love you.</li><li>sarah travels to new york.</li><li>the doctor is in paris.</li><li>we might dance.</li><li>does sarah know me?</li><li>tomorrow, sarah arrives.</li><li>sarah, you are sexy.</li></ul>
+    <p>Names and places containing periods are excluded from this experiment. Verb choices are deliberately small. Every output follows these patterns, but its meaning may be unusual. Clause count stays fixed. These are research prototypes, not a security-reviewed replacement for the main app.</p>
+  </details>
+  <footer><a href="documentation/word-pools-and-grammar-review.md">Plain-language report</a><a href="codec-demo.html">Original codec demo</a></footer>
+</main>
+</body>
+</html>

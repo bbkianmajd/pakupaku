@@ -1,0 +1,2234 @@
+{
+  "selection": "50 US states; five cities/places per state including its capital. 200 country/territory entities: 193 UN members, two observer-state places, plus Taiwan, Kosovo, Hong Kong, Macau and Western Sahara. Broad coverage, not a measured discussion-frequency ranking or a statement on political recognition. Hawaii includes census-designated communities.",
+  "sources": [
+    {
+      "url": "https://github.com/mledoze/countries",
+      "file": "geography-sources/countries.json",
+      "sha256": "0d92fb23b43ae080bd439f5dc5d61a8845395fdd0af1479b433c59fe079bd6fd",
+      "license": "ODbL-1.0; see geography-sources/LICENSE-countries",
+      "snapshot_date": "2026-11-10",
+      "note": "Source unMember flag for Vatican City corrected explicitly by the builder; Kosovo code UNK is a source identifier, not an ISO assignment."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_capitals_in_the_United_States",
+      "use": "Capital fact check"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_largest_cities_of_U.S._states_and_territories_by_population",
+      "use": "City spelling and state membership reference; authored selection, not a population ranking"
+    }
+  ],
+  "states": [
+    {
+      "name": "alabama",
+      "capital": "montgomery",
+      "cities": [
+        "montgomery",
+        "birmingham",
+        "huntsville",
+        "mobile",
+        "tuscaloosa"
+      ]
+    },
+    {
+      "name": "alaska",
+      "capital": "juneau",
+      "cities": [
+        "juneau",
+        "anchorage",
+        "fairbanks",
+        "sitka",
+        "ketchikan"
+      ]
+    },
+    {
+      "name": "arizona",
+      "capital": "phoenix",
+      "cities": [
+        "phoenix",
+        "tucson",
+        "mesa",
+        "chandler",
+        "scottsdale"
+      ]
+    },
+    {
+      "name": "arkansas",
+      "capital": "little rock",
+      "cities": [
+        "little rock",
+        "fort smith",
+        "fayetteville",
+        "springdale",
+        "jonesboro"
+      ]
+    },
+    {
+      "name": "california",
+      "capital": "sacramento",
+      "cities": [
+        "sacramento",
+        "los angeles",
+        "san diego",
+        "san jose",
+        "san francisco"
+      ]
+    },
+    {
+      "name": "colorado",
+      "capital": "denver",
+      "cities": [
+        "denver",
+        "colorado springs",
+        "aurora",
+        "fort collins",
+        "boulder"
+      ]
+    },
+    {
+      "name": "connecticut",
+      "capital": "hartford",
+      "cities": [
+        "hartford",
+        "bridgeport",
+        "new haven",
+        "stamford",
+        "waterbury"
+      ]
+    },
+    {
+      "name": "delaware",
+      "capital": "dover",
+      "cities": [
+        "dover",
+        "wilmington",
+        "newark",
+        "middletown",
+        "milford"
+      ]
+    },
+    {
+      "name": "florida",
+      "capital": "tallahassee",
+      "cities": [
+        "tallahassee",
+        "jacksonville",
+        "miami",
+        "tampa",
+        "orlando"
+      ]
+    },
+    {
+      "name": "georgia",
+      "capital": "atlanta",
+      "cities": [
+        "atlanta",
+        "augusta",
+        "columbus",
+        "savannah",
+        "athens"
+      ]
+    },
+    {
+      "name": "hawaii",
+      "capital": "honolulu",
+      "cities": [
+        "honolulu",
+        "hilo",
+        "kailua",
+        "kaneohe",
+        "pearl city"
+      ]
+    },
+    {
+      "name": "idaho",
+      "capital": "boise",
+      "cities": [
+        "boise",
+        "meridian",
+        "nampa",
+        "idaho falls",
+        "pocatello"
+      ]
+    },
+    {
+      "name": "illinois",
+      "capital": "springfield",
+      "cities": [
+        "springfield",
+        "chicago",
+        "aurora",
+        "naperville",
+        "rockford"
+      ]
+    },
+    {
+      "name": "indiana",
+      "capital": "indianapolis",
+      "cities": [
+        "indianapolis",
+        "fort wayne",
+        "evansville",
+        "south bend",
+        "carmel"
+      ]
+    },
+    {
+      "name": "iowa",
+      "capital": "des moines",
+      "cities": [
+        "des moines",
+        "cedar rapids",
+        "davenport",
+        "sioux city",
+        "iowa city"
+      ]
+    },
+    {
+      "name": "kansas",
+      "capital": "topeka",
+      "cities": [
+        "topeka",
+        "wichita",
+        "overland park",
+        "kansas city",
+        "olathe"
+      ]
+    },
+    {
+      "name": "kentucky",
+      "capital": "frankfort",
+      "cities": [
+        "frankfort",
+        "louisville",
+        "lexington",
+        "bowling green",
+        "owensboro"
+      ]
+    },
+    {
+      "name": "louisiana",
+      "capital": "baton rouge",
+      "cities": [
+        "baton rouge",
+        "new orleans",
+        "shreveport",
+        "lafayette",
+        "lake charles"
+      ]
+    },
+    {
+      "name": "maine",
+      "capital": "augusta",
+      "cities": [
+        "augusta",
+        "portland",
+        "lewiston",
+        "bangor",
+        "south portland"
+      ]
+    },
+    {
+      "name": "maryland",
+      "capital": "annapolis",
+      "cities": [
+        "annapolis",
+        "baltimore",
+        "frederick",
+        "gaithersburg",
+        "rockville"
+      ]
+    },
+    {
+      "name": "massachusetts",
+      "capital": "boston",
+      "cities": [
+        "boston",
+        "worcester",
+        "springfield",
+        "cambridge",
+        "lowell"
+      ]
+    },
+    {
+      "name": "michigan",
+      "capital": "lansing",
+      "cities": [
+        "lansing",
+        "detroit",
+        "grand rapids",
+        "warren",
+        "ann arbor"
+      ]
+    },
+    {
+      "name": "minnesota",
+      "capital": "saint paul",
+      "cities": [
+        "saint paul",
+        "minneapolis",
+        "rochester",
+        "duluth",
+        "bloomington"
+      ]
+    },
+    {
+      "name": "mississippi",
+      "capital": "jackson",
+      "cities": [
+        "jackson",
+        "gulfport",
+        "southaven",
+        "hattiesburg",
+        "biloxi"
+      ]
+    },
+    {
+      "name": "missouri",
+      "capital": "jefferson city",
+      "cities": [
+        "jefferson city",
+        "kansas city",
+        "saint louis",
+        "springfield",
+        "columbia"
+      ]
+    },
+    {
+      "name": "montana",
+      "capital": "helena",
+      "cities": [
+        "helena",
+        "billings",
+        "missoula",
+        "great falls",
+        "bozeman"
+      ]
+    },
+    {
+      "name": "nebraska",
+      "capital": "lincoln",
+      "cities": [
+        "lincoln",
+        "omaha",
+        "bellevue",
+        "grand island",
+        "kearney"
+      ]
+    },
+    {
+      "name": "nevada",
+      "capital": "carson city",
+      "cities": [
+        "carson city",
+        "las vegas",
+        "henderson",
+        "reno",
+        "north las vegas"
+      ]
+    },
+    {
+      "name": "new hampshire",
+      "capital": "concord",
+      "cities": [
+        "concord",
+        "manchester",
+        "nashua",
+        "dover",
+        "rochester"
+      ]
+    },
+    {
+      "name": "new jersey",
+      "capital": "trenton",
+      "cities": [
+        "trenton",
+        "newark",
+        "jersey city",
+        "paterson",
+        "elizabeth"
+      ]
+    },
+    {
+      "name": "new mexico",
+      "capital": "santa fe",
+      "cities": [
+        "santa fe",
+        "albuquerque",
+        "las cruces",
+        "rio rancho",
+        "roswell"
+      ]
+    },
+    {
+      "name": "new york",
+      "capital": "albany",
+      "cities": [
+        "albany",
+        "new york city",
+        "buffalo",
+        "rochester",
+        "syracuse"
+      ]
+    },
+    {
+      "name": "north carolina",
+      "capital": "raleigh",
+      "cities": [
+        "raleigh",
+        "charlotte",
+        "greensboro",
+        "durham",
+        "winston-salem"
+      ]
+    },
+    {
+      "name": "north dakota",
+      "capital": "bismarck",
+      "cities": [
+        "bismarck",
+        "fargo",
+        "grand forks",
+        "minot",
+        "west fargo"
+      ]
+    },
+    {
+      "name": "ohio",
+      "capital": "columbus",
+      "cities": [
+        "columbus",
+        "cleveland",
+        "cincinnati",
+        "toledo",
+        "akron"
+      ]
+    },
+    {
+      "name": "oklahoma",
+      "capital": "oklahoma city",
+      "cities": [
+        "oklahoma city",
+        "tulsa",
+        "norman",
+        "broken arrow",
+        "lawton"
+      ]
+    },
+    {
+      "name": "oregon",
+      "capital": "salem",
+      "cities": [
+        "salem",
+        "portland",
+        "eugene",
+        "gresham",
+        "bend"
+      ]
+    },
+    {
+      "name": "pennsylvania",
+      "capital": "harrisburg",
+      "cities": [
+        "harrisburg",
+        "philadelphia",
+        "pittsburgh",
+        "allentown",
+        "erie"
+      ]
+    },
+    {
+      "name": "rhode island",
+      "capital": "providence",
+      "cities": [
+        "providence",
+        "warwick",
+        "cranston",
+        "pawtucket",
+        "east providence"
+      ]
+    },
+    {
+      "name": "south carolina",
+      "capital": "columbia",
+      "cities": [
+        "columbia",
+        "charleston",
+        "north charleston",
+        "mount pleasant",
+        "greenville"
+      ]
+    },
+    {
+      "name": "south dakota",
+      "capital": "pierre",
+      "cities": [
+        "pierre",
+        "sioux falls",
+        "rapid city",
+        "aberdeen",
+        "brookings"
+      ]
+    },
+    {
+      "name": "tennessee",
+      "capital": "nashville",
+      "cities": [
+        "nashville",
+        "memphis",
+        "knoxville",
+        "chattanooga",
+        "clarksville"
+      ]
+    },
+    {
+      "name": "texas",
+      "capital": "austin",
+      "cities": [
+        "austin",
+        "houston",
+        "san antonio",
+        "dallas",
+        "fort worth"
+      ]
+    },
+    {
+      "name": "utah",
+      "capital": "salt lake city",
+      "cities": [
+        "salt lake city",
+        "west valley city",
+        "west jordan",
+        "provo",
+        "orem"
+      ]
+    },
+    {
+      "name": "vermont",
+      "capital": "montpelier",
+      "cities": [
+        "montpelier",
+        "burlington",
+        "south burlington",
+        "rutland",
+        "barre"
+      ]
+    },
+    {
+      "name": "virginia",
+      "capital": "richmond",
+      "cities": [
+        "richmond",
+        "virginia beach",
+        "chesapeake",
+        "norfolk",
+        "alexandria"
+      ]
+    },
+    {
+      "name": "washington",
+      "capital": "olympia",
+      "cities": [
+        "olympia",
+        "seattle",
+        "spokane",
+        "tacoma",
+        "vancouver"
+      ]
+    },
+    {
+      "name": "west virginia",
+      "capital": "charleston",
+      "cities": [
+        "charleston",
+        "huntington",
+        "morgantown",
+        "parkersburg",
+        "wheeling"
+      ]
+    },
+    {
+      "name": "wisconsin",
+      "capital": "madison",
+      "cities": [
+        "madison",
+        "milwaukee",
+        "green bay",
+        "kenosha",
+        "racine"
+      ]
+    },
+    {
+      "name": "wyoming",
+      "capital": "cheyenne",
+      "cities": [
+        "cheyenne",
+        "casper",
+        "laramie",
+        "gillette",
+        "rock springs"
+      ]
+    }
+  ],
+  "countries": [
+    {
+      "code": "AFG",
+      "name": "afghanistan",
+      "kind": "country",
+      "spellings": [
+        "afghanistan"
+      ]
+    },
+    {
+      "code": "ALB",
+      "name": "albania",
+      "kind": "country",
+      "spellings": [
+        "albania"
+      ]
+    },
+    {
+      "code": "DZA",
+      "name": "algeria",
+      "kind": "country",
+      "spellings": [
+        "algeria"
+      ]
+    },
+    {
+      "code": "AND",
+      "name": "andorra",
+      "kind": "country",
+      "spellings": [
+        "andorra"
+      ]
+    },
+    {
+      "code": "AGO",
+      "name": "angola",
+      "kind": "country",
+      "spellings": [
+        "angola"
+      ]
+    },
+    {
+      "code": "ATG",
+      "name": "antigua and barbuda",
+      "kind": "country",
+      "spellings": [
+        "antigua and barbuda"
+      ]
+    },
+    {
+      "code": "ARG",
+      "name": "argentina",
+      "kind": "country",
+      "spellings": [
+        "argentina"
+      ]
+    },
+    {
+      "code": "ARM",
+      "name": "armenia",
+      "kind": "country",
+      "spellings": [
+        "armenia"
+      ]
+    },
+    {
+      "code": "AUS",
+      "name": "australia",
+      "kind": "country",
+      "spellings": [
+        "australia"
+      ]
+    },
+    {
+      "code": "AUT",
+      "name": "austria",
+      "kind": "country",
+      "spellings": [
+        "austria"
+      ]
+    },
+    {
+      "code": "AZE",
+      "name": "azerbaijan",
+      "kind": "country",
+      "spellings": [
+        "azerbaijan"
+      ]
+    },
+    {
+      "code": "BHS",
+      "name": "bahamas",
+      "kind": "country",
+      "spellings": [
+        "the bahamas",
+        "bahamas"
+      ]
+    },
+    {
+      "code": "BHR",
+      "name": "bahrain",
+      "kind": "country",
+      "spellings": [
+        "bahrain"
+      ]
+    },
+    {
+      "code": "BGD",
+      "name": "bangladesh",
+      "kind": "country",
+      "spellings": [
+        "bangladesh"
+      ]
+    },
+    {
+      "code": "BRB",
+      "name": "barbados",
+      "kind": "country",
+      "spellings": [
+        "barbados"
+      ]
+    },
+    {
+      "code": "BLR",
+      "name": "belarus",
+      "kind": "country",
+      "spellings": [
+        "belarus"
+      ]
+    },
+    {
+      "code": "BEL",
+      "name": "belgium",
+      "kind": "country",
+      "spellings": [
+        "belgium"
+      ]
+    },
+    {
+      "code": "BLZ",
+      "name": "belize",
+      "kind": "country",
+      "spellings": [
+        "belize"
+      ]
+    },
+    {
+      "code": "BEN",
+      "name": "benin",
+      "kind": "country",
+      "spellings": [
+        "benin"
+      ]
+    },
+    {
+      "code": "BTN",
+      "name": "bhutan",
+      "kind": "country",
+      "spellings": [
+        "bhutan"
+      ]
+    },
+    {
+      "code": "BOL",
+      "name": "bolivia",
+      "kind": "country",
+      "spellings": [
+        "bolivia"
+      ]
+    },
+    {
+      "code": "BIH",
+      "name": "bosnia and herzegovina",
+      "kind": "country",
+      "spellings": [
+        "bosnia and herzegovina"
+      ]
+    },
+    {
+      "code": "BWA",
+      "name": "botswana",
+      "kind": "country",
+      "spellings": [
+        "botswana"
+      ]
+    },
+    {
+      "code": "BRA",
+      "name": "brazil",
+      "kind": "country",
+      "spellings": [
+        "brazil"
+      ]
+    },
+    {
+      "code": "BRN",
+      "name": "brunei",
+      "kind": "country",
+      "spellings": [
+        "brunei"
+      ]
+    },
+    {
+      "code": "BGR",
+      "name": "bulgaria",
+      "kind": "country",
+      "spellings": [
+        "bulgaria"
+      ]
+    },
+    {
+      "code": "BFA",
+      "name": "burkina faso",
+      "kind": "country",
+      "spellings": [
+        "burkina faso"
+      ]
+    },
+    {
+      "code": "BDI",
+      "name": "burundi",
+      "kind": "country",
+      "spellings": [
+        "burundi"
+      ]
+    },
+    {
+      "code": "KHM",
+      "name": "cambodia",
+      "kind": "country",
+      "spellings": [
+        "cambodia"
+      ]
+    },
+    {
+      "code": "CMR",
+      "name": "cameroon",
+      "kind": "country",
+      "spellings": [
+        "cameroon"
+      ]
+    },
+    {
+      "code": "CAN",
+      "name": "canada",
+      "kind": "country",
+      "spellings": [
+        "canada"
+      ]
+    },
+    {
+      "code": "CPV",
+      "name": "cape verde",
+      "kind": "country",
+      "spellings": [
+        "cape verde"
+      ]
+    },
+    {
+      "code": "CAF",
+      "name": "central african republic",
+      "kind": "country",
+      "spellings": [
+        "the central african republic",
+        "central african republic"
+      ]
+    },
+    {
+      "code": "TCD",
+      "name": "chad",
+      "kind": "country",
+      "spellings": [
+        "chad"
+      ]
+    },
+    {
+      "code": "CHL",
+      "name": "chile",
+      "kind": "country",
+      "spellings": [
+        "chile"
+      ]
+    },
+    {
+      "code": "CHN",
+      "name": "china",
+      "kind": "country",
+      "spellings": [
+        "china"
+      ]
+    },
+    {
+      "code": "COL",
+      "name": "colombia",
+      "kind": "country",
+      "spellings": [
+        "colombia"
+      ]
+    },
+    {
+      "code": "COM",
+      "name": "comoros",
+      "kind": "country",
+      "spellings": [
+        "comoros"
+      ]
+    },
+    {
+      "code": "COG",
+      "name": "congo",
+      "kind": "country",
+      "spellings": [
+        "congo",
+        "republic of the congo",
+        "the republic of the congo",
+        "congo-brazzaville"
+      ]
+    },
+    {
+      "code": "CRI",
+      "name": "costa rica",
+      "kind": "country",
+      "spellings": [
+        "costa rica"
+      ]
+    },
+    {
+      "code": "HRV",
+      "name": "croatia",
+      "kind": "country",
+      "spellings": [
+        "croatia"
+      ]
+    },
+    {
+      "code": "CUB",
+      "name": "cuba",
+      "kind": "country",
+      "spellings": [
+        "cuba"
+      ]
+    },
+    {
+      "code": "CYP",
+      "name": "cyprus",
+      "kind": "country",
+      "spellings": [
+        "cyprus"
+      ]
+    },
+    {
+      "code": "CZE",
+      "name": "czechia",
+      "kind": "country",
+      "spellings": [
+        "czechia",
+        "czech republic",
+        "the czech republic"
+      ]
+    },
+    {
+      "code": "COD",
+      "name": "dr congo",
+      "kind": "country",
+      "spellings": [
+        "dr congo",
+        "democratic republic of the congo",
+        "the democratic republic of the congo",
+        "drc"
+      ]
+    },
+    {
+      "code": "DNK",
+      "name": "denmark",
+      "kind": "country",
+      "spellings": [
+        "denmark"
+      ]
+    },
+    {
+      "code": "DJI",
+      "name": "djibouti",
+      "kind": "country",
+      "spellings": [
+        "djibouti"
+      ]
+    },
+    {
+      "code": "DMA",
+      "name": "dominica",
+      "kind": "country",
+      "spellings": [
+        "dominica"
+      ]
+    },
+    {
+      "code": "DOM",
+      "name": "dominican republic",
+      "kind": "country",
+      "spellings": [
+        "dominican republic"
+      ]
+    },
+    {
+      "code": "ECU",
+      "name": "ecuador",
+      "kind": "country",
+      "spellings": [
+        "ecuador"
+      ]
+    },
+    {
+      "code": "EGY",
+      "name": "egypt",
+      "kind": "country",
+      "spellings": [
+        "egypt"
+      ]
+    },
+    {
+      "code": "SLV",
+      "name": "el salvador",
+      "kind": "country",
+      "spellings": [
+        "el salvador"
+      ]
+    },
+    {
+      "code": "GNQ",
+      "name": "equatorial guinea",
+      "kind": "country",
+      "spellings": [
+        "equatorial guinea"
+      ]
+    },
+    {
+      "code": "ERI",
+      "name": "eritrea",
+      "kind": "country",
+      "spellings": [
+        "eritrea"
+      ]
+    },
+    {
+      "code": "EST",
+      "name": "estonia",
+      "kind": "country",
+      "spellings": [
+        "estonia"
+      ]
+    },
+    {
+      "code": "SWZ",
+      "name": "eswatini",
+      "kind": "country",
+      "spellings": [
+        "eswatini",
+        "swaziland"
+      ]
+    },
+    {
+      "code": "ETH",
+      "name": "ethiopia",
+      "kind": "country",
+      "spellings": [
+        "ethiopia"
+      ]
+    },
+    {
+      "code": "FJI",
+      "name": "fiji",
+      "kind": "country",
+      "spellings": [
+        "fiji"
+      ]
+    },
+    {
+      "code": "FIN",
+      "name": "finland",
+      "kind": "country",
+      "spellings": [
+        "finland"
+      ]
+    },
+    {
+      "code": "FRA",
+      "name": "france",
+      "kind": "country",
+      "spellings": [
+        "france"
+      ]
+    },
+    {
+      "code": "GAB",
+      "name": "gabon",
+      "kind": "country",
+      "spellings": [
+        "gabon"
+      ]
+    },
+    {
+      "code": "GMB",
+      "name": "gambia",
+      "kind": "country",
+      "spellings": [
+        "the gambia",
+        "gambia"
+      ]
+    },
+    {
+      "code": "GEO",
+      "name": "georgia",
+      "kind": "country",
+      "spellings": [
+        "georgia"
+      ]
+    },
+    {
+      "code": "DEU",
+      "name": "germany",
+      "kind": "country",
+      "spellings": [
+        "germany"
+      ]
+    },
+    {
+      "code": "GHA",
+      "name": "ghana",
+      "kind": "country",
+      "spellings": [
+        "ghana"
+      ]
+    },
+    {
+      "code": "GRC",
+      "name": "greece",
+      "kind": "country",
+      "spellings": [
+        "greece"
+      ]
+    },
+    {
+      "code": "GRD",
+      "name": "grenada",
+      "kind": "country",
+      "spellings": [
+        "grenada"
+      ]
+    },
+    {
+      "code": "GTM",
+      "name": "guatemala",
+      "kind": "country",
+      "spellings": [
+        "guatemala"
+      ]
+    },
+    {
+      "code": "GIN",
+      "name": "guinea",
+      "kind": "country",
+      "spellings": [
+        "guinea"
+      ]
+    },
+    {
+      "code": "GNB",
+      "name": "guinea-bissau",
+      "kind": "country",
+      "spellings": [
+        "guinea-bissau"
+      ]
+    },
+    {
+      "code": "GUY",
+      "name": "guyana",
+      "kind": "country",
+      "spellings": [
+        "guyana"
+      ]
+    },
+    {
+      "code": "HTI",
+      "name": "haiti",
+      "kind": "country",
+      "spellings": [
+        "haiti"
+      ]
+    },
+    {
+      "code": "HND",
+      "name": "honduras",
+      "kind": "country",
+      "spellings": [
+        "honduras"
+      ]
+    },
+    {
+      "code": "HKG",
+      "name": "hong kong",
+      "kind": "additional-place",
+      "spellings": [
+        "hong kong"
+      ]
+    },
+    {
+      "code": "HUN",
+      "name": "hungary",
+      "kind": "country",
+      "spellings": [
+        "hungary"
+      ]
+    },
+    {
+      "code": "ISL",
+      "name": "iceland",
+      "kind": "country",
+      "spellings": [
+        "iceland"
+      ]
+    },
+    {
+      "code": "IND",
+      "name": "india",
+      "kind": "country",
+      "spellings": [
+        "india"
+      ]
+    },
+    {
+      "code": "IDN",
+      "name": "indonesia",
+      "kind": "country",
+      "spellings": [
+        "indonesia"
+      ]
+    },
+    {
+      "code": "IRN",
+      "name": "iran",
+      "kind": "country",
+      "spellings": [
+        "iran"
+      ]
+    },
+    {
+      "code": "IRQ",
+      "name": "iraq",
+      "kind": "country",
+      "spellings": [
+        "iraq"
+      ]
+    },
+    {
+      "code": "IRL",
+      "name": "ireland",
+      "kind": "country",
+      "spellings": [
+        "ireland"
+      ]
+    },
+    {
+      "code": "ISR",
+      "name": "israel",
+      "kind": "country",
+      "spellings": [
+        "israel"
+      ]
+    },
+    {
+      "code": "ITA",
+      "name": "italy",
+      "kind": "country",
+      "spellings": [
+        "italy"
+      ]
+    },
+    {
+      "code": "CIV",
+      "name": "ivory coast",
+      "kind": "country",
+      "spellings": [
+        "ivory coast",
+        "côte d'ivoire",
+        "côte d’ivoire",
+        "cote d'ivoire"
+      ]
+    },
+    {
+      "code": "JAM",
+      "name": "jamaica",
+      "kind": "country",
+      "spellings": [
+        "jamaica"
+      ]
+    },
+    {
+      "code": "JPN",
+      "name": "japan",
+      "kind": "country",
+      "spellings": [
+        "japan"
+      ]
+    },
+    {
+      "code": "JOR",
+      "name": "jordan",
+      "kind": "country",
+      "spellings": [
+        "jordan"
+      ]
+    },
+    {
+      "code": "KAZ",
+      "name": "kazakhstan",
+      "kind": "country",
+      "spellings": [
+        "kazakhstan"
+      ]
+    },
+    {
+      "code": "KEN",
+      "name": "kenya",
+      "kind": "country",
+      "spellings": [
+        "kenya"
+      ]
+    },
+    {
+      "code": "KIR",
+      "name": "kiribati",
+      "kind": "country",
+      "spellings": [
+        "kiribati"
+      ]
+    },
+    {
+      "code": "UNK",
+      "name": "kosovo",
+      "kind": "additional-place",
+      "spellings": [
+        "kosovo"
+      ]
+    },
+    {
+      "code": "KWT",
+      "name": "kuwait",
+      "kind": "country",
+      "spellings": [
+        "kuwait"
+      ]
+    },
+    {
+      "code": "KGZ",
+      "name": "kyrgyzstan",
+      "kind": "country",
+      "spellings": [
+        "kyrgyzstan"
+      ]
+    },
+    {
+      "code": "LAO",
+      "name": "laos",
+      "kind": "country",
+      "spellings": [
+        "laos"
+      ]
+    },
+    {
+      "code": "LVA",
+      "name": "latvia",
+      "kind": "country",
+      "spellings": [
+        "latvia"
+      ]
+    },
+    {
+      "code": "LBN",
+      "name": "lebanon",
+      "kind": "country",
+      "spellings": [
+        "lebanon"
+      ]
+    },
+    {
+      "code": "LSO",
+      "name": "lesotho",
+      "kind": "country",
+      "spellings": [
+        "lesotho"
+      ]
+    },
+    {
+      "code": "LBR",
+      "name": "liberia",
+      "kind": "country",
+      "spellings": [
+        "liberia"
+      ]
+    },
+    {
+      "code": "LBY",
+      "name": "libya",
+      "kind": "country",
+      "spellings": [
+        "libya"
+      ]
+    },
+    {
+      "code": "LIE",
+      "name": "liechtenstein",
+      "kind": "country",
+      "spellings": [
+        "liechtenstein"
+      ]
+    },
+    {
+      "code": "LTU",
+      "name": "lithuania",
+      "kind": "country",
+      "spellings": [
+        "lithuania"
+      ]
+    },
+    {
+      "code": "LUX",
+      "name": "luxembourg",
+      "kind": "country",
+      "spellings": [
+        "luxembourg"
+      ]
+    },
+    {
+      "code": "MAC",
+      "name": "macau",
+      "kind": "additional-place",
+      "spellings": [
+        "macau",
+        "macao"
+      ]
+    },
+    {
+      "code": "MDG",
+      "name": "madagascar",
+      "kind": "country",
+      "spellings": [
+        "madagascar"
+      ]
+    },
+    {
+      "code": "MWI",
+      "name": "malawi",
+      "kind": "country",
+      "spellings": [
+        "malawi"
+      ]
+    },
+    {
+      "code": "MYS",
+      "name": "malaysia",
+      "kind": "country",
+      "spellings": [
+        "malaysia"
+      ]
+    },
+    {
+      "code": "MDV",
+      "name": "maldives",
+      "kind": "country",
+      "spellings": [
+        "maldives"
+      ]
+    },
+    {
+      "code": "MLI",
+      "name": "mali",
+      "kind": "country",
+      "spellings": [
+        "mali"
+      ]
+    },
+    {
+      "code": "MLT",
+      "name": "malta",
+      "kind": "country",
+      "spellings": [
+        "malta"
+      ]
+    },
+    {
+      "code": "MHL",
+      "name": "marshall islands",
+      "kind": "country",
+      "spellings": [
+        "the marshall islands",
+        "marshall islands"
+      ]
+    },
+    {
+      "code": "MRT",
+      "name": "mauritania",
+      "kind": "country",
+      "spellings": [
+        "mauritania"
+      ]
+    },
+    {
+      "code": "MUS",
+      "name": "mauritius",
+      "kind": "country",
+      "spellings": [
+        "mauritius"
+      ]
+    },
+    {
+      "code": "MEX",
+      "name": "mexico",
+      "kind": "country",
+      "spellings": [
+        "mexico"
+      ]
+    },
+    {
+      "code": "FSM",
+      "name": "micronesia",
+      "kind": "country",
+      "spellings": [
+        "micronesia",
+        "federated states of micronesia",
+        "the federated states of micronesia"
+      ]
+    },
+    {
+      "code": "MDA",
+      "name": "moldova",
+      "kind": "country",
+      "spellings": [
+        "moldova"
+      ]
+    },
+    {
+      "code": "MCO",
+      "name": "monaco",
+      "kind": "country",
+      "spellings": [
+        "monaco"
+      ]
+    },
+    {
+      "code": "MNG",
+      "name": "mongolia",
+      "kind": "country",
+      "spellings": [
+        "mongolia"
+      ]
+    },
+    {
+      "code": "MNE",
+      "name": "montenegro",
+      "kind": "country",
+      "spellings": [
+        "montenegro"
+      ]
+    },
+    {
+      "code": "MAR",
+      "name": "morocco",
+      "kind": "country",
+      "spellings": [
+        "morocco"
+      ]
+    },
+    {
+      "code": "MOZ",
+      "name": "mozambique",
+      "kind": "country",
+      "spellings": [
+        "mozambique"
+      ]
+    },
+    {
+      "code": "MMR",
+      "name": "myanmar",
+      "kind": "country",
+      "spellings": [
+        "myanmar",
+        "burma"
+      ]
+    },
+    {
+      "code": "NAM",
+      "name": "namibia",
+      "kind": "country",
+      "spellings": [
+        "namibia"
+      ]
+    },
+    {
+      "code": "NRU",
+      "name": "nauru",
+      "kind": "country",
+      "spellings": [
+        "nauru"
+      ]
+    },
+    {
+      "code": "NPL",
+      "name": "nepal",
+      "kind": "country",
+      "spellings": [
+        "nepal"
+      ]
+    },
+    {
+      "code": "NLD",
+      "name": "netherlands",
+      "kind": "country",
+      "spellings": [
+        "the netherlands",
+        "netherlands"
+      ]
+    },
+    {
+      "code": "NZL",
+      "name": "new zealand",
+      "kind": "country",
+      "spellings": [
+        "new zealand"
+      ]
+    },
+    {
+      "code": "NIC",
+      "name": "nicaragua",
+      "kind": "country",
+      "spellings": [
+        "nicaragua"
+      ]
+    },
+    {
+      "code": "NER",
+      "name": "niger",
+      "kind": "country",
+      "spellings": [
+        "niger"
+      ]
+    },
+    {
+      "code": "NGA",
+      "name": "nigeria",
+      "kind": "country",
+      "spellings": [
+        "nigeria"
+      ]
+    },
+    {
+      "code": "PRK",
+      "name": "north korea",
+      "kind": "country",
+      "spellings": [
+        "north korea",
+        "dprk"
+      ]
+    },
+    {
+      "code": "MKD",
+      "name": "north macedonia",
+      "kind": "country",
+      "spellings": [
+        "north macedonia"
+      ]
+    },
+    {
+      "code": "NOR",
+      "name": "norway",
+      "kind": "country",
+      "spellings": [
+        "norway"
+      ]
+    },
+    {
+      "code": "OMN",
+      "name": "oman",
+      "kind": "country",
+      "spellings": [
+        "oman"
+      ]
+    },
+    {
+      "code": "PAK",
+      "name": "pakistan",
+      "kind": "country",
+      "spellings": [
+        "pakistan"
+      ]
+    },
+    {
+      "code": "PLW",
+      "name": "palau",
+      "kind": "country",
+      "spellings": [
+        "palau"
+      ]
+    },
+    {
+      "code": "PSE",
+      "name": "palestine",
+      "kind": "observer-state-place",
+      "spellings": [
+        "palestine"
+      ]
+    },
+    {
+      "code": "PAN",
+      "name": "panama",
+      "kind": "country",
+      "spellings": [
+        "panama"
+      ]
+    },
+    {
+      "code": "PNG",
+      "name": "papua new guinea",
+      "kind": "country",
+      "spellings": [
+        "papua new guinea"
+      ]
+    },
+    {
+      "code": "PRY",
+      "name": "paraguay",
+      "kind": "country",
+      "spellings": [
+        "paraguay"
+      ]
+    },
+    {
+      "code": "PER",
+      "name": "peru",
+      "kind": "country",
+      "spellings": [
+        "peru"
+      ]
+    },
+    {
+      "code": "PHL",
+      "name": "philippines",
+      "kind": "country",
+      "spellings": [
+        "the philippines",
+        "philippines"
+      ]
+    },
+    {
+      "code": "POL",
+      "name": "poland",
+      "kind": "country",
+      "spellings": [
+        "poland"
+      ]
+    },
+    {
+      "code": "PRT",
+      "name": "portugal",
+      "kind": "country",
+      "spellings": [
+        "portugal"
+      ]
+    },
+    {
+      "code": "QAT",
+      "name": "qatar",
+      "kind": "country",
+      "spellings": [
+        "qatar"
+      ]
+    },
+    {
+      "code": "ROU",
+      "name": "romania",
+      "kind": "country",
+      "spellings": [
+        "romania"
+      ]
+    },
+    {
+      "code": "RUS",
+      "name": "russia",
+      "kind": "country",
+      "spellings": [
+        "russia",
+        "russian federation",
+        "the russian federation"
+      ]
+    },
+    {
+      "code": "RWA",
+      "name": "rwanda",
+      "kind": "country",
+      "spellings": [
+        "rwanda"
+      ]
+    },
+    {
+      "code": "KNA",
+      "name": "saint kitts and nevis",
+      "kind": "country",
+      "spellings": [
+        "saint kitts and nevis"
+      ]
+    },
+    {
+      "code": "LCA",
+      "name": "saint lucia",
+      "kind": "country",
+      "spellings": [
+        "saint lucia"
+      ]
+    },
+    {
+      "code": "VCT",
+      "name": "saint vincent and the grenadines",
+      "kind": "country",
+      "spellings": [
+        "saint vincent and the grenadines"
+      ]
+    },
+    {
+      "code": "WSM",
+      "name": "samoa",
+      "kind": "country",
+      "spellings": [
+        "samoa"
+      ]
+    },
+    {
+      "code": "SMR",
+      "name": "san marino",
+      "kind": "country",
+      "spellings": [
+        "san marino"
+      ]
+    },
+    {
+      "code": "SAU",
+      "name": "saudi arabia",
+      "kind": "country",
+      "spellings": [
+        "saudi arabia"
+      ]
+    },
+    {
+      "code": "SEN",
+      "name": "senegal",
+      "kind": "country",
+      "spellings": [
+        "senegal"
+      ]
+    },
+    {
+      "code": "SRB",
+      "name": "serbia",
+      "kind": "country",
+      "spellings": [
+        "serbia"
+      ]
+    },
+    {
+      "code": "SYC",
+      "name": "seychelles",
+      "kind": "country",
+      "spellings": [
+        "seychelles"
+      ]
+    },
+    {
+      "code": "SLE",
+      "name": "sierra leone",
+      "kind": "country",
+      "spellings": [
+        "sierra leone"
+      ]
+    },
+    {
+      "code": "SGP",
+      "name": "singapore",
+      "kind": "country",
+      "spellings": [
+        "singapore"
+      ]
+    },
+    {
+      "code": "SVK",
+      "name": "slovakia",
+      "kind": "country",
+      "spellings": [
+        "slovakia"
+      ]
+    },
+    {
+      "code": "SVN",
+      "name": "slovenia",
+      "kind": "country",
+      "spellings": [
+        "slovenia"
+      ]
+    },
+    {
+      "code": "SLB",
+      "name": "solomon islands",
+      "kind": "country",
+      "spellings": [
+        "the solomon islands",
+        "solomon islands"
+      ]
+    },
+    {
+      "code": "SOM",
+      "name": "somalia",
+      "kind": "country",
+      "spellings": [
+        "somalia"
+      ]
+    },
+    {
+      "code": "ZAF",
+      "name": "south africa",
+      "kind": "country",
+      "spellings": [
+        "south africa"
+      ]
+    },
+    {
+      "code": "KOR",
+      "name": "south korea",
+      "kind": "country",
+      "spellings": [
+        "south korea",
+        "republic of korea",
+        "the republic of korea"
+      ]
+    },
+    {
+      "code": "SSD",
+      "name": "south sudan",
+      "kind": "country",
+      "spellings": [
+        "south sudan"
+      ]
+    },
+    {
+      "code": "ESP",
+      "name": "spain",
+      "kind": "country",
+      "spellings": [
+        "spain"
+      ]
+    },
+    {
+      "code": "LKA",
+      "name": "sri lanka",
+      "kind": "country",
+      "spellings": [
+        "sri lanka"
+      ]
+    },
+    {
+      "code": "SDN",
+      "name": "sudan",
+      "kind": "country",
+      "spellings": [
+        "sudan"
+      ]
+    },
+    {
+      "code": "SUR",
+      "name": "suriname",
+      "kind": "country",
+      "spellings": [
+        "suriname"
+      ]
+    },
+    {
+      "code": "SWE",
+      "name": "sweden",
+      "kind": "country",
+      "spellings": [
+        "sweden"
+      ]
+    },
+    {
+      "code": "CHE",
+      "name": "switzerland",
+      "kind": "country",
+      "spellings": [
+        "switzerland"
+      ]
+    },
+    {
+      "code": "SYR",
+      "name": "syria",
+      "kind": "country",
+      "spellings": [
+        "syria"
+      ]
+    },
+    {
+      "code": "STP",
+      "name": "são tomé and príncipe",
+      "kind": "country",
+      "spellings": [
+        "são tomé and príncipe"
+      ]
+    },
+    {
+      "code": "TWN",
+      "name": "taiwan",
+      "kind": "additional-place",
+      "spellings": [
+        "taiwan"
+      ]
+    },
+    {
+      "code": "TJK",
+      "name": "tajikistan",
+      "kind": "country",
+      "spellings": [
+        "tajikistan"
+      ]
+    },
+    {
+      "code": "TZA",
+      "name": "tanzania",
+      "kind": "country",
+      "spellings": [
+        "tanzania"
+      ]
+    },
+    {
+      "code": "THA",
+      "name": "thailand",
+      "kind": "country",
+      "spellings": [
+        "thailand"
+      ]
+    },
+    {
+      "code": "TLS",
+      "name": "timor-leste",
+      "kind": "country",
+      "spellings": [
+        "timor-leste",
+        "east timor"
+      ]
+    },
+    {
+      "code": "TGO",
+      "name": "togo",
+      "kind": "country",
+      "spellings": [
+        "togo"
+      ]
+    },
+    {
+      "code": "TON",
+      "name": "tonga",
+      "kind": "country",
+      "spellings": [
+        "tonga"
+      ]
+    },
+    {
+      "code": "TTO",
+      "name": "trinidad and tobago",
+      "kind": "country",
+      "spellings": [
+        "trinidad and tobago"
+      ]
+    },
+    {
+      "code": "TUN",
+      "name": "tunisia",
+      "kind": "country",
+      "spellings": [
+        "tunisia"
+      ]
+    },
+    {
+      "code": "TKM",
+      "name": "turkmenistan",
+      "kind": "country",
+      "spellings": [
+        "turkmenistan"
+      ]
+    },
+    {
+      "code": "TUV",
+      "name": "tuvalu",
+      "kind": "country",
+      "spellings": [
+        "tuvalu"
+      ]
+    },
+    {
+      "code": "TUR",
+      "name": "türkiye",
+      "kind": "country",
+      "spellings": [
+        "türkiye",
+        "turkiye"
+      ]
+    },
+    {
+      "code": "UGA",
+      "name": "uganda",
+      "kind": "country",
+      "spellings": [
+        "uganda"
+      ]
+    },
+    {
+      "code": "UKR",
+      "name": "ukraine",
+      "kind": "country",
+      "spellings": [
+        "ukraine"
+      ]
+    },
+    {
+      "code": "ARE",
+      "name": "united arab emirates",
+      "kind": "country",
+      "spellings": [
+        "the united arab emirates",
+        "united arab emirates"
+      ]
+    },
+    {
+      "code": "GBR",
+      "name": "united kingdom",
+      "kind": "country",
+      "spellings": [
+        "the united kingdom",
+        "united kingdom",
+        "uk",
+        "britain",
+        "great britain"
+      ]
+    },
+    {
+      "code": "USA",
+      "name": "united states",
+      "kind": "country",
+      "spellings": [
+        "the united states",
+        "united states",
+        "usa",
+        "us",
+        "united states of america",
+        "the united states of america"
+      ]
+    },
+    {
+      "code": "URY",
+      "name": "uruguay",
+      "kind": "country",
+      "spellings": [
+        "uruguay"
+      ]
+    },
+    {
+      "code": "UZB",
+      "name": "uzbekistan",
+      "kind": "country",
+      "spellings": [
+        "uzbekistan"
+      ]
+    },
+    {
+      "code": "VUT",
+      "name": "vanuatu",
+      "kind": "country",
+      "spellings": [
+        "vanuatu"
+      ]
+    },
+    {
+      "code": "VAT",
+      "name": "vatican city",
+      "kind": "observer-state-place",
+      "spellings": [
+        "vatican city",
+        "holy see",
+        "the holy see"
+      ]
+    },
+    {
+      "code": "VEN",
+      "name": "venezuela",
+      "kind": "country",
+      "spellings": [
+        "venezuela"
+      ]
+    },
+    {
+      "code": "VNM",
+      "name": "vietnam",
+      "kind": "country",
+      "spellings": [
+        "vietnam",
+        "viet nam"
+      ]
+    },
+    {
+      "code": "ESH",
+      "name": "western sahara",
+      "kind": "additional-place",
+      "spellings": [
+        "western sahara"
+      ]
+    },
+    {
+      "code": "YEM",
+      "name": "yemen",
+      "kind": "country",
+      "spellings": [
+        "yemen"
+      ]
+    },
+    {
+      "code": "ZMB",
+      "name": "zambia",
+      "kind": "country",
+      "spellings": [
+        "zambia"
+      ]
+    },
+    {
+      "code": "ZWE",
+      "name": "zimbabwe",
+      "kind": "country",
+      "spellings": [
+        "zimbabwe"
+      ]
+    }
+  ],
+  "city_aliases": {
+    "saint paul": [
+      "st. paul",
+      "st paul"
+    ],
+    "saint louis": [
+      "st. louis",
+      "st louis"
+    ],
+    "new york city": [
+      "nyc"
+    ],
+    "boise": [
+      "boise city"
+    ]
+  }
+}

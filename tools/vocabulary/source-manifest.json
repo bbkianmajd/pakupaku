@@ -1,0 +1,746 @@
+{
+  "source": "Kaikki.org raw per-word Wiktextract JSONL for English Wiktionary",
+  "source_index": "https://kaikki.org/dictionary/English/",
+  "license": "Wiktionary CC BY-SA 4.0 / GFDL; see documentation/vocabulary-source.md",
+  "slice_sha256": "e157a82a4fc4f5194e119bd284e1ebe1f97161accbeef6a4ab4c01fee835d9a8",
+  "pages": {
+    "Ada": {
+      "url": "https://kaikki.org/dictionary/English/meaning/A/Ad/Ada.jsonl",
+      "sha256": "e35a1d6c4e06a04a726bd0c8acfdb66cc63ac8a8d67476f5af904571323c553a",
+      "bytes": 8140,
+      "records": 1
+    },
+    "Alice": {
+      "url": "https://kaikki.org/dictionary/English/meaning/A/Al/Alice.jsonl",
+      "sha256": "585c289f20b0a0baed1ff270d58431f1e9b338a2369318488d2565285d2f6a6e",
+      "bytes": 17462,
+      "records": 1
+    },
+    "Bob": {
+      "url": "https://kaikki.org/dictionary/English/meaning/B/Bo/Bob.jsonl",
+      "sha256": "f2c2fda815714bede07b49d8ab697d1dce9742164bb3ee4b9cb9daa91f723ae1",
+      "bytes": 16013,
+      "records": 2
+    },
+    "Emma": {
+      "url": "https://kaikki.org/dictionary/English/meaning/E/Em/Emma.jsonl",
+      "sha256": "ed5f4ba0f6c52d2138c9c6538360f3033f1e4830b3fc378cb982a202228027eb",
+      "bytes": 7745,
+      "records": 1
+    },
+    "Grace": {
+      "url": "https://kaikki.org/dictionary/English/meaning/G/Gr/Grace.jsonl",
+      "sha256": "b41cb3af7db3836d607ea38d9cd8d98a7c597aef741f2ca132879bdf43d4cca4",
+      "bytes": 11020,
+      "records": 1
+    },
+    "Henry": {
+      "url": "https://kaikki.org/dictionary/English/meaning/H/He/Henry.jsonl",
+      "sha256": "c19a74b9047c6434fe5b6d3a9462d0b0a343300382ec4f11f0045f093dc2a0d9",
+      "bytes": 31046,
+      "records": 4
+    },
+    "Jack": {
+      "url": "https://kaikki.org/dictionary/English/meaning/J/Ja/Jack.jsonl",
+      "sha256": "9f9928ab7e2deabb1a81d1e1adc2540a37e8339ed124abcdad2722818d2da1a5",
+      "bytes": 58025,
+      "records": 2
+    },
+    "James": {
+      "url": "https://kaikki.org/dictionary/English/meaning/J/Ja/James.jsonl",
+      "sha256": "b8440aa316cb2c6ede75b660cd1745add314d5b51fed73fd4800b0b12bd5582f",
+      "bytes": 51815,
+      "records": 1
+    },
+    "Jane": {
+      "url": "https://kaikki.org/dictionary/English/meaning/J/Ja/Jane.jsonl",
+      "sha256": "2a2bfc8d46bc83da368e1d1415baa0bdafb24fe7397292b887291a6a24398e0c",
+      "bytes": 25235,
+      "records": 2
+    },
+    "John": {
+      "url": "https://kaikki.org/dictionary/English/meaning/J/Jo/John.jsonl",
+      "sha256": "ba538ca5b47de3bfb986caa769586f9b83957d27e0c2b439b84229e103e1eb24",
+      "bytes": 105219,
+      "records": 2
+    },
+    "Lily": {
+      "url": "https://kaikki.org/dictionary/English/meaning/L/Li/Lily.jsonl",
+      "sha256": "db2c6c10950f31cf968116cec0c8e3dc5183c7d8f80f853d289c3a9393d8964a",
+      "bytes": 4689,
+      "records": 1
+    },
+    "Mary": {
+      "url": "https://kaikki.org/dictionary/English/meaning/M/Ma/Mary.jsonl",
+      "sha256": "499bb6d07252d9559c02d6e839d9d2daffb6c5e384e1314231ec905a06beb43d",
+      "bytes": 81265,
+      "records": 2
+    },
+    "Noah": {
+      "url": "https://kaikki.org/dictionary/English/meaning/N/No/Noah.jsonl",
+      "sha256": "92fe3474760ea914ab2a75d533ae088c455f5d27dadcf734184cefdd2ea45457",
+      "bytes": 29231,
+      "records": 3
+    },
+    "Oliver": {
+      "url": "https://kaikki.org/dictionary/English/meaning/O/Ol/Oliver.jsonl",
+      "sha256": "9eed4baf376b670ec9f85a91d48d33b51513a7bc464e72baa9c20500871d3aa9",
+      "bytes": 28935,
+      "records": 2
+    },
+    "Olivia": {
+      "url": "https://kaikki.org/dictionary/English/meaning/O/Ol/Olivia.jsonl",
+      "sha256": "ff05a8d4afd34e8d7ecc1334502668f9a90691081f6c902c51d2c1afa67e5949",
+      "bytes": 12110,
+      "records": 1
+    },
+    "Peter": {
+      "url": "https://kaikki.org/dictionary/English/meaning/P/Pe/Peter.jsonl",
+      "sha256": "a49767ec7e63dc9a9955dc1eaad04108c349399142eab6d7a698c80c4c89ab13",
+      "bytes": 66328,
+      "records": 2
+    },
+    "Rose": {
+      "url": "https://kaikki.org/dictionary/English/meaning/R/Ro/Rose.jsonl",
+      "sha256": "c6a70092f9cc0d90b3965e67b5b20f20aadcc40bb5b52d6cb55931024849b424",
+      "bytes": 19825,
+      "records": 2
+    },
+    "Sofia": {
+      "url": "https://kaikki.org/dictionary/English/meaning/S/So/Sofia.jsonl",
+      "sha256": "7aae0d21d513e8d7fdfcc80d814fb0f486613ace51625cd88e1d38c4acb6cb26",
+      "bytes": 20886,
+      "records": 2
+    },
+    "Thomas": {
+      "url": "https://kaikki.org/dictionary/English/meaning/T/Th/Thomas.jsonl",
+      "sha256": "9024dba44833040c634fc380ff7b9b028e827a432f3409fbf935a618982aff12",
+      "bytes": 46319,
+      "records": 2
+    },
+    "William": {
+      "url": "https://kaikki.org/dictionary/English/meaning/W/Wi/William.jsonl",
+      "sha256": "1d0f3e703093c390499ab9b430207dfe2959ef081a75e4ebd8d8f194045feefd",
+      "bytes": 39857,
+      "records": 2
+    },
+    "Zoe": {
+      "url": "https://kaikki.org/dictionary/English/meaning/Z/Zo/Zoe.jsonl",
+      "sha256": "ebb3bedbc11b98eded5c6d2ad55efdb2a6aa91f5ac438237f31022c566949499",
+      "bytes": 1961,
+      "records": 1
+    },
+    "advice": {
+      "url": "https://kaikki.org/dictionary/English/meaning/a/ad/advice.jsonl",
+      "sha256": "456415869eb19e7747fb3d6078df09fecf6621498efb760262970d8110cf0798",
+      "bytes": 61781,
+      "records": 2
+    },
+    "air": {
+      "url": "https://kaikki.org/dictionary/English/meaning/a/ai/air.jsonl",
+      "sha256": "50ef47f5bb8db21e1514e1ae64403022a48e82ed3664aa8859b8c93cde43ce99",
+      "bytes": 153851,
+      "records": 3
+    },
+    "bird": {
+      "url": "https://kaikki.org/dictionary/English/meaning/b/bi/bird.jsonl",
+      "sha256": "dfa27fdcd72b7c752a69e253be9ce624266a619b8a932e94ee5e5394e24803ff",
+      "bytes": 225563,
+      "records": 5
+    },
+    "blue": {
+      "url": "https://kaikki.org/dictionary/English/meaning/b/bl/blue.jsonl",
+      "sha256": "77449ef79b9b4d39026aec8bb944fd014b68f3310aa0e54eb0f8e0201f2fb557",
+      "bytes": 221559,
+      "records": 4
+    },
+    "boat": {
+      "url": "https://kaikki.org/dictionary/English/meaning/b/bo/boat.jsonl",
+      "sha256": "8f2caaf2b29da36e3c440cdc460c3030b0e1f037290d626fb0fed5a72a591650",
+      "bytes": 127607,
+      "records": 2
+    },
+    "box": {
+      "url": "https://kaikki.org/dictionary/English/meaning/b/bo/box.jsonl",
+      "sha256": "0ae1963db214d0f60b19e2f1f8a6b1b70d1de8f79843a2b4fb9642503a600260",
+      "bytes": 273831,
+      "records": 6
+    },
+    "brave": {
+      "url": "https://kaikki.org/dictionary/English/meaning/b/br/brave.jsonl",
+      "sha256": "456baace5639354b81ea4416a1066c23f545f815f8ef33bdf8fec798f8b1b71e",
+      "bytes": 57515,
+      "records": 3
+    },
+    "bread": {
+      "url": "https://kaikki.org/dictionary/English/meaning/b/br/bread.jsonl",
+      "sha256": "b83c9ab587af4161ee328324577b991072bd65cdeb7ffc4c79d428a1f90ba5cb",
+      "bytes": 161072,
+      "records": 5
+    },
+    "build": {
+      "url": "https://kaikki.org/dictionary/English/meaning/b/bu/build.jsonl",
+      "sha256": "f4b99377e44b91b66194a27ed737efbc98deacbe6d591962df9f9d304518e9ce",
+      "bytes": 90486,
+      "records": 2
+    },
+    "buy": {
+      "url": "https://kaikki.org/dictionary/English/meaning/b/bu/buy.jsonl",
+      "sha256": "2210cd7bc0a445615115eaf7cfca303ca364c6d8b1d5b27217c6b5e57ee1630a",
+      "bytes": 92266,
+      "records": 2
+    },
+    "cake": {
+      "url": "https://kaikki.org/dictionary/English/meaning/c/ca/cake.jsonl",
+      "sha256": "9b16f2cf0b18508c43e5976d123b8721314b4874e3689800a106007e983056db",
+      "bytes": 94441,
+      "records": 2
+    },
+    "call": {
+      "url": "https://kaikki.org/dictionary/English/meaning/c/ca/call.jsonl",
+      "sha256": "d1dbeddc3f6c4a1472d0e97eb63c491a4282151ac8a4962646d57b787f971c08",
+      "bytes": 200419,
+      "records": 2
+    },
+    "car": {
+      "url": "https://kaikki.org/dictionary/English/meaning/c/ca/car.jsonl",
+      "sha256": "70b7b03c787381e3f32d4c8e15396c9113b53cbadd3a4b0b05a796790aa4a6f1",
+      "bytes": 109319,
+      "records": 2
+    },
+    "chair": {
+      "url": "https://kaikki.org/dictionary/English/meaning/c/ch/chair.jsonl",
+      "sha256": "b15b8c3edb9ae14b234c038ee32cacc3200cf3a75a22ccba4dd53f661ca04cd0",
+      "bytes": 99894,
+      "records": 2
+    },
+    "cheese": {
+      "url": "https://kaikki.org/dictionary/English/meaning/c/ch/cheese.jsonl",
+      "sha256": "7704933a457e3d1dfa73de03365f310d50fb4cf969e4bbe0ebee82d22ca41a56",
+      "bytes": 135071,
+      "records": 7
+    },
+    "choose": {
+      "url": "https://kaikki.org/dictionary/English/meaning/c/ch/choose.jsonl",
+      "sha256": "f50a3c88d477c10e819fd7a6ce0d2b267d93ef37f3bab6bf9ffbe7ca8831dad8",
+      "bytes": 72852,
+      "records": 3
+    },
+    "city": {
+      "url": "https://kaikki.org/dictionary/English/meaning/c/ci/city.jsonl",
+      "sha256": "b1e23ab97a5311042d70a5067d51133973a341e552aa456c71192ee74798aac6",
+      "bytes": 99527,
+      "records": 1
+    },
+    "clean": {
+      "url": "https://kaikki.org/dictionary/English/meaning/c/cl/clean.jsonl",
+      "sha256": "2e723180d8d68df164d08513d7438ab4eda5177adbeb2ffc8a306d77af9c8b90",
+      "bytes": 157883,
+      "records": 4
+    },
+    "close": {
+      "url": "https://kaikki.org/dictionary/English/meaning/c/cl/close.jsonl",
+      "sha256": "653193da6ed637b98b7d5e4bf6c03b60211fc1b06732a9f7a2e784d4b4035060",
+      "bytes": 176872,
+      "records": 5
+    },
+    "coffee": {
+      "url": "https://kaikki.org/dictionary/English/meaning/c/co/coffee.jsonl",
+      "sha256": "e63944ffe20498480b2fa91e35d2053362cc95a65179e53ff9cd0e8c3bd8cde3",
+      "bytes": 134438,
+      "records": 3
+    },
+    "cold": {
+      "url": "https://kaikki.org/dictionary/English/meaning/c/co/cold.jsonl",
+      "sha256": "1ed77d27daf5b8d209e7586159aa89cdef656385fd4baea1fd5e58f773603b30",
+      "bytes": 177199,
+      "records": 3
+    },
+    "cry": {
+      "url": "https://kaikki.org/dictionary/English/meaning/c/cr/cry.jsonl",
+      "sha256": "300e66627249250f9892eb35aa2934666f1a99468913446c1ef5a95dca8c3aa3",
+      "bytes": 117991,
+      "records": 2
+    },
+    "cup": {
+      "url": "https://kaikki.org/dictionary/English/meaning/c/cu/cup.jsonl",
+      "sha256": "87ba8eec643aac55fa179902252873100b11a0be028334ac2b94021a5bb7c223",
+      "bytes": 115265,
+      "records": 2
+    },
+    "dance": {
+      "url": "https://kaikki.org/dictionary/English/meaning/d/da/dance.jsonl",
+      "sha256": "9d4640b905e047808dffb63439d7e833d523973cfae436ce47a570a0748039ce",
+      "bytes": 131951,
+      "records": 3
+    },
+    "depart": {
+      "url": "https://kaikki.org/dictionary/English/meaning/d/de/depart.jsonl",
+      "sha256": "c9f44604584f7eaf66ebc45fb313190b2b1a1b72b393ded9f65a7a3233db7484",
+      "bytes": 52060,
+      "records": 2
+    },
+    "dog": {
+      "url": "https://kaikki.org/dictionary/English/meaning/d/do/dog.jsonl",
+      "sha256": "7742d8c5bca24638183e9f9634687f97ac3e3f448006259fe0740f20a93e023d",
+      "bytes": 235558,
+      "records": 3
+    },
+    "door": {
+      "url": "https://kaikki.org/dictionary/English/meaning/d/do/door.jsonl",
+      "sha256": "f44809b65ed205d3b1510084b65190eb11f27b76678bce7ee98c2f3e65ca87c7",
+      "bytes": 136361,
+      "records": 2
+    },
+    "fall": {
+      "url": "https://kaikki.org/dictionary/English/meaning/f/fa/fall.jsonl",
+      "sha256": "77a2d7435e87a7fcbff42fd96ea9f45321e13118cc250c998cddfada2e7156e9",
+      "bytes": 171631,
+      "records": 4
+    },
+    "fast": {
+      "url": "https://kaikki.org/dictionary/English/meaning/f/fa/fast.jsonl",
+      "sha256": "ecb83a49764d55a3287a052e4a37674d1f8fe0c0ce95da325bc6c9df7f080ebd",
+      "bytes": 169616,
+      "records": 6
+    },
+    "fish": {
+      "url": "https://kaikki.org/dictionary/English/meaning/f/fi/fish.jsonl",
+      "sha256": "558407ac174cffc79245f5102d6d823b108fccc3c3cf42aef9e621f236d92ce7",
+      "bytes": 226345,
+      "records": 4
+    },
+    "flower": {
+      "url": "https://kaikki.org/dictionary/English/meaning/f/fl/flower.jsonl",
+      "sha256": "8a2206283953d7bb94aa2e9fad4e31ed45be20258cf5353cf2c8377d32c05363",
+      "bytes": 146065,
+      "records": 3
+    },
+    "friend": {
+      "url": "https://kaikki.org/dictionary/English/meaning/f/fr/friend.jsonl",
+      "sha256": "92858b3fe404e4372a3b3551efb879b729a69fd16424df241a877c020ebdcc6d",
+      "bytes": 209220,
+      "records": 2
+    },
+    "friendly": {
+      "url": "https://kaikki.org/dictionary/English/meaning/f/fr/friendly.jsonl",
+      "sha256": "2b01a3817a0cae49cba9ebbc448d288ebdd9ee8c90c3e857c6aeb9fe2a48a0f1",
+      "bytes": 61125,
+      "records": 3
+    },
+    "furniture": {
+      "url": "https://kaikki.org/dictionary/English/meaning/f/fu/furniture.jsonl",
+      "sha256": "0ba0e7adaddeee9d14cbc0c6d9741bb63ffb0915c78148d385e6f5e9e4f1441a",
+      "bytes": 40304,
+      "records": 1
+    },
+    "garden": {
+      "url": "https://kaikki.org/dictionary/English/meaning/g/ga/garden.jsonl",
+      "sha256": "575af8775b05dffcf461c1aad39008bf16c6146347404d62ad91c3c43ba8afaa",
+      "bytes": 136564,
+      "records": 3
+    },
+    "gentle": {
+      "url": "https://kaikki.org/dictionary/English/meaning/g/ge/gentle.jsonl",
+      "sha256": "ac52363bc74e7bc89358d9c81e35e69064367c801283a3bcfea5297fd3ec8734",
+      "bytes": 43328,
+      "records": 3
+    },
+    "gold": {
+      "url": "https://kaikki.org/dictionary/English/meaning/g/go/gold.jsonl",
+      "sha256": "f3701d18331d580da5f40df9612f7141211366677a3db662fd0b386539cf6eb2",
+      "bytes": 186920,
+      "records": 6
+    },
+    "happiness": {
+      "url": "https://kaikki.org/dictionary/English/meaning/h/ha/happiness.jsonl",
+      "sha256": "519797424910ce5dbf87a4168b75ef926450e772633b859d10918702905d3fe5",
+      "bytes": 62862,
+      "records": 1
+    },
+    "happy": {
+      "url": "https://kaikki.org/dictionary/English/meaning/h/ha/happy.jsonl",
+      "sha256": "57ba8d292ec60d94c97114660d28ca8b3e969bb616f747672b100e09407bca8f",
+      "bytes": 125946,
+      "records": 3
+    },
+    "help": {
+      "url": "https://kaikki.org/dictionary/English/meaning/h/he/help.jsonl",
+      "sha256": "0802279928dbe79436acfe7df935fffbe895e1cfd919e9ee90fa9af8b2b54823",
+      "bytes": 180538,
+      "records": 3
+    },
+    "hold": {
+      "url": "https://kaikki.org/dictionary/English/meaning/h/ho/hold.jsonl",
+      "sha256": "5f3c02c56e207cf94b8bbf5c75028584562b57d5b5c5eb7596748bdb406bacbe",
+      "bytes": 144492,
+      "records": 4
+    },
+    "house": {
+      "url": "https://kaikki.org/dictionary/English/meaning/h/ho/house.jsonl",
+      "sha256": "97a41406d86112796879bb6c281a7b922d78af35d3bf877ad8e472065b21728a",
+      "bytes": 202314,
+      "records": 3
+    },
+    "information": {
+      "url": "https://kaikki.org/dictionary/English/meaning/i/in/information.jsonl",
+      "sha256": "ef1db03d9a3f61bacbc8ce5f4ae26ce1753f67880a65a45e7a83ac32a4b72a29",
+      "bytes": 61163,
+      "records": 1
+    },
+    "jump": {
+      "url": "https://kaikki.org/dictionary/English/meaning/j/ju/jump.jsonl",
+      "sha256": "d0d991d0b66ef5e1ec2c39d9767a36c01298c707213977b10496ac1888e7bda4",
+      "bytes": 192297,
+      "records": 5
+    },
+    "keep": {
+      "url": "https://kaikki.org/dictionary/English/meaning/k/ke/keep.jsonl",
+      "sha256": "33009bd2e57cebdf94a618f6429ef8bb431d3e53be15a9534d6ebe204304e438",
+      "bytes": 103690,
+      "records": 2
+    },
+    "key": {
+      "url": "https://kaikki.org/dictionary/English/meaning/k/ke/key.jsonl",
+      "sha256": "f8c7649fedc10481380e5ded818aaf11ec7c4015408bdcb2db92bdfeb3a61b67",
+      "bytes": 227867,
+      "records": 7
+    },
+    "kind": {
+      "url": "https://kaikki.org/dictionary/English/meaning/k/ki/kind.jsonl",
+      "sha256": "fee9822c58f7ebf751f2053fe63da6474cab6c23a4df1158c9f1ecc307e12313",
+      "bytes": 67221,
+      "records": 2
+    },
+    "laugh": {
+      "url": "https://kaikki.org/dictionary/English/meaning/l/la/laugh.jsonl",
+      "sha256": "f93fc6045fa48b4faf474331ac60275fa1bd22cecdb80ca5f401040c89976e04",
+      "bytes": 140236,
+      "records": 2
+    },
+    "letter": {
+      "url": "https://kaikki.org/dictionary/English/meaning/l/le/letter.jsonl",
+      "sha256": "abac7daa05abd280bff0e6c75c2546c457559e79b37ae39478d60d330c3cb918",
+      "bytes": 113333,
+      "records": 4
+    },
+    "loud": {
+      "url": "https://kaikki.org/dictionary/English/meaning/l/lo/loud.jsonl",
+      "sha256": "752f2e5deb704ef596edce20a7e07546cd4e8adc57d97bd81d96d7217397e2c5",
+      "bytes": 67662,
+      "records": 3
+    },
+    "love": {
+      "url": "https://kaikki.org/dictionary/English/meaning/l/lo/love.jsonl",
+      "sha256": "aca3aedca1928610ebc227b9005bafbc28b885763ea8399d99a74965bd539f65",
+      "bytes": 256666,
+      "records": 4
+    },
+    "meal": {
+      "url": "https://kaikki.org/dictionary/English/meaning/m/me/meal.jsonl",
+      "sha256": "be26dd7a049bb74c4e032bc80233817cfba350a778fd85e7279efc544783e65d",
+      "bytes": 90725,
+      "records": 5
+    },
+    "meet": {
+      "url": "https://kaikki.org/dictionary/English/meaning/m/me/meet.jsonl",
+      "sha256": "aac980693dd829f21d7cc0cc919b7e659518359b063520d691ee2e5478963be7",
+      "bytes": 109889,
+      "records": 3
+    },
+    "milk": {
+      "url": "https://kaikki.org/dictionary/English/meaning/m/mi/milk.jsonl",
+      "sha256": "01803b92c85ceb2247b97835c5e4fd0108019b0d91c757764a7fa2cb509ffd11",
+      "bytes": 139680,
+      "records": 2
+    },
+    "money": {
+      "url": "https://kaikki.org/dictionary/English/meaning/m/mo/money.jsonl",
+      "sha256": "2c136330e7b44f2d0093ef58085d0c3c5cd082db2a0f399b7d7d545b577db2e5",
+      "bytes": 152583,
+      "records": 2
+    },
+    "mountain": {
+      "url": "https://kaikki.org/dictionary/English/meaning/m/mo/mountain.jsonl",
+      "sha256": "96bb11c44b33bc2d371b03e7380994b9dfddb388dd93e11fa942615340c1d575",
+      "bytes": 133842,
+      "records": 1
+    },
+    "mouse": {
+      "url": "https://kaikki.org/dictionary/English/meaning/m/mo/mouse.jsonl",
+      "sha256": "6df65403b11962537e5703dfa501ba7e0a1e3eed85914cc9974473b2ca9b789c",
+      "bytes": 141602,
+      "records": 2
+    },
+    "new": {
+      "url": "https://kaikki.org/dictionary/English/meaning/n/ne/new.jsonl",
+      "sha256": "99fa6d36eafbb8416020b4ac4a16e238dee370d64eec4b3f6e132e3982f94519",
+      "bytes": 227939,
+      "records": 4
+    },
+    "old": {
+      "url": "https://kaikki.org/dictionary/English/meaning/o/ol/old.jsonl",
+      "sha256": "8f8bcfcafa55894398aa168e6e0387b958aebc58d4f8974ab3a9936c846acdaa",
+      "bytes": 186100,
+      "records": 2
+    },
+    "open": {
+      "url": "https://kaikki.org/dictionary/English/meaning/o/op/open.jsonl",
+      "sha256": "75c1dff87d5afc53e3b49490016377afb5a741df1126ad045a9bc4f01364ce1e",
+      "bytes": 220531,
+      "records": 3
+    },
+    "phone": {
+      "url": "https://kaikki.org/dictionary/English/meaning/p/ph/phone.jsonl",
+      "sha256": "5d598e2345b815ec72ce70bffafe6dc1d104bd96668a14670674205dce5c5bd2",
+      "bytes": 59382,
+      "records": 3
+    },
+    "put": {
+      "url": "https://kaikki.org/dictionary/English/meaning/p/pu/put.jsonl",
+      "sha256": "86efe86cda367c05a647a3a4f94a9584a11c993b23e718738ff4bdd5a281e2dd",
+      "bytes": 113677,
+      "records": 4
+    },
+    "rain": {
+      "url": "https://kaikki.org/dictionary/English/meaning/r/ra/rain.jsonl",
+      "sha256": "9d91059599e70babd6d1cff1e74201e0b718788e033118624f20f072a5864028",
+      "bytes": 191424,
+      "records": 3
+    },
+    "read": {
+      "url": "https://kaikki.org/dictionary/English/meaning/r/re/read.jsonl",
+      "sha256": "30887200153b16088cb0daf16b1fed75221a8f9732fa9678b1d2402f31e127cf",
+      "bytes": 160521,
+      "records": 3
+    },
+    "red": {
+      "url": "https://kaikki.org/dictionary/English/meaning/r/re/red.jsonl",
+      "sha256": "c6c031100c15578756d51c404da2c5e2c0b9a708b0b76c763deeb0bc517680ab",
+      "bytes": 208847,
+      "records": 5
+    },
+    "return": {
+      "url": "https://kaikki.org/dictionary/English/meaning/r/re/return.jsonl",
+      "sha256": "dd0ea00bb9f3835b7ecc3c2e5f5c1fad4239e0911ca58fb83581d5296157e6a0",
+      "bytes": 128618,
+      "records": 2
+    },
+    "rise": {
+      "url": "https://kaikki.org/dictionary/English/meaning/r/ri/rise.jsonl",
+      "sha256": "797bddbc2abc21c926240a8199cb0a7e5da07ae6199cdf5985e876c499916856",
+      "bytes": 111603,
+      "records": 3
+    },
+    "river": {
+      "url": "https://kaikki.org/dictionary/English/meaning/r/ri/river.jsonl",
+      "sha256": "46d8d3c34fdb33aa60b5b247405f70f2230424fdf4c51f8a1c7c0e986eb95474",
+      "bytes": 167400,
+      "records": 3
+    },
+    "road": {
+      "url": "https://kaikki.org/dictionary/English/meaning/r/ro/road.jsonl",
+      "sha256": "c22e6c8d7725fdaeb6a97bf560dc0d90279a03111c62d055b47446b517f836da",
+      "bytes": 89173,
+      "records": 2
+    },
+    "room": {
+      "url": "https://kaikki.org/dictionary/English/meaning/r/ro/room.jsonl",
+      "sha256": "57e3c7bc7d00e436601e40a329dbdcd81269fe2eb7ba6a2e08b484744e82650b",
+      "bytes": 145573,
+      "records": 5
+    },
+    "run": {
+      "url": "https://kaikki.org/dictionary/English/meaning/r/ru/run.jsonl",
+      "sha256": "e82a8a37ae0abb610b700199947b128e6ced2e401137d2ce372b952ae55c2372",
+      "bytes": 238293,
+      "records": 4
+    },
+    "sad": {
+      "url": "https://kaikki.org/dictionary/English/meaning/s/sa/sad.jsonl",
+      "sha256": "2dae7a67daf6353cd8ab92a5cced2f469f5f1d28d76b1132a0787095cf7a54bc",
+      "bytes": 91925,
+      "records": 4
+    },
+    "salt": {
+      "url": "https://kaikki.org/dictionary/English/meaning/s/sa/salt.jsonl",
+      "sha256": "721e700390e51da63f19fff2fdc01c1f762fdfbcc074d00119f50333752c7d15",
+      "bytes": 159106,
+      "records": 4
+    },
+    "save": {
+      "url": "https://kaikki.org/dictionary/English/meaning/s/sa/save.jsonl",
+      "sha256": "96b897fb60f1a7405d6dc4445ac9894d725688d41071a7905efda08f6d68b12e",
+      "bytes": 155960,
+      "records": 4
+    },
+    "short": {
+      "url": "https://kaikki.org/dictionary/English/meaning/s/sh/short.jsonl",
+      "sha256": "3f4f9787c17f19ce2f9e8e7b3415a5dd251a9ffdcad1bad98539d9d4f7b04d6e",
+      "bytes": 214011,
+      "records": 5
+    },
+    "silver": {
+      "url": "https://kaikki.org/dictionary/English/meaning/s/si/silver.jsonl",
+      "sha256": "a551ef3972a2e876f2d885297ae05c5db5582f4605ba737614ba92636e057ae0",
+      "bytes": 147116,
+      "records": 3
+    },
+    "sit": {
+      "url": "https://kaikki.org/dictionary/English/meaning/s/si/sit.jsonl",
+      "sha256": "905b29ea1ed4985e376f7245bb9a1e0b97d8b41531bd04d616d58f6c79e6e9b6",
+      "bytes": 97968,
+      "records": 3
+    },
+    "slow": {
+      "url": "https://kaikki.org/dictionary/English/meaning/s/sl/slow.jsonl",
+      "sha256": "54f3520f0352ec272c58328f616fa3742bae2c28784b5c847796e8ad0237129f",
+      "bytes": 84029,
+      "records": 4
+    },
+    "sneeze": {
+      "url": "https://kaikki.org/dictionary/English/meaning/s/sn/sneeze.jsonl",
+      "sha256": "e9f4dd5fb0234203081cf7b73cb01d097fc7c0d4cdbd64f2b5f6fd2b11dd26e2",
+      "bytes": 64675,
+      "records": 2
+    },
+    "snow": {
+      "url": "https://kaikki.org/dictionary/English/meaning/s/sn/snow.jsonl",
+      "sha256": "abdb9a68a92f3701971fc7025ea094de6a635b13b82e734cccf62373890d2145",
+      "bytes": 295851,
+      "records": 4
+    },
+    "soft": {
+      "url": "https://kaikki.org/dictionary/English/meaning/s/so/soft.jsonl",
+      "sha256": "0c765948b099ca1a6add568a65785180ab3d38fbc65900d5076befc681bd6a5a",
+      "bytes": 136308,
+      "records": 4
+    },
+    "song": {
+      "url": "https://kaikki.org/dictionary/English/meaning/s/so/song.jsonl",
+      "sha256": "1fe9ed995e82ae393d9c6485e1cb724bc4c4ff6766b03681d03fdaa3374df97a",
+      "bytes": 84569,
+      "records": 1
+    },
+    "star": {
+      "url": "https://kaikki.org/dictionary/English/meaning/s/st/star.jsonl",
+      "sha256": "7abd4df2ef8fef38af315e2351b495483877f28f20dab37c310ddf22e85a0020",
+      "bytes": 259501,
+      "records": 2
+    },
+    "story": {
+      "url": "https://kaikki.org/dictionary/English/meaning/s/st/story.jsonl",
+      "sha256": "a8582966c9e3658d1bc9df33db6f5753ebafe33f239e58c84305ee3a93157279",
+      "bytes": 99619,
+      "records": 4
+    },
+    "strange": {
+      "url": "https://kaikki.org/dictionary/English/meaning/s/st/strange.jsonl",
+      "sha256": "fb86f58d08ddc7b32f7bc20015d6e9b54e97b565be7c24ee02169d13cf11490e",
+      "bytes": 99838,
+      "records": 3
+    },
+    "sugar": {
+      "url": "https://kaikki.org/dictionary/English/meaning/s/su/sugar.jsonl",
+      "sha256": "ca5022df9eebd178467bd8a73fab5e7debac6bf5a68cdcb60e7d1d7cfaf52702",
+      "bytes": 179842,
+      "records": 3
+    },
+    "sunlight": {
+      "url": "https://kaikki.org/dictionary/English/meaning/s/su/sunlight.jsonl",
+      "sha256": "8d82b8efa8ef727b27e2aedefcfbec79db8db1b44b1e3bad2532da5cf14d2efc",
+      "bytes": 30217,
+      "records": 2
+    },
+    "table": {
+      "url": "https://kaikki.org/dictionary/English/meaning/t/ta/table.jsonl",
+      "sha256": "9ed98ecb5994439b215ab1e15cb49a626075062d77382e593cca73c2dbf78007",
+      "bytes": 142075,
+      "records": 2
+    },
+    "take": {
+      "url": "https://kaikki.org/dictionary/English/meaning/t/ta/take.jsonl",
+      "sha256": "214510219c7a4cad042c770967465355531d4b3cadc0685e42630cad52f21df7",
+      "bytes": 277195,
+      "records": 2
+    },
+    "tall": {
+      "url": "https://kaikki.org/dictionary/English/meaning/t/ta/tall.jsonl",
+      "sha256": "9672c78bafc75d6cbda3054f0c856613326679b213cf397ad108a1f07461f405",
+      "bytes": 55073,
+      "records": 2
+    },
+    "tea": {
+      "url": "https://kaikki.org/dictionary/English/meaning/t/te/tea.jsonl",
+      "sha256": "f78988f1d7d505aabb61c3e0dbba2e1c52755c6190f9ba8a611216007bf4aa01",
+      "bytes": 152544,
+      "records": 4
+    },
+    "time": {
+      "url": "https://kaikki.org/dictionary/English/meaning/t/ti/time.jsonl",
+      "sha256": "620835943c96210a4c542e562cd64cbf95b46fd6450413e0851758aec1127a7f",
+      "bytes": 400806,
+      "records": 4
+    },
+    "tired": {
+      "url": "https://kaikki.org/dictionary/English/meaning/t/ti/tired.jsonl",
+      "sha256": "becc8dee9587ab0b3ab4725df319079017e4dc9794b59515cde301b4f77f1a5a",
+      "bytes": 61399,
+      "records": 3
+    },
+    "tree": {
+      "url": "https://kaikki.org/dictionary/English/meaning/t/tr/tree.jsonl",
+      "sha256": "5b4ab880f51606827a61d3b62662f67100cc16c5a4ba5e5441a6ff1cc7bc1c70",
+      "bytes": 253670,
+      "records": 3
+    },
+    "vanish": {
+      "url": "https://kaikki.org/dictionary/English/meaning/v/va/vanish.jsonl",
+      "sha256": "ec633800cb873a3ab39aff6fd8c02e608c2357377197b837d30b60095603ffd3",
+      "bytes": 28234,
+      "records": 2
+    },
+    "visit": {
+      "url": "https://kaikki.org/dictionary/English/meaning/v/vi/visit.jsonl",
+      "sha256": "de654a02aa181671952f01320e30751adcb6eb8a6c3a11dbba77e1ae1accc1b3",
+      "bytes": 65167,
+      "records": 2
+    },
+    "wake": {
+      "url": "https://kaikki.org/dictionary/English/meaning/w/wa/wake.jsonl",
+      "sha256": "a292d7caf6d9e7a82fc5ccdb2bdb17cef6827a7573a46aa93605f60be129f345",
+      "bytes": 74196,
+      "records": 3
+    },
+    "walk": {
+      "url": "https://kaikki.org/dictionary/English/meaning/w/wa/walk.jsonl",
+      "sha256": "1207dde5a0fedd4e438fadfa1ccc64c57525ef90978da12de65cc9f4bf68a318",
+      "bytes": 148852,
+      "records": 2
+    },
+    "warm": {
+      "url": "https://kaikki.org/dictionary/English/meaning/w/wa/warm.jsonl",
+      "sha256": "514528305ef473ca04bf7398e5a61affb9629b4345d0dc98d30cca3a85001ced",
+      "bytes": 105791,
+      "records": 3
+    },
+    "watch": {
+      "url": "https://kaikki.org/dictionary/English/meaning/w/wa/watch.jsonl",
+      "sha256": "8a7855cd189f82ba8d222e24a6145ebbc3d68ec749ee0e358cafaa5565409e99",
+      "bytes": 151319,
+      "records": 2
+    },
+    "window": {
+      "url": "https://kaikki.org/dictionary/English/meaning/w/wi/window.jsonl",
+      "sha256": "8625536f8be660cf358ddca4e102b2925e2e13b41c41fd34375d1627a484d6d3",
+      "bytes": 135102,
+      "records": 2
+    },
+    "write": {
+      "url": "https://kaikki.org/dictionary/English/meaning/w/wr/write.jsonl",
+      "sha256": "553f510cfca1012c6a1f4d540257f44517dbee1f4625feebf0fdf6eb078ae7e5",
+      "bytes": 100787,
+      "records": 2
+    }
+  }
+}

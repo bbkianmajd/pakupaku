@@ -1,0 +1,352 @@
+{
+  "browser": "158.0.8127.18",
+  "scope": "Desktop Chromium integration subset through actual demo and worker; not full browser acceptance or device responsiveness certification.",
+  "results": [
+    {
+      "text": "enron is ready.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "great falls is correct.",
+        "complete": true
+      }
+    },
+    {
+      "text": "\"i love you\"",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "\"you see you\"",
+        "complete": true
+      }
+    },
+    {
+      "text": "i love (you).",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "you thank (me).",
+        "complete": true
+      }
+    },
+    {
+      "text": "hello — i love you.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "hey — you miss us.",
+        "complete": true
+      }
+    },
+    {
+      "text": "i have $55,008.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "i open $327,185.",
+        "complete": true
+      }
+    },
+    {
+      "text": "put the book on the table.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "put cindy on the packer.",
+        "complete": true
+      }
+    },
+    {
+      "text": "hello. i love you. can you help me? meet me at 1530.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "hi. they meet him. can we expect us? mean her at 0238.",
+        "complete": true
+      }
+    },
+    {
+      "text": "meet me at 2 30 pm",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "pick him at 10 09 pm",
+        "complete": true
+      }
+    },
+    {
+      "text": "meet me at 2:30 pm.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "hear them at 3:50 pm.",
+        "complete": true
+      }
+    },
+    {
+      "text": "meet me at half past two.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "confirm him at half past seven.",
+        "complete": true
+      }
+    },
+    {
+      "text": "meet me on 02/29/2024 at 09:05.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "miss him on 02/29/0880 at 07:34.",
+        "complete": true
+      }
+    },
+    {
+      "text": "this is a test",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "this is a thong",
+        "complete": true
+      }
+    },
+    {
+      "text": "i'm ready. are you ready?",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "i'm modest. are they ashamed?",
+        "complete": true
+      }
+    },
+    {
+      "text": "2 cats love you",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "90 modernists carry you",
+        "complete": true
+      }
+    },
+    {
+      "text": "the cat that tom loves sleeps",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "dawn that the sickle drags falls",
+        "complete": true
+      }
+    },
+    {
+      "text": "she wants to see you",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "she needs to explain it",
+        "complete": true
+      }
+    },
+    {
+      "text": "if she is ready, i will visit tom",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "if she is athletic, i will buy the screeching",
+        "complete": true
+      }
+    },
+    {
+      "text": "i have received your message and will reply tomorrow.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "i have checked your programmer and will meet down.",
+        "complete": true
+      }
+    },
+    {
+      "text": "the attached file contains the updated schedule.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "the cooperative contestant understands the crystalline generator.",
+        "complete": true
+      }
+    },
+    {
+      "text": "please tell me whether you can attend the meeting.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "please ask you whether they can update papua new guinea.",
+        "complete": true
+      }
+    },
+    {
+      "text": "when she arrived, the meeting had already started.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "when she sang, the dory had also walked.",
+        "complete": true
+      }
+    },
+    {
+      "text": "i wasn't sure which document you meant.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "i wasn't curious which plaque they tried.",
+        "complete": true
+      }
+    },
+    {
+      "text": "i can help if you send me the details.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "i can stop if we send us the counterparts.",
+        "complete": true
+      }
+    },
+    {
+      "text": "what i need is a little more time.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "what i watch is a little more rice.",
+        "complete": true
+      }
+    },
+    {
+      "text": "thanks for getting back to me so quickly.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "thanks for going back to you so together.",
+        "complete": true
+      }
+    },
+    {
+      "text": "there's nothing else we need to do.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "there's nothing else we hope to consider.",
+        "complete": true
+      }
+    },
+    {
+      "text": "let's meet after work and talk about the plan.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "let's listen after the kylie and wait about the shocker.",
+        "complete": true
+      }
+    },
+    {
+      "text": "i put the book that you gave me on the table.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "i put dakota that you taught me on the calamity.",
+        "complete": true
+      }
+    },
+    {
+      "text": "the people who work here are very friendly.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "the avenues who travel recently are very usual.",
+        "complete": true
+      }
+    },
+    {
+      "text": "as soon as i hear from them, i'll let you know.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "as soon as i hear from us, i'll make it fall.",
+        "complete": true
+      }
+    },
+    {
+      "text": "can you send the updated file to everyone?",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "can you ask the mature difference to everyone?",
+        "complete": true
+      }
+    },
+    {
+      "text": "we should have been told about this earlier.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "you should have been visited about this today.",
+        "complete": true
+      }
+    },
+    {
+      "text": "sarah, you are sexy.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "beulah, they are useful.",
+        "complete": true
+      }
+    },
+    {
+      "text": "sarah is happy.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "colorado springs is romantic.",
+        "complete": true
+      }
+    },
+    {
+      "text": "hey. i just want to say that i love you. you mean a lot to me.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "hey. i even decide to say that i love it. they mean so much to him.",
+        "complete": true
+      }
+    },
+    {
+      "text": "i live in north dakota.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "i run in summer.",
+        "complete": true
+      }
+    },
+    {
+      "text": "meet me in salt lake city.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "watch it in hawaii.",
+        "complete": true
+      }
+    },
+    {
+      "text": "we live in the united kingdom.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "they go in alabama.",
+        "complete": true
+      }
+    },
+    {
+      "text": "i live in st. paul.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "i run in homer.",
+        "complete": true
+      }
+    },
+    {
+      "text": "the word was invented by jonathan swift and used in his book 'gulliver's travels'.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "the name was invented by god butcher and used in his hoof 'gulliver's traders'.",
+        "complete": true
+      }
+    },
+    {
+      "text": "i looked at the uecomm master and had some comments--such as our name is wrong, the cross default threshold for us should be us $ and not aud, and there were a few other questions i had.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "i looked at the uecomm counterparty and had some comments--such as our replacement is wrong, the cross default threshold for us should be enron $ and not aud, and there were a few organizational questions i had.",
+        "complete": true
+      }
+    },
+    {
+      "text": "they kept the name oracle and created the rdbms engine. god alone is salvation. i love you.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "they had the note us and created the rdbms engine. sun alone is salvation. i hold her.",
+        "complete": true
+      }
+    },
+    {
+      "text": "hello. the attached file contains the updated schedule. can you send the updated file to everyone? meet me at 2 30 pm.",
+      "authorRecovered": true,
+      "alternate": {
+        "reading": "hello. the retro time follows the reflective wainwright. can they understand the conventional memory to everyone? eat him at 2 40 pm.",
+        "complete": true
+      }
+    }
+  ],
+  "errors": [],
+  "localRequestsOnly": true
+}

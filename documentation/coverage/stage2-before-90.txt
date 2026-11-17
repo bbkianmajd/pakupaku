@@ -1,0 +1,182 @@
+STAGE 2 REPORT: HEAVY WORDS AND SURFACE STRUCTURES
+================================================
+
+Current full-pipeline sentence score: 145/1000 (14.50%); failed: 855 (85.50%).
+Before this update: 123/1000. Newly passing: 22. Regressions: 0.
+Complete notes: 0/3. Project regressions: 33/33.
+Same input IDs and corpus hash; no exclusions, replacements or manual repairs.
+Validation/acceptance splits were not opened. Coverage remains unproven.
+Corpus SHA-256: 7040280b6e17881058f3f95e086976b6a682bbf54f4ac20df16a80bad1d25c45
+Measurement SHA-256: 0ec245b2835845fa2e9fcae85a3b2a396cbef65224e7bb2b4f4c00ffe76a4891
+All recorded implementation hashes verified against current files.
+
+WHAT CHANGED
+Reviewed names and lexical roles now include enron, erasmus, common calendar
+names, attached, into, put, additional common verbs and inflections, nouns and
+function words. Put requires an object plus a location; words were not simply
+put in a generic verb pool. Existing unknown spellings remain failures.
+Balanced parentheses/brackets/quotes, dashes, semicolon-separated utterances,
+integer/grouped/cent monetary amounts, and padded 12-hour times have explicit
+reversible layouts. Unmatched delimiters, invalid times and malformed amounts
+are negative controls. No arbitrary text or punctuation is passed through.
+
+RANKED EXCLUSIVE FAILURE BUCKETS
+Denominators: 1000 sentences; 855 failures. Rows sum to all failures.
+Rank | Count | % of all sentences | % of failures | Observed necessary blocker
+   1 |   594 |             59.40% |        69.47% | Missing words only
+   2 |   197 |             19.70% |        23.04% | Known words: unsupported roles/constructions
+   3 |    48 |              4.80% |         5.61% | Missing words plus unsupported surface tokens
+   4 |    16 |              1.60% |         1.87% | Known words plus unsupported surface tokens
+
+Any missing word: 642/1000 (64.20%). Any unsupported surface token: 64/1000 (6.40%).
+These two totals overlap; they are not additive. A recognized word can still
+lack its required grammatical role, inflection, sense or complement frame.
+Known-word construction rejections: 197 now versus 139 before.
+Removing lexical/surface blockers exposes secondary grammar failures; this
+bucket can grow without introducing any newly failing input.
+Registering punctuation reduces the generic unsupported-token flag even when
+a surrounding construction still fails. Only complete full-pipeline successes
+count as coverage gains; a lower diagnostic count alone is not success.
+
+LEXICAL ROOT-CAUSE CANDIDATES (OVERLAPPING ITEM COUNTS)
+UD POS/lemma evidence is used for triage, not to guess runtime roles. A known
+lemma can require a missing form OR role. Proper nouns include calendar names.
+One item may appear in multiple rows. Percentages use the full sentence set.
+   391 ( 39.10%) Noun/adjective/adverb surfaces; examples: tagg, exactly, etc, wild, gang, girlie
+   235 ( 23.50%) Verb lemma/sense surfaces; examples: received, pull, caught, mentioned, managed, detract
+   191 ( 19.10%) Proper names: people, places, organizations, calendar words; examples: kelley, card, rent, san, labor, korea
+    94 (  9.40%) Unclassified contractions/abbreviations/segmentation; examples: u, t, full-day, hoot's, what's, http
+    75 (  7.50%) Function/discourse words; examples: yourself, than, whatever, herself, aaaaaggghhhhhh, nothing
+    53 (  5.30%) Known-lemma form/role gap (candidate); examples: harder, dating, earlier, rode, formed, named
+     6 (  0.60%) Number words/symbols; examples: k, m, hundred
+
+TOP REMAINING MISSING SPELLINGS (SENTENCE COUNTS)
+  x                     10 (1.00%)
+  com                    8 (0.80%)
+  k                      8 (0.80%)
+  let's                  7 (0.70%)
+  em                     7 (0.70%)
+  s                      6 (0.60%)
+  than                   5 (0.50%)
+  everything             5 (0.50%)
+  ss                     5 (0.50%)
+  till                   5 (0.50%)
+  equals                 5 (0.50%)
+  received               4 (0.40%)
+  however                4 (0.40%)
+  contact                4 (0.40%)
+  something              4 (0.40%)
+  painewebber            4 (0.40%)
+  ene                    4 (0.40%)
+  e-mail                 4 (0.40%)
+  instead                4 (0.40%)
+  based                  4 (0.40%)
+  own                    4 (0.40%)
+  fact                   4 (0.40%)
+  respond                4 (0.40%)
+  anything               4 (0.40%)
+  concerned              4 (0.40%)
+
+KNOWN-WORD CONSTRUCTION/ROLE FAILURES: 197 ITEMS
+Previously reviewed family labels are retained only where the exact rejected
+token and preceding context still match. New/changed cases are marked pending
+manual classification. Do not interpret that pending row as a linguistic
+construction family. These primary-family labels are triage judgments, not
+counterfactual proof that a single fix rescues the item. Secondary gaps remain.
+    81 (  8.10% of all items) New/changed known-word rejection: manual family review pending
+    39 (  3.90% of all items) Discourse, fragments, vocatives and punctuation inside known-word utterances
+    20 (  2.00% of all items) Known-word lexical roles, names and verb frames
+    19 (  1.90% of all items) Auxiliary composition, modal/verb-phrase ellipsis and negation
+    15 (  1.50% of all items) Noun phrases, quantification, compounds and nominal ellipsis
+    15 (  1.50% of all items) Embedded questions, complements and relative/comparative clauses
+     7 (  0.70% of all items) Modifier placement, prepositional phrases and degree expressions
+     1 (  0.10% of all items) Uncertain authored construction requiring review
+
+Example current known-word rejections (first blocked token):
+  "sorry i haven't written you guys in a while to keep you properly updated."
+    blocked: 'i'; family: New/changed known-word rejection: manual family review pending
+  "as for ted, things are still going well although i haven't see him at all this week (we are two very busy people)."
+    blocked: 'see'; family: New/changed known-word rejection: manual family review pending
+  "anyway, i'm sure my mom told you guys but travis and kathy got to meet him and i think it went well."
+    blocked: 'my'; family: New/changed known-word rejection: manual family review pending
+  'things in houston are good and definitely warm.'
+    blocked: 'definitely'; family: New/changed known-word rejection: manual family review pending
+  'needless to say i am very excited.'
+    blocked: 'needless'; family: Modifier placement, prepositional phrases and degree expressions
+  'talk to you guys soon,'
+    blocked: 'guys'; family: New/changed known-word rejection: manual family review pending
+  'do you yahoo!?'
+    blocked: 'yahoo'; family: Known-word lexical roles, names and verb frames
+  'ted noble'
+    blocked: 'noble'; family: Known-word lexical roles, names and verb frames
+  'anyway, lots of fun meetings today.'
+    blocked: 'meetings'; family: Noun phrases, quantification, compounds and nominal ellipsis
+  '-mary little'
+    blocked: '-'; family: New/changed known-word rejection: manual family review pending
+  'how about dinner on wednesday after that?'
+    blocked: 'on'; family: New/changed known-word rejection: manual family review pending
+  'how about prior to that or after that on tuesday.'
+    blocked: 'prior'; family: New/changed known-word rejection: manual family review pending
+  'important information of big companies'
+    blocked: 'important'; family: Noun phrases, quantification, compounds and nominal ellipsis
+  "it's on page three eleven."
+    blocked: 'three'; family: Noun phrases, quantification, compounds and nominal ellipsis
+  'and this is what luther writes to erasmus.'
+    blocked: 'what'; family: New/changed known-word rejection: manual family review pending
+
+TOP REMAINING UNSUPPORTED SURFACE TOKENS (OVERLAPPING)
+  '@'                    9 (0.90%)
+  '<'                    6 (0.60%)
+  '>'                    6 (0.60%)
+  '&'                    4 (0.40%)
+  'th-'                  4 (0.40%)
+  '_'                    3 (0.30%)
+  'd-'                   3 (0.30%)
+  '#'                    2 (0.20%)
+  '%'                    2 (0.20%)
+  '+'                    2 (0.20%)
+  'sa-'                  2 (0.20%)
+  'man-'                 2 (0.20%)
+  'n-'                   2 (0.20%)
+  'm-'                   2 (0.20%)
+  'w-'                   2 (0.20%)
+
+PIPELINE ATTRIBUTION
+Parse successes: 145/1000. Parse-success/composer-failure cases: 0.
+A composer failure accompanying a parser rejection is not evidence of an
+independent UI bug. Null codec/decoy results mean not reached, never passed.
+Alternate-key parsing is not independent English grammaticality review.
+
+BENCHMARK LIMITS (ALL ITEMS RETAINED)
+This pilot contains 449 email, 51 newsgroup and 500 transcribed conversation
+sentences from 13 source documents/conversations. The original email selector
+also matched a newsgroup ID containing emails; that sampling defect remains
+disclosed. Conversations include math, technical language, interruptions and
+partial words. Do not remove failures after observing results. Retain this
+set as regression evidence and collect a corrected, predeclared representative
+message benchmark in parallel. Three complete notes cannot establish coverage.
+
+CONCLUSION AND RANKED NEXT WORK
+1. Follow the current lexical ranking with a broad sourced, multi-sense lexical
+   pipeline: common verb frames/forms, noun/adjective/adverb roles, function
+   words and typed names. Adding isolated spellings is insufficient.
+2. Prioritize the growing known-word backlog by construction family. Make
+   modifiers, complement clauses, ellipsis, quantification and discourse rules
+   compose across statements, questions, contractions and multi-sentence notes.
+3. Extend the remaining surface structures with typed, reversible rules. Keep
+   invalid controls; do not accept arbitrary token runs to inflate the score.
+4. Recheck every previously accepted item and measure author recovery, composer
+   prefixes and sampled alternate keys together. Independently review decoys.
+5. Correct future sampling and obtain many more complete notes, keeping the
+   present failures visible. Do not tune against held-out acceptance items.
+The changes remove real lexical/surface blockers, but the full grammar and
+lexical model still need substantial work. Stage 2 remains open until its
+sentence AND complete-note coverage gates pass; word counts or owner examples
+cannot substitute for those measurements.
+
+REPRODUCTION
+  node tools/coverage/run.js --stage2
+  node tools/coverage/stage2-diagnostics.js
+  python3 tools/coverage/stage2-report.py
+Evidence: documentation/coverage/stage2-progress.json, stage2-prefix-audit.json,
+stage2-root-causes.json; data/coverage/items.json and stage2-triage.json.

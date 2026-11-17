@@ -1,0 +1,59 @@
+{
+  "scope": "Authored feature probes, not an independent validation set.",
+  "strict": {
+    "pools": 3095,
+    "singletons": 2620,
+    "predicateChoices": 387,
+    "baseVerbChoices": 93,
+    "uniqueLearnedSpellingSets": 1872
+  },
+  "option3": {
+    "pools": 3095,
+    "singletons": 1073,
+    "predicateChoices": 2523,
+    "baseVerbChoices": 158,
+    "uniqueLearnedSpellingSets": 831
+  },
+  "examples": [
+    {
+      "text": "i wonder how many sentences will pass?",
+      "strict": false,
+      "option3": true
+    },
+    {
+      "text": "sarah arrives the sandwich.",
+      "strict": false,
+      "option3": true
+    },
+    {
+      "text": "the sandwich wonders whether the moon is tired.",
+      "strict": false,
+      "option3": true
+    },
+    {
+      "text": "the moon sleeps the sandwich.",
+      "strict": false,
+      "option3": true
+    },
+    {
+      "text": "they arrive the sandwich.",
+      "strict": false,
+      "option3": true
+    },
+    {
+      "text": "she depends the book.",
+      "strict": false,
+      "option3": true
+    },
+    {
+      "text": "she wonders whether they will arrive.",
+      "strict": false,
+      "option3": true
+    },
+    {
+      "text": "i wonder why she left.",
+      "strict": false,
+      "option3": true
+    }
+  ]
+}

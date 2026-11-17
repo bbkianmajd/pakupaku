@@ -1,0 +1,231 @@
+{
+  "scope": "Fixed all-zero test salt and public example key test. These readings are not from the user's original payload. Hash-distance checks are regression evidence, not a security proof or guarantee of semantic distance.",
+  "predicateAdjectives": 387,
+  "compatibleSingularNominals": 4234,
+  "rows": [
+    {
+      "text": "hey. i just want to say that i love you. you mean a lot to me.",
+      "slots": [
+        {
+          "role": "greeting",
+          "size": "4"
+        },
+        {
+          "role": "pronoun_i",
+          "size": "1"
+        },
+        {
+          "role": "frequency_adverb",
+          "size": "17"
+        },
+        {
+          "role": "frame_infinitive_base",
+          "size": "7"
+        },
+        {
+          "role": "frame_clause_base",
+          "size": "8"
+        },
+        {
+          "role": "present-base-pronoun",
+          "size": "4"
+        },
+        {
+          "role": "present-transitive-verb",
+          "size": "36"
+        },
+        {
+          "role": "object-pronoun",
+          "size": "7"
+        },
+        {
+          "role": "pronoun_you",
+          "size": "3"
+        },
+        {
+          "role": "significance_base",
+          "size": "9"
+        },
+        {
+          "role": "object-pronoun",
+          "size": "7"
+        }
+      ],
+      "seedBitDifferences": [
+        {
+          "key": "t",
+          "bitsDifferentFromAuthor": 132
+        },
+        {
+          "key": "te",
+          "bitsDifferentFromAuthor": 126
+        },
+        {
+          "key": "tes",
+          "bitsDifferentFromAuthor": 123
+        }
+      ],
+      "readings": [
+        {
+          "key": "t",
+          "text": "hey. i only need to understand that i invite her. we mean nothing to me."
+        },
+        {
+          "key": "te",
+          "text": "hey. i just agree to hear that they feed me. we mean so much to it."
+        },
+        {
+          "key": "tes",
+          "text": "hi. i still need to hear that they feed you. you mean everything to him."
+        },
+        {
+          "key": "test",
+          "text": "hey. i just want to say that i love you. you mean a lot to me."
+        }
+      ]
+    },
+    {
+      "text": "sarah, you are sexy.",
+      "slots": [
+        {
+          "role": "vocative",
+          "size": "1023"
+        },
+        {
+          "role": "pronoun_you",
+          "size": "3"
+        },
+        {
+          "role": "predicative",
+          "size": "387"
+        }
+      ],
+      "seedBitDifferences": [
+        {
+          "key": "t",
+          "bitsDifferentFromAuthor": 129
+        },
+        {
+          "key": "te",
+          "bitsDifferentFromAuthor": 139
+        },
+        {
+          "key": "tes",
+          "bitsDifferentFromAuthor": 128
+        }
+      ],
+      "readings": [
+        {
+          "key": "t",
+          "text": "marshall, we are exciting."
+        },
+        {
+          "key": "te",
+          "text": "casey, you are plump."
+        },
+        {
+          "key": "tes",
+          "text": "perry, they are rare."
+        },
+        {
+          "key": "test",
+          "text": "sarah, you are sexy."
+        }
+      ]
+    },
+    {
+      "text": "sarah is happy.",
+      "slots": [
+        {
+          "role": "singular_nominal",
+          "size": "4234"
+        },
+        {
+          "role": "predicative",
+          "size": "387"
+        }
+      ],
+      "seedBitDifferences": [
+        {
+          "key": "t",
+          "bitsDifferentFromAuthor": 119
+        },
+        {
+          "key": "te",
+          "bitsDifferentFromAuthor": 132
+        },
+        {
+          "key": "tes",
+          "bitsDifferentFromAuthor": 119
+        }
+      ],
+      "readings": [
+        {
+          "key": "t",
+          "text": "the armada is fresh."
+        },
+        {
+          "key": "te",
+          "text": "the medic is ancient."
+        },
+        {
+          "key": "tes",
+          "text": "the college is real."
+        },
+        {
+          "key": "test",
+          "text": "sarah is happy."
+        }
+      ]
+    },
+    {
+      "text": "i love sarah.",
+      "slots": [
+        {
+          "role": "present-base-pronoun",
+          "size": "4"
+        },
+        {
+          "role": "present-transitive-verb",
+          "size": "36"
+        },
+        {
+          "role": "singular_nominal",
+          "size": "4234"
+        }
+      ],
+      "seedBitDifferences": [
+        {
+          "key": "t",
+          "bitsDifferentFromAuthor": 133
+        },
+        {
+          "key": "te",
+          "bitsDifferentFromAuthor": 127
+        },
+        {
+          "key": "tes",
+          "bitsDifferentFromAuthor": 120
+        }
+      ],
+      "readings": [
+        {
+          "key": "t",
+          "text": "they hate the meeting."
+        },
+        {
+          "key": "te",
+          "text": "they remember belize."
+        },
+        {
+          "key": "tes",
+          "text": "we buy paraguay."
+        },
+        {
+          "key": "test",
+          "text": "i love sarah."
+        }
+      ]
+    }
+  ]
+}

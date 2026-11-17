@@ -1,0 +1,886 @@
+{
+  "status": "awaiting owner review",
+  "version": "1.0.0",
+  "source_sha256": "e157a82a4fc4f5194e119bd284e1ebe1f97161accbeef6a4ab4c01fee835d9a8",
+  "seed_version": "1.0.0",
+  "total_entries": 165,
+  "summary": {
+    "candidate": 120,
+    "excluded": 1,
+    "held": 3
+  },
+  "decisions": [
+    {
+      "word": "blue",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "blue",
+      "id": 46
+    },
+    {
+      "word": "brave",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "brave",
+      "id": 47
+    },
+    {
+      "word": "cold",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "cold",
+      "id": 48
+    },
+    {
+      "word": "fast",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "fast",
+      "id": 49
+    },
+    {
+      "word": "friendly",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "friendly",
+      "id": 50
+    },
+    {
+      "word": "gentle",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "gentle",
+      "id": 51
+    },
+    {
+      "word": "happy",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "happy",
+      "id": 52
+    },
+    {
+      "word": "kind",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "kind",
+      "id": 53
+    },
+    {
+      "word": "loud",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "loud",
+      "id": 54
+    },
+    {
+      "word": "new",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "new",
+      "id": 55
+    },
+    {
+      "word": "old",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "old",
+      "id": 56
+    },
+    {
+      "word": "red",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "red",
+      "id": 57
+    },
+    {
+      "word": "sad",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "sad",
+      "id": 58
+    },
+    {
+      "word": "short",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "short",
+      "id": 59
+    },
+    {
+      "word": "slow",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "slow",
+      "id": 60
+    },
+    {
+      "word": "soft",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "soft",
+      "id": 61
+    },
+    {
+      "word": "strange",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "strange",
+      "id": 62
+    },
+    {
+      "word": "tall",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "tall",
+      "id": 63
+    },
+    {
+      "word": "tired",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "tired",
+      "id": 64
+    },
+    {
+      "word": "warm",
+      "role": "adjective",
+      "status": "candidate",
+      "surface": "warm",
+      "id": 65
+    },
+    {
+      "word": "bird",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "bird",
+      "id": 66
+    },
+    {
+      "word": "boat",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "boat",
+      "id": 67
+    },
+    {
+      "word": "box",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "box",
+      "id": 68
+    },
+    {
+      "word": "cake",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "cake",
+      "id": 69
+    },
+    {
+      "word": "car",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "car",
+      "id": 70
+    },
+    {
+      "word": "chair",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "chair",
+      "id": 71
+    },
+    {
+      "word": "city",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "city",
+      "id": 72
+    },
+    {
+      "word": "cup",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "cup",
+      "id": 73
+    },
+    {
+      "word": "dog",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "dog",
+      "id": 74
+    },
+    {
+      "word": "door",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "door",
+      "id": 75
+    },
+    {
+      "word": "fish",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "fish",
+      "id": 76
+    },
+    {
+      "word": "flower",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "flower",
+      "id": 77
+    },
+    {
+      "word": "friend",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "friend",
+      "id": 78
+    },
+    {
+      "word": "garden",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "garden",
+      "id": 79
+    },
+    {
+      "word": "house",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "house",
+      "id": 80
+    },
+    {
+      "word": "key",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "key",
+      "id": 81
+    },
+    {
+      "word": "letter",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "letter",
+      "id": 82
+    },
+    {
+      "word": "meal",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "meal",
+      "id": 83
+    },
+    {
+      "word": "mountain",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "mountain",
+      "id": 84
+    },
+    {
+      "word": "mouse",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "mouse",
+      "id": 85
+    },
+    {
+      "word": "phone",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "phone",
+      "id": 86
+    },
+    {
+      "word": "river",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "river",
+      "id": 87
+    },
+    {
+      "word": "road",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "road",
+      "id": 88
+    },
+    {
+      "word": "room",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "room",
+      "id": 89
+    },
+    {
+      "word": "song",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "song",
+      "id": 90
+    },
+    {
+      "word": "star",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "star",
+      "id": 91
+    },
+    {
+      "word": "story",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "story",
+      "id": 92
+    },
+    {
+      "word": "table",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "table",
+      "id": 93
+    },
+    {
+      "word": "tree",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "tree",
+      "id": 94
+    },
+    {
+      "word": "window",
+      "role": "count-noun",
+      "status": "candidate",
+      "surface": "window",
+      "id": 95
+    },
+    {
+      "word": "put",
+      "role": "excluded",
+      "status": "excluded",
+      "reason": "Unsupported grammar use; explicitly excluded"
+    },
+    {
+      "word": "advice",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "advice",
+      "id": 96
+    },
+    {
+      "word": "air",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "air",
+      "id": 97
+    },
+    {
+      "word": "bread",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "bread",
+      "id": 98
+    },
+    {
+      "word": "cheese",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "cheese",
+      "id": 99
+    },
+    {
+      "word": "coffee",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "coffee",
+      "id": 100
+    },
+    {
+      "word": "furniture",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "furniture",
+      "id": 101
+    },
+    {
+      "word": "gold",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "gold",
+      "id": 102
+    },
+    {
+      "word": "happiness",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "happiness",
+      "id": 103
+    },
+    {
+      "word": "information",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "information",
+      "id": 104
+    },
+    {
+      "word": "love",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "love",
+      "id": 105
+    },
+    {
+      "word": "milk",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "milk",
+      "id": 106
+    },
+    {
+      "word": "money",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "money",
+      "id": 107
+    },
+    {
+      "word": "rain",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "rain",
+      "id": 108
+    },
+    {
+      "word": "salt",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "salt",
+      "id": 109
+    },
+    {
+      "word": "silver",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "silver",
+      "id": 110
+    },
+    {
+      "word": "snow",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "snow",
+      "id": 111
+    },
+    {
+      "word": "sugar",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "sugar",
+      "id": 112
+    },
+    {
+      "word": "sunlight",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "sunlight",
+      "id": 113
+    },
+    {
+      "word": "tea",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "tea",
+      "id": 114
+    },
+    {
+      "word": "time",
+      "role": "mass-noun",
+      "status": "candidate",
+      "surface": "time",
+      "id": 115
+    },
+    {
+      "word": "cry",
+      "role": "past-intransitive-verb",
+      "status": "candidate",
+      "surface": "cried",
+      "id": 116
+    },
+    {
+      "word": "dance",
+      "role": "past-intransitive-verb",
+      "status": "candidate",
+      "surface": "danced",
+      "id": 117
+    },
+    {
+      "word": "depart",
+      "role": "past-intransitive-verb",
+      "status": "candidate",
+      "surface": "departed",
+      "id": 118
+    },
+    {
+      "word": "fall",
+      "role": "past-intransitive-verb",
+      "status": "candidate",
+      "surface": "fell",
+      "id": 119
+    },
+    {
+      "word": "jump",
+      "role": "past-intransitive-verb",
+      "status": "candidate",
+      "surface": "jumped",
+      "id": 120
+    },
+    {
+      "word": "laugh",
+      "role": "past-intransitive-verb",
+      "status": "candidate",
+      "surface": "laughed",
+      "id": 121
+    },
+    {
+      "word": "return",
+      "role": "past-intransitive-verb",
+      "status": "candidate",
+      "surface": "returned",
+      "id": 122
+    },
+    {
+      "word": "rise",
+      "role": "past-intransitive-verb",
+      "status": "candidate",
+      "surface": "rose",
+      "id": 123
+    },
+    {
+      "word": "run",
+      "role": "past-intransitive-verb",
+      "status": "candidate",
+      "surface": "ran",
+      "id": 124
+    },
+    {
+      "word": "sit",
+      "role": "past-intransitive-verb",
+      "status": "held",
+      "reason": "Missing or ambiguous past-tense form",
+      "source_forms": [
+        "sat",
+        "sattest"
+      ]
+    },
+    {
+      "word": "sneeze",
+      "role": "past-intransitive-verb",
+      "status": "candidate",
+      "surface": "sneezed",
+      "id": 125
+    },
+    {
+      "word": "vanish",
+      "role": "past-intransitive-verb",
+      "status": "candidate",
+      "surface": "vanished",
+      "id": 126
+    },
+    {
+      "word": "wake",
+      "role": "past-intransitive-verb",
+      "status": "held",
+      "reason": "Missing or ambiguous past-tense form",
+      "source_forms": [
+        "waked",
+        "woke"
+      ]
+    },
+    {
+      "word": "walk",
+      "role": "past-intransitive-verb",
+      "status": "candidate",
+      "surface": "walked",
+      "id": 127
+    },
+    {
+      "word": "build",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "built",
+      "id": 128
+    },
+    {
+      "word": "buy",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "bought",
+      "id": 129
+    },
+    {
+      "word": "call",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "called",
+      "id": 130
+    },
+    {
+      "word": "choose",
+      "role": "past-transitive-verb",
+      "status": "held",
+      "reason": "No matching unrestricted English sense and grammatical role"
+    },
+    {
+      "word": "clean",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "cleaned",
+      "id": 131
+    },
+    {
+      "word": "close",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "closed",
+      "id": 132
+    },
+    {
+      "word": "help",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "helped",
+      "id": 133
+    },
+    {
+      "word": "hold",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "held",
+      "id": 134
+    },
+    {
+      "word": "keep",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "kept",
+      "id": 135
+    },
+    {
+      "word": "love",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "loved",
+      "id": 136
+    },
+    {
+      "word": "meet",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "met",
+      "id": 137
+    },
+    {
+      "word": "open",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "opened",
+      "id": 138
+    },
+    {
+      "word": "read",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "read",
+      "id": 139
+    },
+    {
+      "word": "save",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "saved",
+      "id": 140
+    },
+    {
+      "word": "take",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "took",
+      "id": 141
+    },
+    {
+      "word": "visit",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "visited",
+      "id": 142
+    },
+    {
+      "word": "watch",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "watched",
+      "id": 143
+    },
+    {
+      "word": "write",
+      "role": "past-transitive-verb",
+      "status": "candidate",
+      "surface": "wrote",
+      "id": 144
+    },
+    {
+      "word": "Ada",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "ada",
+      "id": 145
+    },
+    {
+      "word": "Alice",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "alice",
+      "id": 146
+    },
+    {
+      "word": "Bob",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "bob",
+      "id": 147
+    },
+    {
+      "word": "Emma",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "emma",
+      "id": 148
+    },
+    {
+      "word": "Grace",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "grace",
+      "id": 149
+    },
+    {
+      "word": "Henry",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "henry",
+      "id": 150
+    },
+    {
+      "word": "Jack",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "jack",
+      "id": 151
+    },
+    {
+      "word": "James",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "james",
+      "id": 152
+    },
+    {
+      "word": "Jane",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "jane",
+      "id": 153
+    },
+    {
+      "word": "John",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "john",
+      "id": 154
+    },
+    {
+      "word": "Lily",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "lily",
+      "id": 155
+    },
+    {
+      "word": "Mary",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "mary",
+      "id": 156
+    },
+    {
+      "word": "Noah",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "noah",
+      "id": 157
+    },
+    {
+      "word": "Oliver",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "oliver",
+      "id": 158
+    },
+    {
+      "word": "Olivia",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "olivia",
+      "id": 159
+    },
+    {
+      "word": "Peter",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "peter",
+      "id": 160
+    },
+    {
+      "word": "Rose",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "rose",
+      "id": 161
+    },
+    {
+      "word": "Sofia",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "sofia",
+      "id": 162
+    },
+    {
+      "word": "Thomas",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "thomas",
+      "id": 163
+    },
+    {
+      "word": "William",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "william",
+      "id": 164
+    },
+    {
+      "word": "Zoe",
+      "role": "person-name",
+      "status": "candidate",
+      "surface": "zoe",
+      "id": 165
+    }
+  ]
+}

@@ -1,0 +1,5042 @@
+{
+  "snapshot_sha256": "23d8f8b80829db3341a573a2bb7cf88a5db385687f11607031f0d54675a29f2d",
+  "diagnostics": [
+    {
+      "id": "ewt:email-enronsent34_01-0001",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0002",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0003",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0004",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0005",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0006",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0007",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0008",
+      "unsupportedTokens": [],
+      "firstRejection": {
+        "token": "as",
+        "preceding": [
+          "as",
+          "much",
+          "fun"
+        ],
+        "completeBefore": false
+      }
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0009",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0010",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0011",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0012",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0013",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0014",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0015",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0016",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0017",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0018",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0019",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0020",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0021",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0022",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0023",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0024",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0025",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0026",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0027",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0028",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0029",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0030",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0031",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0032",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0033",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0034",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0035",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0036",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0037",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0038",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0039",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0040",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0041",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0042",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0043",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0044",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0045",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0046",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0047",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0048",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0049",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0050",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0051",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0052",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0053",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0054",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0055",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0056",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0057",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0058",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0059",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0060",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0061",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0062",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0063",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0064",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0065",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0066",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0067",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0068",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0070",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0071",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0072",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0073",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0074",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0075",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0076",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0077",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent34_01-0078",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0001",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0002",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0003",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0004",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0005",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0006",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0007",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0009",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0010",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0011",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0013",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0014",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0015",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0016",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0017",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0018",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0019",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0022",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0023",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0024",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0025",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0027",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0028",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0029",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0036",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0037",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0038",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0039",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0040",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0041",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0042",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0043",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0044",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0045",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent00_01-0046",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0001",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0002",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0003",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0004",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0005",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0006",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0007",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0008",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0009",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0010",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0011",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0012",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0013",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0014",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0015",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0016",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0017",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0018",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0019",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0020",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0021",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0022",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0023",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0024",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0025",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0026",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0027",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0028",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0029",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0030",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0031",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0032",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0033",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0034",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0035",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0036",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0037",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0038",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0039",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0040",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0041",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0042",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0043",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0044",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0045",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0046",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0047",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0048",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0049",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0050",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:newsgroup-groups.google.com_emails_ec0a1064de05e74b_ENG_20040929_023800-0051",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-1",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-2",
+      "unsupportedTokens": [],
+      "firstRejection": {
+        "token": "um",
+        "preceding": [
+          "and"
+        ],
+        "completeBefore": false
+      }
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-3",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-4",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-5",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-6",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-7",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-8",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-9",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-10",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-11",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-12",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-13",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-14",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-15",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-16",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-17",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-18",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-19",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-20",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-21",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-22",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-23",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-24",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-25",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-26",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-27",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-28",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-29",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-30",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-31",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-32",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-33",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-34",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-35",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-36",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-37",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-38",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-39",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-40",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-41",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-42",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-43",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-44",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-45",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-46",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-47",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-48",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-49",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-50",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-51",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-52",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-53",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-54",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-55",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-56",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-57",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-58",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-59",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-60",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-61",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-62",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-64",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-65",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-66",
+      "unsupportedTokens": [
+        "v-"
+      ],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-67",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-68",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-69",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-70",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-71",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-72",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-73",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-74",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-75",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-76",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-77",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-78",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-79",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-80",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-81",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_erasmus-82",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0001",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0002",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0003",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0004",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0005",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0006",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0008",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0009",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0010",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0018",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0019",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0020",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0022",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0023",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0024",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0025",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0027",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0028",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0029",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0030",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0032",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0033",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0034",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0035",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0036",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0037",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0038",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0039",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0040",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0041",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0042",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0045",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0046",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0047",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0048",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0049",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0050",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0051",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0052",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0053",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0054",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0055",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0056",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0057",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0058",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0059",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0060",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0061",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0062",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0063",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0064",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent30_01-0065",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0001",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0003",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0004",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0005",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0006",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0007",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0008",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0009",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0010",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0011",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0012",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0013",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0014",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0015",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0016",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0017",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0018",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0019",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0020",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0021",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0022",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0023",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0024",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0025",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0026",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0027",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0028",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0029",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0030",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0031",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0032",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0033",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0034",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0035",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0036",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0037",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0040",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0041",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0042",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0043",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0044",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0045",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0046",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0047",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0048",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0049",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0051",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0053",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0054",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0055",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0056",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0057",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0058",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0059",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0060",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0061",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent27_01-0063",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0001",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0002",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0003",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0004",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0005",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0006",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0007",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0008",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0009",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0010",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0011",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0012",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0013",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0015",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0016",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0017",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0018",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0020",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0022",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0023",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0024",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0025",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0026",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0027",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0028",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0029",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0030",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0031",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0032",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0033",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0034",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0035",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0036",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0037",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0038",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0039",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0041",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0043",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0044",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0045",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0046",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0047",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0048",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0049",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0050",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0053",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0054",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0055",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0056",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0057",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0058",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0059",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0060",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0062",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0063",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0065",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0066",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0067",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0068",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0072",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0075",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0076",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0077",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0078",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0079",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0082",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0083",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0084",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0086",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0087",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0088",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0092",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0093",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0094",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0095",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0096",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0097",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0098",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0099",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0100",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0101",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0102",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0103",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0104",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0105",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0106",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0107",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0108",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0109",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0110",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent13_01-0111",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0001",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0002",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0003",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0004",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0005",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0006",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0007",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0008",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0009",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0010",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0012",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0013",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0014",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0015",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0016",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0017",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0019",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0020",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0021",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0022",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0023",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0025",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0026",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0027",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0028",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0029",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0030",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0031",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0032",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0033",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0034",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0035",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0036",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0037",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0039",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0040",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0041",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0042",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0043",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0044",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0046",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0047",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0048",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0049",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0050",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0051",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0052",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0053",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0055",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0056",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0057",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0059",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0060",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0061",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0062",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0063",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0064",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0065",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0066",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0067",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0068",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0069",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0070",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0071",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0072",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0073",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0074",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0077",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0078",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0079",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0080",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0081",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0082",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0083",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0084",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0085",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0086",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0087",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0088",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0089",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0090",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0091",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0092",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0093",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0094",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0095",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0096",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0097",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0098",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0099",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0100",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0101",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0102",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0103",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0104",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0105",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0108",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0109",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0110",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0111",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0113",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0114",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0115",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0116",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0118",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0119",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0122",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0123",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0124",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0126",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0127",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0128",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0129",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0130",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0133",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0136",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0137",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0138",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0139",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0142",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0143",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0144",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0145",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0146",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0147",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0148",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0150",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0151",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0152",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0153",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0154",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0155",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0156",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent03_01-0158",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent38_01-0001",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent38_01-0002",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "ewt:email-enronsent38_01-0003",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-1",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-2",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-3",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-4",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-5",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-6",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-7",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-8",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-9",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-10",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-11",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-12",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-13",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-14",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-15",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-17",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-20",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-22",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-23",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-24",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-25",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-26",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-27",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-28",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-29",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-30",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-32",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-33",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-34",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-35",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-36",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-37",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-38",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-39",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-40",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-41",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-42",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-43",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-45",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-46",
+      "unsupportedTokens": [],
+      "firstRejection": {
+        "token": "where",
+        "preceding": [
+          "and",
+          "that's",
+          "kinda"
+        ],
+        "completeBefore": false
+      }
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-47",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-48",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-49",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-50",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-51",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-52",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-53",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-54",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-55",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-56",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-57",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-58",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-59",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-60",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-61",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-62",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-63",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-64",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-65",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-66",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-67",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-68",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-70",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-71",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-72",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-73",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-74",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-75",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-76",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-77",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-78",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-79",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-80",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-81",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-82",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-83",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-84",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-85",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-86",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-88",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-89",
+      "unsupportedTokens": [],
+      "firstRejection": {
+        "token": "anyway",
+        "preceding": [
+          "but",
+          ","
+        ],
+        "completeBefore": false
+      }
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-90",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-91",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-92",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-93",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-94",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-95",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-96",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-97",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-98",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-99",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-100",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-101",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-102",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-103",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-104",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_blacksmithing-105",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-1",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-3",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-5",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-6",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-7",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-8",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-10",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-11",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-12",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-13",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-14",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-15",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-16",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-17",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-18",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-19",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-20",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-21",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-22",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-23",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-24",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-26",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-27",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-28",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-29",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-30",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-31",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-32",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-33",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-34",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-35",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-36",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-38",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-40",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-41",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-42",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-43",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-44",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-45",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-46",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-47",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-48",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-50",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-52",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-53",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-54",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-56",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-57",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-59",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-60",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-61",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-62",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-63",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-64",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-65",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-67",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-69",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-71",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-72",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-73",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-74",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-75",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-77",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-78",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-79",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-80",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-81",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-82",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-83",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-84",
+      "unsupportedTokens": [],
+      "firstRejection": {
+        "token": ",",
+        "preceding": [
+          "over"
+        ],
+        "completeBefore": false
+      }
+    },
+    {
+      "id": "gum:GUM_conversation_zero-85",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-86",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-87",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-88",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-90",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-91",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-92",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-93",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-94",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-95",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-96",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-98",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-99",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-100",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-101",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-103",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-104",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-105",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-106",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-107",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-108",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-110",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-111",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-113",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-115",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-117",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-118",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-119",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-120",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-121",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-122",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-123",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-124",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-126",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-128",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-130",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-132",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-133",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-134",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-135",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_zero-137",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-1",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-2",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-5",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-6",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-9",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-11",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-12",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-13",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-14",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-15",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-18",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-19",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-20",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-22",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-23",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-25",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-26",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-28",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-29",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-30",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-33",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-34",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-35",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-36",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-37",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-40",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-42",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-43",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-44",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-47",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-48",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-49",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-50",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-51",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-53",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-56",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-57",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-60",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-61",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-62",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-63",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-64",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-65",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-67",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-68",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-69",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-70",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-71",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-72",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-73",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-74",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-76",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-77",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-78",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-80",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-81",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-83",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-84",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-87",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-88",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-89",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-90",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-92",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-94",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-95",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-96",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-98",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-99",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-100",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-101",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-102",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-103",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-104",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-105",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-107",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-109",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-110",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-111",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-112",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-113",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-114",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-115",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-117",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-119",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-120",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-121",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-123",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-124",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-125",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-126",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-128",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-129",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-130",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-131",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-132",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-134",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-138",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-139",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-141",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-143",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-144",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-145",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-146",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-147",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-148",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-150",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-152",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-153",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-154",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-155",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-156",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-157",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-158",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-160",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-162",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-163",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-164",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-165",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-166",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-167",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-168",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-169",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-170",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-171",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-172",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-173",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-174",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-175",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-176",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-179",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-181",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-183",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-185",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-186",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-188",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-189",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-191",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-192",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-193",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-196",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-197",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-198",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-199",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-201",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-203",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-204",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-205",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-207",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-208",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-209",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-210",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-212",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-213",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-214",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_christmas-215",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-1",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-3",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-4",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-5",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-6",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-7",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-8",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-9",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-10",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-12",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-13",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-14",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-16",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-18",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-20",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-21",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-23",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-24",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-25",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-26",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-27",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-28",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-30",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-31",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-33",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-36",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-38",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-39",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-40",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-41",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-42",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-43",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-45",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-46",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-47",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-50",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-52",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-53",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-54",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-55",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-56",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-57",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-59",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-60",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-61",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-63",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-64",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-65",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-67",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-68",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-69",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-70",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-71",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-72",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-73",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    },
+    {
+      "id": "gum:GUM_conversation_vet-74",
+      "unsupportedTokens": [],
+      "firstRejection": null
+    }
+  ]
+}
