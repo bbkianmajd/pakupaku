@@ -1,29 +1,14 @@
-import { randomPasskey } from './codec.js';
+import {randomPasskey} from './ui/passkey.js';
 import {payloadFromFragment, fragmentForPayload} from './release.js';
 
 const element = id => document.getElementById(id);
-const worker = new Worker(new URL('./codec-worker.js', import.meta.url), { type: 'module' });
-let requestId = 0;
-const pending = new Map();
-worker.onmessage = ({ data }) => {
-  const task = pending.get(data.id);
-  if (!task) return;
-  pending.delete(data.id);
-  if (data.error) task.reject(Object.assign(new Error(data.error), { name: data.aborted ? 'AbortError' : 'Error' }));
-  else task.resolve(data.result);
-};
-worker.onerror = () => {
-  for (const task of pending.values()) task.reject(new Error('Unable to run the codec in this browser.'));
-  pending.clear();
-};
-const call = (operation, fields = {}) => new Promise((resolve, reject) => {
-  const id = ++requestId; pending.set(id, { resolve, reject }); worker.postMessage({ id, operation, ...fields });
-});
+import {call} from './ui/engine-client.js';
 let payload, generation = 0;
 const note = element('note'), highlights = element('note-highlights');
 let draftRevision = 0, draftTimer, composing = false;
-element('writer-key').value = randomPasskey();
-element('reader-key').value = randomPasskey();
+const passkey = element('passkey');
+passkey.value = randomPasskey();
+element('hide-passkey').addEventListener('change', () => { passkey.type = element('hide-passkey').checked ? 'password' : 'text'; });
 
 function paintNote(issue) {
   const value = note.value, fragment = document.createDocumentFragment();
@@ -63,6 +48,8 @@ async function analyzeCurrent(revision) {
 }
 function editedNote() {
   if (composing) return;
+  generation++; payload = undefined; note.readOnly = false;
+  if (location.hash) history.replaceState(null, '', location.pathname + location.search);
   lowercaseNote(); invalidateLink(); paintNote(null);
   element('note-feedback').textContent = 'Checking note…';
   clearTimeout(draftTimer);
@@ -75,29 +62,40 @@ note.addEventListener('input', editedNote);
 note.addEventListener('scroll', () => {
   highlights.scrollTop = note.scrollTop; highlights.scrollLeft = note.scrollLeft;
 });
-element('writer-key').addEventListener('input', invalidateLink);
+passkey.addEventListener('input', () => {
+  if (payload) { draftRevision++; render(); }
+  else {
+    invalidateLink(); clearTimeout(draftTimer);
+    const revision = draftRevision;
+    draftTimer = setTimeout(() => analyzeCurrent(revision), 180);
+  }
+});
 
 async function render() {
   const current = ++generation;
   if (!payload) return;
-  element('reader-status').textContent = 'Updating reading…';
+  note.readOnly = true;
+  element('writer-status').textContent = 'Updating reading…';
   try {
-    const text = await call('decode', { payload, key: element('reader-key').value });
+    const text = await call('decode', { payload, key: passkey.value });
     if (current !== generation) return;
-    element('reading').textContent = text;
-    element('reader-status').textContent = '';
+    note.value = text; paintNote(null);
+    element('note-feedback').textContent = 'Edit this message to create a new link, or change the passkey for another reading.';
+    element('writer-status').textContent = '';
   } catch (error) {
-    if (current === generation && error.name !== 'AbortError') { element('reading').textContent = ''; element('reader-status').textContent = error.message; }
-  }
+    if (current === generation && error.name !== 'AbortError') { note.value = ''; paintNote(null); element('writer-status').textContent = error.message; }
+  } finally { if (current === generation) note.readOnly = false; }
 }
 function readFragment() {
-  generation++; payload = undefined; element('reading').textContent = '';
-  element('reader-status').textContent = '';
-  if (!location.hash) return;
-  try { payload = payloadFromFragment(location.hash); render(); }
-  catch (error) { element('reader-status').textContent = error.message; }
+  clearTimeout(draftTimer); draftRevision++;
+  generation++; payload = undefined; note.readOnly = false; note.value = ''; paintNote(null);
+  element('link').value = ''; element('note-feedback').textContent = '';
+  element('writer-status').textContent = '';
+  if (!location.hash) { note.readOnly = false; return; }
+  try { payload = payloadFromFragment(location.hash); element('link').value = location.href; render(); }
+  catch (error) { element('writer-status').textContent = error.message; }
 }
-element('reader-key').addEventListener('input', render);
+
 window.addEventListener('hashchange', readFragment);
 element('encode').addEventListener('click', async () => {
   clearTimeout(draftTimer);
@@ -110,7 +108,7 @@ element('encode').addEventListener('click', async () => {
       element('writer-status').textContent = 'Finish the highlighted note before creating a link.';
       return;
     }
-    const currentNote = note.value, currentKey = element('writer-key').value;
+    const currentNote = note.value, currentKey = passkey.value;
     element('writer-status').textContent = 'Creating link…';
     const encoded = await call('encode', { note: currentNote, key: currentKey });
     if (revision !== draftRevision) return;
@@ -127,4 +125,4 @@ element('encode').addEventListener('click', async () => {
 paintNote(null);
 try { await call('init'); element('encode').disabled = false; await analyzeCurrent(draftRevision); }
 catch (error) { element('writer-status').textContent = error.message; }
-readFragment();
+if (!element('encode').disabled && location.hash) readFragment();

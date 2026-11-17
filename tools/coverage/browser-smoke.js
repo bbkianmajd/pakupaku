@@ -24,6 +24,8 @@ try{
  const origin=`http://127.0.0.1:${server.address().port}`;
  await page.goto(origin+'/codec-demo.html');
  await page.waitForFunction(()=>!document.querySelector('#encode').disabled);
+ assert.match(await page.locator('#passkey').inputValue(),/^[a-z]+_[a-z]+_[a-z]+$/);
+ assert.equal(await page.locator('#note').count(),1);
  const results=[];
  await page.locator('#note').fill('HELLO. I LOVE YOU.');
  await page.waitForFunction(()=>document.querySelector('#note').value==='hello. i love you.');
@@ -42,10 +44,10 @@ try{
   const text=canonicalize(source);
   await page.locator('#note').fill(source);
   await page.waitForFunction(()=>document.querySelector('#note-feedback').textContent==='Note is ready to link.');
-  await page.locator('#writer-key').fill('author');await page.locator('#encode').click();
+  await page.locator('#passkey').fill('author');await page.locator('#encode').click();
   await page.waitForFunction(()=>document.querySelector('#link').value.includes('#v=1.0.0&a='));
-  await page.locator('#reader-key').fill('author');
-  await page.waitForFunction(text=>document.querySelector('#reading').textContent===text,text);
+  await page.locator('#passkey').fill('author');
+  await page.waitForFunction(text=>document.querySelector('#note').value===text,text);
   const payload=new URLSearchParams(new URL(await page.locator('#link').inputValue()).hash.slice(1)).get('a');
   // Exercise the actual worker's alternate decode and composer analyze API.
   const decoy=await page.evaluate(async payload=>{
@@ -59,15 +61,45 @@ try{
   },payload);
   assert.ok(decoy.complete,decoy.reading);results.push({text,authorRecovered:true,alternate:decoy});
  }
+ assert.equal(await page.locator('#passkey').getAttribute('type'),'password');
+ assert.equal(await page.locator('#hide-passkey').isChecked(),true);
+ await page.locator('#hide-passkey').uncheck();
+ assert.equal(await page.locator('#passkey').getAttribute('type'),'text');
+ await page.locator('#hide-passkey').check();
+ for (const key of ['test', '🎉 Mixed CASE !']) {
+  await page.locator('#note').fill('this is cool.');
+  await page.waitForFunction(()=>document.querySelector('#note-feedback').textContent==='Note is ready to link.');
+  await page.locator('#passkey').fill(key);
+  await page.locator('#encode').click();
+  await page.waitForFunction(()=>document.querySelector('#link').value.includes('#v=1.0.0&a='));
+  const shared=await page.locator('#link').inputValue();
+  await page.goto(shared);
+  await page.waitForFunction(()=>!document.querySelector('#encode').disabled);
+  await page.locator('#passkey').fill(key);
+  await page.waitForFunction(()=>document.querySelector('#note').value==='this is cool.' && !document.querySelector('#note').readOnly);
+  assert.equal(await page.locator('#passkey').inputValue(),key);
+  await page.locator('#passkey').fill('another key');
+  await page.waitForFunction(()=>!document.querySelector('#note').readOnly && document.querySelector('#writer-status').textContent==='');
+  await page.locator('#passkey').fill(key);
+  await page.waitForFunction(()=>document.querySelector('#note').value==='this is cool.' && !document.querySelector('#note').readOnly);
+ }
  const validLink=await page.locator('#link').inputValue();
+ for (const key of ['', 'x', '  ']) {
+  await page.locator('#note').fill('this is cool.');
+  await page.waitForFunction(()=>document.querySelector('#note-feedback').textContent==='Note is ready to link.');
+  await page.locator('#passkey').fill(key);
+  assert.equal(await page.locator('#passkey').inputValue(),key);
+  await page.locator('#encode').click();
+  await page.waitForFunction(()=>document.querySelector('#writer-status').textContent.includes('at least three characters'));
+ }
  for(const hash of ['#v=99.0.0&a=invalid','#a=invalid']){
   await page.evaluate(hash=>{location.hash=hash;},hash);
-  await page.waitForFunction(()=>document.querySelector('#reader-status').textContent.startsWith('Wrong version:'));
-  assert.equal(await page.locator('#reading').textContent(),'');
+  await page.waitForFunction(()=>document.querySelector('#writer-status').textContent.startsWith('Wrong version:'));
+  assert.equal(await page.locator('#note').inputValue(),'');
  }
  await page.goto(validLink);
- await page.locator('#reader-key').fill('author');
- await page.waitForFunction(text=>document.querySelector('#reading').textContent===text,results.at(-1).text);
+ await page.locator('#passkey').fill('🎉 Mixed CASE !');
+ await page.waitForFunction(text=>document.querySelector('#note').value===text,'this is cool.');
  assert.deepEqual(errors,[]);assert.ok(requests.every(url=>url.startsWith(origin)));
  const report={browser:await browser.version(),scope:'Desktop Chromium integration subset through actual demo and worker; not full browser acceptance or device responsiveness certification.',results,errors,localRequestsOnly:true};
  await writeFile(new URL('documentation/coverage/restored-editor-browser.json',root),JSON.stringify(report,null,2)+'\n');
