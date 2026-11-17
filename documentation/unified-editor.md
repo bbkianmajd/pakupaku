@@ -12,7 +12,7 @@ The engine manifest excludes presentation files; the remaining 20 hashes are unc
 
 The editor now uses a responsive paper-and-sage design. The origami PakuPaku mark is drawn as two native SVG states, with a short fold transition when a link becomes available and an unfold transition when editing clears it. Reduced-motion preferences disable the transition.
 
-The main page has a compact header and no introductory or instructional copy; explanations and guidance live on `about.html`. The share link is a regular clickable anchor, visually shortened with an ellipsis while preserving the complete URL. Copy link writes the entire URL to the clipboard and announces success. If clipboard access is unavailable or denied, it explains how to copy the link manually. Editing clears the link and disables copying so an old message is not shared accidentally. No clipboard operation runs without a user click.
+The main page has a compact header with guidance below the share link. The introductory copy and a nostalgic note-passing story live on `about.html`. The share link is a regular clickable anchor, visually shortened with an ellipsis while preserving the complete URL. Copy link writes the entire URL to the clipboard and announces success. If clipboard access is unavailable or denied, it explains how to copy the link manually. Editing clears the link and disables copying so an old message is not shared accidentally. No clipboard operation runs without a user click.
 
 Verified: desktop and 390px mobile layout, copying the exact versioned URL, clipboard rejection feedback, fold/unfold state, draft invalidation, lowercase conversion, red highlights, and existing worker round trips. The locked engine hashes are unchanged.
 

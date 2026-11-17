@@ -28,7 +28,7 @@ try{
  assert.equal(await page.locator('#note').count(),1);
  const results=[];
  assert.equal(await page.locator('.intro').count(),0);
- assert.equal(await page.locator('.instructions').count(),0);
+ assert.equal(await page.locator('.instructions').count(),1);
  await page.locator('#note').focus();
  const alignment=await page.evaluate(()=>{
   const a=document.querySelector('#note'),b=document.querySelector('#note-highlights'),r=a.getBoundingClientRect(),s=b.getBoundingClientRect();
