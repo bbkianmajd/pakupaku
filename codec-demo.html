@@ -12,11 +12,38 @@
 <body>
 <main>
   <header class="masthead">
-    <a class="wordmark" href="codec-demo.html" aria-label="PakuPaku home"><span class="brand-dot"></span> pakupaku<span class="wordmark-period">.</span></a>
-    <span class="edition">A LITTLE PAPER MAGIC</span>
+    <a class="wordmark" href="codec-demo.html" aria-label="PakuPaku home"><div class="paper-mark" id="paper-mark" aria-hidden="true">
+      <svg class="paper-open" viewBox="0 0 160 160" fill="none">
+        <path d="M80 12 148 80 80 148 12 80Z" fill="#dce9cd" stroke="#344f43" stroke-width="1.5"/>
+        <path d="m80 12 0 68-68 0Z" fill="#fcfff5"/><path d="m80 12 68 68H80Z" fill="#a5bd8c"/>
+        <path d="m12 80 68 0v68Z" fill="#b8cf9f"/><path d="m80 80 68 0-68 68Z" fill="#edf4df"/>
+        <path d="m80 80-34-34 34 8 34-8Z" fill="#e3ebd5" stroke="#344f43" stroke-width="1.2"/>
+        <path d="m80 80 34-34-8 34 8 34Z" fill="#6c8e70" stroke="#344f43" stroke-width="1.2"/>
+        <path d="m80 80 34 34-34-8-34 8Z" fill="#d3e2bc" stroke="#344f43" stroke-width="1.2"/>
+        <path d="m80 80-34 34 8-34-8-34Z" fill="#faffed" stroke="#344f43" stroke-width="1.2"/>
+        <path d="M80 12 148 80 80 148 12 80Z" stroke="#344f43" stroke-width="1.5"/>
+      </svg>
+      <svg class="paper-closed" viewBox="0 0 160 160" fill="none">
+        <path d="M80 28 132 80 80 132 28 80Z" fill="#c1d4a7" stroke="#344f43" stroke-width="1.5"/>
+        <path d="m80 28 0 52H28Z" fill="#fcfff5"/><path d="m80 28 52 52H80Z" fill="#a5bd8c"/>
+        <path d="m28 80 52 0v52Z" fill="#b8cf9f"/><path d="m80 80 52 0-52 52Z" fill="#edf4df"/>
+        <path d="M80 28v104M28 80h104M80 28 132 80 80 132 28 80Z" stroke="#344f43" stroke-width="1.5"/>
+      </svg>
+    </div> pakupaku<span class="wordmark-period">.</span></a>
+    <a class="about-link" href="about.html">About</a>
   </header>
-  <div class="intro">
-    <div class="paper-mark" id="paper-mark" aria-hidden="true">
+  <section class="composer" aria-label="Write or read a message">
+    <div class="key-section">
+      <div class="field-heading"><label for="passkey">Your passkey</label><span class="field-number">01</span></div>
+      <div class="key-control"><input id="passkey" type="password" autocomplete="off" spellcheck="false" autocapitalize="none"><label class="checkbox-label"><input id="hide-passkey" type="checkbox" checked> Hide passkey</label></div>
+    </div>
+    <div class="message-section">
+      <div class="field-heading"><label for="note">Your message</label><span class="field-number">02</span></div>
+      <div class="note-editor">
+        <pre id="note-highlights" aria-hidden="true"></pre>
+        <textarea id="note" rows="6" autocomplete="off" spellcheck="false" aria-describedby="note-feedback" placeholder="Your message…"></textarea>
+      </div>
+      <div class="validation" id="validation" data-state="idle">    <div class="paper-mark" id="validation-icon" hidden aria-hidden="true">
       <svg class="paper-open" viewBox="0 0 160 160" fill="none">
         <path d="M80 12 148 80 80 148 12 80Z" fill="#dce9cd" stroke="#344f43" stroke-width="1.5"/>
         <path d="m80 12 0 68-68 0Z" fill="#fcfff5"/><path d="m80 12 68 68H80Z" fill="#a5bd8c"/>
@@ -34,24 +61,9 @@
         <path d="M80 28v104M28 80h104M80 28 132 80 80 132 28 80Z" stroke="#344f43" stroke-width="1.5"/>
       </svg>
     </div>
-    <p class="eyebrow">A NOTE WITH A TWIST</p>
-    <h1>A little message.<br>A different unfolding.</h1>
-    <p class="intro-copy">One link. A different story for every passkey.<br>Yours brings back the words you put inside.</p>
-  </div>
-  <section class="composer" aria-label="Write or read a message">
-    <div class="key-section">
-      <div class="field-heading"><label for="passkey">Your passkey</label><span class="field-number">01</span></div>
-      <div class="key-control"><input id="passkey" type="password" autocomplete="off" spellcheck="false" autocapitalize="none" aria-describedby="passkey-help"><label class="checkbox-label"><input id="hide-passkey" type="checkbox" checked> Hide passkey</label></div>
+<p id="note-feedback" role="status"></p></div>
     </div>
-    <div class="message-section">
-      <div class="field-heading"><label for="note">Your message</label><span class="field-number">02</span></div>
-      <div class="note-editor">
-        <pre id="note-highlights" aria-hidden="true"></pre>
-        <textarea id="note" rows="6" autocomplete="off" spellcheck="false" aria-describedby="note-feedback" placeholder="a small thought, a big feeling…"></textarea>
-      </div>
-      <p id="note-feedback" role="status"></p>
-    </div>
-    <div class="action-row"><span class="action-caption">A few words. All folded up.</span><button id="encode" disabled>Generate link <span aria-hidden="true">↗</span></button></div>
+    <div class="action-row"><button id="encode" disabled>Generate link <span aria-hidden="true">↗</span></button></div>
     <p id="writer-status" role="status"></p>
   </section>
   <section class="share-section" aria-labelledby="share-heading">
@@ -60,16 +72,7 @@
     <a id="link" hidden></a>
     <p id="copy-status" role="status"></p>
   </section>
-  <section class="instructions" aria-labelledby="instructions-heading">
-    <h2 id="instructions-heading">A little guidance</h2>
-    <div class="instruction-grid">
-      <div><span class="instruction-index">01 / THE KEY</span><p id="passkey-help">Keep the generated name or choose your own passkey. Open a shared link and enter a passkey to unfold its message.</p></div>
-      <div><span class="instruction-index">02 / THE WORDS</span><p>Write in the message box. Uppercase becomes lowercase; unsupported words or grammar appear in red. Try “hello. i love you.”</p></div>
-      <div><span class="instruction-index">03 / THE FOLD</span><p>Generate a link and copy it to share. The same passkey brings back your message. A different passkey unfolds a different reading.</p></div>
-    </div>
-    <p class="instruction-footnote">Edit a received message to start a new note. Spaces and line breaks are normalized when you generate a link.</p>
-  </section>
-  <footer><span>A small place for words to play.</span><a href="README.md">Behind the folds ↗</a></footer>
+  <footer><a href="about.html">About PakuPaku</a><a href="README.md">Documentation ↗</a></footer>
 </main>
 </body>
 </html>

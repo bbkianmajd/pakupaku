@@ -30,6 +30,15 @@ element('copy-link').addEventListener('click', async () => {
   }
 });
 
+function setFeedback(message, state = 'done') {
+  element('note-feedback').textContent = message;
+  element('validation').dataset.state = state;
+  const icon = element('validation-icon');
+  icon.hidden = !message;
+  icon.classList.toggle('folded', state === 'checking');
+  note.setAttribute('aria-busy', String(state === 'checking'));
+}
+
 function paintNote(issue) {
   const value = note.value, fragment = document.createDocumentFragment();
   if (issue) {
@@ -56,13 +65,14 @@ function invalidateLink() {
 }
 async function analyzeCurrent(revision) {
   try {
+    setFeedback('Checking note…', 'checking');
     const result = await call('analyze', { note: note.value });
     if (revision !== draftRevision) return null;
     paintNote(result.issue);
-    element('note-feedback').textContent = result.message;
+    setFeedback(result.message, result.issue ? 'error' : 'done');
     return result;
   } catch (error) {
-    if (revision === draftRevision) element('note-feedback').textContent = error.message;
+    if (revision === draftRevision) setFeedback(error.message, 'error');
     return null;
   }
 }
@@ -71,7 +81,7 @@ function editedNote() {
   generation++; payload = undefined; note.readOnly = false;
   if (location.hash) history.replaceState(null, '', location.pathname + location.search);
   lowercaseNote(); invalidateLink(); paintNote(null);
-  element('note-feedback').textContent = 'Checking note…';
+  setFeedback('Checking note…', 'checking');
   clearTimeout(draftTimer);
   const revision = draftRevision;
   draftTimer = setTimeout(() => analyzeCurrent(revision), 180);
@@ -86,6 +96,7 @@ passkey.addEventListener('input', () => {
   if (payload) { draftRevision++; render(); }
   else {
     invalidateLink(); clearTimeout(draftTimer);
+    setFeedback('Checking note…', 'checking');
     const revision = draftRevision;
     draftTimer = setTimeout(() => analyzeCurrent(revision), 180);
   }
@@ -100,7 +111,7 @@ async function render() {
     const text = await call('decode', { payload, key: passkey.value });
     if (current !== generation) return;
     note.value = text; paintNote(null);
-    element('note-feedback').textContent = 'Message unfolded.';
+    setFeedback('Message unfolded.');
     element('writer-status').textContent = '';
   } catch (error) {
     if (current === generation && error.name !== 'AbortError') { note.value = ''; paintNote(null); element('writer-status').textContent = error.message; }
@@ -109,7 +120,7 @@ async function render() {
 function readFragment() {
   clearTimeout(draftTimer); draftRevision++;
   generation++; payload = undefined; note.readOnly = false; note.value = ''; paintNote(null);
-  setLink(''); element('note-feedback').textContent = '';
+  setLink(''); setFeedback('');
   element('writer-status').textContent = '';
   if (!location.hash) { note.readOnly = false; return; }
   try { payload = payloadFromFragment(location.hash); setLink(location.href); render(); }

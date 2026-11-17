@@ -27,9 +27,18 @@ try{
  assert.match(await page.locator('#passkey').inputValue(),/^[a-z]+_[a-z]+_[a-z]+$/);
  assert.equal(await page.locator('#note').count(),1);
  const results=[];
+ assert.equal(await page.locator('.intro').count(),0);
+ assert.equal(await page.locator('.instructions').count(),0);
+ await page.locator('#note').focus();
+ const alignment=await page.evaluate(()=>{
+  const a=document.querySelector('#note'),b=document.querySelector('#note-highlights'),r=a.getBoundingClientRect(),s=b.getBoundingClientRect();
+  return {left:r.left-s.left,top:r.top-s.top,width:r.width-s.width,font:getComputedStyle(a).font===getComputedStyle(b).font};
+ });
+ assert.deepEqual(alignment,{left:0,top:0,width:0,font:true});
  await page.locator('#note').fill('HELLO. I LOVE YOU.');
  await page.waitForFunction(()=>document.querySelector('#note').value==='hello. i love you.');
  await page.waitForFunction(()=>document.querySelector('#note-feedback').textContent==='Note is ready to link.');
+ assert.equal(await page.locator('#validation-icon').evaluate(e=>e.classList.contains('folded')),false);
  await page.locator('#note').fill('hello qzxvnonword');
  await page.waitForFunction(()=>document.querySelector('#note-highlights .bad')?.textContent==='qzxvnonword');
  assert.ok((await page.locator('#note-feedback').textContent()).includes('not in the vocabulary'));

@@ -12,6 +12,12 @@ The engine manifest excludes presentation files; the remaining 20 hashes are unc
 
 The editor now uses a responsive paper-and-sage design. The origami PakuPaku mark is drawn as two native SVG states, with a short fold transition when a link becomes available and an unfold transition when editing clears it. Reduced-motion preferences disable the transition.
 
-All instructional copy sits beneath the share section. The share link is a regular clickable anchor, visually shortened with an ellipsis while preserving the complete URL. Copy link writes the entire URL to the clipboard and announces success. If clipboard access is unavailable or denied, it explains how to copy the link manually. Editing clears the link and disables copying so an old message is not shared accidentally. No clipboard operation runs without a user click.
+The main page has a compact header and no introductory or instructional copy; explanations and guidance live on `about.html`. The share link is a regular clickable anchor, visually shortened with an ellipsis while preserving the complete URL. Copy link writes the entire URL to the clipboard and announces success. If clipboard access is unavailable or denied, it explains how to copy the link manually. Editing clears the link and disables copying so an old message is not shared accidentally. No clipboard operation runs without a user click.
 
 Verified: desktop and 390px mobile layout, copying the exact versioned URL, clipboard rejection feedback, fold/unfold state, draft invalidation, lowercase conversion, red highlights, and existing worker round trips. The locked engine hashes are unchanged.
+
+## Compact editor and validation
+
+The header is 68px on desktop and 60px on phones. A small origami mark remains beside the wordmark. Validation has its own 22px origami icon: folded during the debounce and worker check, open after completion. Errors retain red highlights and now have red feedback text. The status text remains announced to screen readers and the message field exposes its busy state.
+
+The cursor offset came from focus styling that added 10px of padding to the editor container: the textarea shifted while the absolutely positioned highlight layer stayed in place. Focus now uses a shadow without changing geometry. Both layers share font, spacing, ligature, kerning, padding, and wrapping settings. Browser checks compare their positions and text styling while focused at desktop and phone widths.
