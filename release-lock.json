@@ -1,14 +1,14 @@
 {
   "version": "1.0.0",
   "files": {
-    "codec-demo.html": "616d0dbabeee4cbbe587ee64de1b00508d0e606206e408ac88a40c2d70546a64",
+    "codec-demo.html": "4e6983fed4f8623ec2c23d8a78b177deb442b3881606624f2c10206ffd225685",
     "data/semantics.json": "b72a9856a5bc963d794efd7b70e0d208d9d99bdffab928aaaf74f6f9f9020edd",
     "data/semantics/1.0.0.json": "b72a9856a5bc963d794efd7b70e0d208d9d99bdffab928aaaf74f6f9f9020edd",
     "src/binary.js": "9aaed23c77fa97b3fe90dd282c7b3508493812df619ef4f9843ade6b0777028c",
     "src/codec-worker.js": "d081cd9f529a11e74e75d543fac1ce2a8ad5d4067c07350868d750ae9cd881aa",
     "src/codec.js": "6d0b43cbfdd6a46656b60c9877c7b051d4f5b67c93df39263be2dfad9b4ff676",
-    "src/demo.css": "2cf2f83059e7e19d2ca4bc55cd3f9bd28223766bb70834375c7f4dfb5a42a298",
-    "src/demo.js": "b00dd41d50e55ef705f7e9e4ce12f00efb384a173ee96348ed9e5968bdbf55a8",
+    "src/demo.css": "a2a58d4ee5d6484dd06f7eab5bbda55d7913915f8f2bd2c19024f9fa08ab1da2",
+    "src/demo.js": "ad65a91051a270493163d143ce8ff7b764974feebc677c8ab57489a708b8d682",
     "src/dependency-grammar-data.js": "454c0dcdf6ce078662db17a42f40e39bdca993c2d2f69096e49495c484964c52",
     "src/draft.js": "bb002fef7129afcc2e62a5dd0188768956a0d98d5c9ab1ad756ed232e32bb30e",
     "src/grammar-contract.js": "cbbbc3c5f4b36d03f89a4fac15f3f67fc82715250d8e72aed1a51f47f1e1dec0",

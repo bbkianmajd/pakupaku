@@ -23,7 +23,8 @@
     <p>Uppercase becomes lowercase as you type. Spaces and line breaks are normalized in the link. Unsupported words or grammar are highlighted in red. Try <code>hello</code>, <code>i love you</code>, <code>sarah, you are sexy.</code>, or <code>hello. i love you. can you help me? meet me at 1530.</code></p>
     <p>Broad grammar mode allows unusual combinations such as <code>sarah arrives the sandwich.</code>, while checking word forms and agreement.</p>
     <label for="writer-key">Author pass-key (at least three characters)</label>
-    <input id="writer-key" type="password" autocomplete="off">
+    <input id="writer-key" type="text" autocomplete="off">
+    <label class="checkbox-label"><input id="hide-writer-key" type="checkbox"> Hide passkey</label>
     <p>Replace the generated key with one you choose.</p>
     <button id="encode" disabled>Create link</button>
     <p id="writer-status" role="status"></p>
@@ -33,7 +34,8 @@
   <section>
     <h2>Read the link</h2>
     <label for="reader-key">Reader pass-key</label>
-    <input id="reader-key" type="password" autocomplete="off">
+    <input id="reader-key" type="text" autocomplete="off">
+    <label class="checkbox-label"><input id="hide-reader-key" type="checkbox"> Hide passkey</label>
     <p>Every reader key produces a reading, including an empty key. Sentence structures and words can change, with earlier choices influencing later ones.</p>
     <p id="reader-status" role="status">Create a link or open a shared demo link.</p>
     <output id="reading" aria-live="polite"></output>

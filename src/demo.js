@@ -24,6 +24,11 @@ const note = element('note'), highlights = element('note-highlights');
 let draftRevision = 0, draftTimer, composing = false;
 element('writer-key').value = randomPasskey();
 element('reader-key').value = randomPasskey();
+for (const name of ['writer', 'reader']) {
+  element(`hide-${name}-key`).addEventListener('change', () => {
+    element(`${name}-key`).type = element(`hide-${name}-key`).checked ? 'password' : 'text';
+  });
+}
 
 function paintNote(issue) {
   const value = note.value, fragment = document.createDocumentFragment();
