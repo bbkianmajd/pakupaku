@@ -2,8 +2,8 @@
 
 Repository: https://github.com/bbkianmajd/pakupaku
 
-Live editor: https://bbkianmajd.github.io/pakupaku/codec-demo.html
+Live editor: https://bbkianmajd.github.io/pakupaku/
 
-The site root redirects to the editor, preserving the query string and shared-message fragment. GitHub Actions checks the engine file lock and runs the Node tests before deploying pushes to `main`. Pull requests and other branches run validation without publishing. The saved release and UX branches are kept alongside `main`.
+The site root serves the editor directly. Older codec-demo.html links redirect to the root, preserving the query string and shared-message fragment. GitHub Actions checks the engine file lock and runs the Node tests before deploying pushes to `main`. Pull requests and other branches run validation without publishing. The repository has only `main` and the saved `release/1.0.0` branch.
 
 `node tools/release/build-site.js` assembles `_site/` using the app, locked vocabulary archive, and documentation. Development corpora, Git history, tools, and tests are not included in the Pages artifact. `_site/` is generated and ignored by Git. No server or API credentials are shipped to the browser.

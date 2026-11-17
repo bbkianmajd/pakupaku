@@ -143,7 +143,7 @@ element('encode').addEventListener('click', async () => {
     element('writer-status').textContent = 'Creating link…';
     const encoded = await call('encode', { note: currentNote, key: currentKey });
     if (revision !== draftRevision) return;
-    const url = new URL(location.href); url.hash = fragmentForPayload(encoded);
+    const url = new URL('./', location.href); url.search = location.search; url.hash = fragmentForPayload(encoded);
     // Preserve the completed link even if this browser cannot put it in history.
     setLink(url.href);
     payload = encoded;

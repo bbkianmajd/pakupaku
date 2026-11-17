@@ -1,2 +1,5 @@
-// Keep shared fragments intact when someone opens the site root.
-location.replace(new URL(`codec-demo.html${location.search}${location.hash}`, location.href));
+// Redirect older demo links without losing their shared-message fragment.
+const destination = new URL('./', location.href);
+destination.search = location.search;
+destination.hash = location.hash;
+location.replace(destination);

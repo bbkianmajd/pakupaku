@@ -9,7 +9,7 @@ const root=new URL('../../',import.meta.url);
 const server=createServer(async(req,res)=>{
  try{
   const path=new URL(req.url,'http://localhost').pathname;
-  const file=new URL('.'+path,root);
+  const file=new URL('.'+(path.endsWith('/')?path+'index.html':path),root);
   if(!file.href.startsWith(root.href)) throw Error('Outside site');
   const body=await readFile(file);
   res.setHeader('Content-Type',path.endsWith('.js')?'text/javascript':path.endsWith('.json')?'application/json':path.endsWith('.css')?'text/css':'text/html');res.end(body);
@@ -22,7 +22,7 @@ try{
  const page=await browser.newPage(),errors=[],requests=[];
  page.on('pageerror',error=>errors.push(error.message));page.on('request',req=>requests.push(req.url()));
  const origin=`http://127.0.0.1:${server.address().port}`;
- await page.goto(origin+'/codec-demo.html');
+ await page.goto(origin+'/');
  await page.waitForFunction(()=>!document.querySelector('#encode').disabled);
  assert.match(await page.locator('#passkey').inputValue(),/^[a-z]+_[a-z]+_[a-z]+$/);
  assert.equal(await page.locator('#note').count(),1);
