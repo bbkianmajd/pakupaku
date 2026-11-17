@@ -1,6 +1,6 @@
 # Shared message editor
 
-The passkey appears above the message. It starts hidden, with a checked “Hide passkey” checkbox. Unchecking it reveals exactly what was entered. New pages receive a playful name such as `sleepy_cosmic_otter`. The UI does not trim, lowercase, or impose a minimum length on keys. With the explicitly approved exception to the engine lock, the author-key minimum-length check has been removed. Empty and short author keys now use the same mapping as reader keys.
+The passkey appears above the message. It starts visible, with an unchecked “Hide passkey” checkbox. Checking it masks the key; unchecking it reveals exactly what was entered. New pages receive a playful name such as `sleepy_cosmic_otter`. The UI does not trim, lowercase, or impose a minimum length on keys. With the explicitly approved exception to the engine lock, the author-key minimum-length check has been removed. Empty and short author keys now use the same mapping as reader keys.
 
 One message textarea handles composition and readings. Opening a versioned link loads its reading into this textarea. Changing the passkey requests another reading of that same payload. Editing the message leaves the linked reading and starts a new draft, clears the old share link and URL fragment, and restores grammar feedback. Create link encodes the current draft and passkey. The editor keeps automatic lowercase conversion for message text and red highlights for unsupported input.
 

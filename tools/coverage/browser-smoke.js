@@ -70,8 +70,10 @@ try{
   },payload);
   assert.ok(decoy.complete,decoy.reading);results.push({text,authorRecovered:true,alternate:decoy});
  }
+ assert.equal(await page.locator('#passkey').getAttribute('type'),'text');
+ assert.equal(await page.locator('#hide-passkey').isChecked(),false);
+ await page.locator('#hide-passkey').check();
  assert.equal(await page.locator('#passkey').getAttribute('type'),'password');
- assert.equal(await page.locator('#hide-passkey').isChecked(),true);
  await page.locator('#hide-passkey').uncheck();
  assert.equal(await page.locator('#passkey').getAttribute('type'),'text');
  await page.locator('#hide-passkey').check();
