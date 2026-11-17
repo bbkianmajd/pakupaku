@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How PakuPaku works | Passkey messaging and experimental encryption</title>
+<meta name="description" content="How PakuPaku encodes messages into shareable links, uses passkeys to change words and sentence structure, and differs from conventional encrypted messaging.">
+<link rel="canonical" href="https://bbkianmajd.github.io/pakupaku/how-it-works.html">
+<link rel="stylesheet" href="src/demo.css"><link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="sitemap" type="application/xml" href="sitemap.xml">
+</head>
+<body><main>
+<header class="masthead"><a class="wordmark" href="./">pakupaku.</a><nav class="header-links" aria-label="Main navigation"><a class="about-link" href="./">Try it</a><a class="about-link" href="https://github.com/bbkianmajd/pakupaku">GitHub ↗</a></nav></header>
+<article class="about-story how-it-works">
+<h1>How PakuPaku works</h1>
+<p>PakuPaku is a browser-based messaging experiment: write a note, choose a passkey, and share a link. Open that link with the same passkey to recover your words. Try a different passkey and the link unfolds into a different reading.</p>
+<p><a href="./">Try PakuPaku</a> · <a href="https://github.com/bbkianmajd/pakupaku">View the PakuPaku GitHub repository</a></p>
+<h2>Share a message without an account</h2>
+<p>Write a supported sentence such as “hello. i love you.” The editor checks the vocabulary and grammar, highlighting anything it cannot encode. Choose a passkey and generate a link, then copy that link into the messaging service you already use. The recipient opens it in a browser and enters the passkey.</p>
+<p>The app uses one message box for writing and reading. Editing a received message starts a new draft. Your original passkey restores the canonical message: text is lowercased and spacing is normalized.</p>
+<h2>Why do different passkeys produce different messages?</h2>
+<p>The passkey influences both the words and the sentence constructions selected by the codec. Each choice feeds into later choices, so changing a key can change the structure of the whole reading. The decoder does not label a passkey as correct or incorrect. Even an empty passkey produces a reading.</p>
+<p>The engine uses SHA-256 and HMAC-SHA-256 in its keyed mapping. The parser, dictionary, and codec share a version so the same link and key continue to use the same rules. A link for an unsupported version shows a version error.</p>
+<h2>Where does the message go?</h2>
+<p>Encoding and decoding run locally in your browser. The encoded message is carried in the part of the URL after the # symbol, called the fragment; that fragment is not included in the HTTP request to the static hosting server. The app has no message database or account system. Anyone you share the complete link with receives its encoded payload.</p>
+<h2>Is PakuPaku encrypted messaging?</h2>
+<p>PakuPaku explores an experimental approach to passkey-based message encoding using cryptographic primitives. Its distinguishing feature is that alternative keys produce alternative language. The project has not established the security guarantees of an independently audited encrypted messenger. Plausible alternative readings alone do not prove that a message cannot be recovered or a likely key guessed.</p>
+<p>Use it to experiment with messages, language, and cryptography. An empty or easily guessed passkey offers no meaningful secret for a recipient to keep. For the implementation and current limitations, see the <a href="https://github.com/bbkianmajd/pakupaku/blob/main/documentation/structure-migration.md">codec documentation</a> and <a href="https://github.com/bbkianmajd/pakupaku/tree/main/tests">tests on GitHub</a>.</p>
+<h2>Where can I find PakuPaku on GitHub?</h2>
+<p>The project lives at <a href="https://github.com/bbkianmajd/pakupaku">github.com/bbkianmajd/pakupaku</a>. The live app is <a href="https://bbkianmajd.github.io/pakupaku/">bbkianmajd.github.io/pakupaku/</a>. The repository includes the browser interface, dictionary, parser, codec, tests, and design notes. Issues and implementation feedback are welcome in the <a href="https://github.com/bbkianmajd/pakupaku/issues">issue tracker</a>.</p>
+<p><a class="story-cta" href="./">Write your first message ↗</a></p>
+</article>
+<footer><a href="./">PakuPaku</a><a href="about.html">About</a><a href="https://github.com/bbkianmajd/pakupaku">Source on GitHub ↗</a></footer>
+</main></body></html>

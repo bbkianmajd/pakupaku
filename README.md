@@ -2,6 +2,8 @@
 
 **[Try PakuPaku in your browser](https://bbkianmajd.github.io/pakupaku/)** · [Source code on GitHub](https://github.com/bbkianmajd/pakupaku)
 
+Learn [how PakuPaku works](https://bbkianmajd.github.io/pakupaku/how-it-works.html): passkey messaging, browser-local encoding, and the limits of this encryption experiment.
+
 **Locked release: 1.0.0** — parser, dictionary, and codec are versioned together. Links include `#v=1.0.0&a=…`. See [release rules and compatibility](documentation/release-1.0.0.md).
 
 PakuPaku is a static, client-side note project for sharing a note through a URL. Every entered pass-key renders a complete note that the composer could produce with the link's vocabulary version. The writer's key reproduces their selected note; the page never identifies a key as correct or exposes failed grammar, unknown words, or internal markers. The page is designed for GitHub Pages and does not need an application server.

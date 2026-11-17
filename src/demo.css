@@ -105,3 +105,8 @@ footer a { color: #718365; text-decoration: none; }
 .project-summary a, .about-story a { color: var(--green); text-underline-offset: 3px; }
 #writer-status.error { color: #b73f35; }
 .retry-button { background: #eef2e6; color: var(--green); padding: 9px 14px; border: 1px solid var(--line); border-radius: 8px; font-size: 12px; margin: 6px 0; }
+
+.how-it-works { margin-top: 42px; }
+.how-it-works h1 { font-size: clamp(32px, 5vw, 44px); margin-bottom: 24px; }
+.how-it-works h2 { margin-top: 34px; margin-bottom: 15px; }
+footer { flex-wrap: wrap; }
